@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+	  <fileDesc>
+		 <titleStmt>
+			<title type="main">Clavicula Salomonis</title>
+			<title type="sub">Semi-diplomatic Transcription</title>
+			<respStmt>
+			   <resp>Encoded by:</resp>
+			   <name>Greta Franzini</name>
+			</respStmt>
+		 </titleStmt>
+		 <publicationStmt>
+			<publisher>CIRCSE, Università Cattolica del Sacro Cuore</publisher>
+			<pubPlace>Milano</pubPlace>
+			<date>XXXX</date> <!-- define -->
+			<availability>
+			   <p>CC license</p> <!-- define -->
+			</availability>
+		 </publicationStmt>
+		 <sourceDesc>
+			<p>Information about the source</p>
+			<p><!--MSS: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681 (formerly Alnwick Ms. 584, BOOK 1 & 2)--></p>
+		 </sourceDesc>
+	  </fileDesc>
+	  <encodingDesc>
+		<charDecl> <!--https://unicode-table.com/en/-->
+			<glyph xml:id="AElig">
+				<localProp name="name" value="Latin Capital Ligature AE"/>
+				<mapping type="standard">Æ</mapping>
+				<mapping type="PUA">U+00C6</mapping>
+			</glyph>
+			<glyph xml:id="aelig">
+				<localProp name="name" value="Latin Small Ligature AE"/>
+				<mapping type="standard">æ</mapping>
+				<mapping type="PUA">U+00E6</mapping>
+			</glyph>
+			<glyph xml:id="stlig">
+				<localProp name="name" value="Latin Small Ligature Long ST"/>
+				<mapping type="standard">ﬅ</mapping>
+				<mapping type="PUA">U+FB05</mapping>
+			</glyph>
+			<glyph xml:id="ylig">
+				<localProp name="name" value="Latin Small Ligature IJ"/>
+				<mapping type="standard">ij</mapping>
+				<mapping type="PUA">U+0133</mapping>
+			</glyph>
+			<glyph xml:id="etlig">
+				<localProp name="name" value="Latin Small Ligature ET"/>
+				<mapping type="standard">et</mapping>
+				<!--<mapping type="PUA"></mapping>-->
+			</glyph>
+			<glyph xml:id="ecaud">
+				<localProp name="name" value="Latin Small Letter E with Ogonek"/>
+				<mapping type="standard">ę</mapping>
+				<mapping type="PUA">U+0119</mapping>
+			</glyph>
+			<glyph xml:id="acircum">
+				<localProp name="name" value="Latin Small Letter A with Circumflex"/>
+				<mapping type="standard">â</mapping>
+				<mapping type="PUA">U+00E2</mapping>
+			</glyph>
+			<glyph xml:id="et">
+				<localProp name="name" value="Ampersand"/>
+				<mapping type="standard">&amp;</mapping>
+				<mapping type="PUA">U+0026</mapping>
+			</glyph>
+			<glyph xml:id="atilde">
+				<localProp name="name" value="Latin Small Letter A with Tilde"/>
+				<mapping type="standard">ã</mapping>
+				<mapping type="PUA">U+00E3</mapping>
+			</glyph>
+			<glyph xml:id="utilde">
+				<localProp name="name" value="Latin Small Letter U with Tilde"/>
+				<mapping type="standard">ũ</mapping>
+				<mapping type="PUA">U+0169</mapping>
+			</glyph>
+			<glyph xml:id="etilde">
+				<localProp name="name" value="Latin Small Letter E with Tilde"/>
+				<mapping type="standard">ẽ</mapping>
+				<mapping type="PUA">U+1EBD</mapping>
+			</glyph>
+			<glyph xml:id="longs">
+				<localProp name="name" value="Latin Small Letter Long S"/>
+				<mapping type="standard">ſ</mapping>
+				<mapping type="PUA">U+017F</mapping>
+			</glyph>
+			<glyph xml:id="icircum">
+				<localProp name="name" value="Latin Capital Letter I with Circumflex"/>
+				<mapping type="standard">Î</mapping>
+				<mapping type="PUA">U+00CE</mapping>
+			</glyph>
+		</charDecl>
+	  </encodingDesc>
+  </teiHeader>
+  <text xml:id="text">
+
+		<body>
+
+			<div type="book" n="1"> <!-- xml:id instead of type? -->
+				<head>CLAVICULA SALOMONIS REGIS EX IDIOMATE H<g ref="#AElig">AE</g>BREO VERSA PER DOM. ABRAHAMUM COTURNIUM. LIBER PRIMUS.</head>
+
+
+
+				<div type="contents"> <!-- line breaks in TOC?-->
+					<pb n="iiir"/>
+
+					<head><g ref="#icircum">I</g>NDEX L<g ref="#icircum">I</g>BR<g ref="#icircum">I</g> PR<g ref="#icircum">I</g>M<g ref="#icircum">I</g> CLAV<g ref="#icircum">I</g>CUl<g ref="#ecaud">e</g> Salomonis</head>
+
+					<list type="index" rend="simple">
+						<item>
+							CAPUT Primum.
+							De Amore Divino huic scienti<g ref="#ecaud">e</g> pr<g ref="#ecaud">e</g>mittendo_ _ _ _ _ _pag: 1
+						</item>
+						<item>
+							CAPUT Secundum.
+							De diebus, et horas Planetarum pag: 2
+						</item>
+						<item>
+							CAPUT Tertium.
+							De Artibus _ _ _ _ pag: 3
+						</item>
+						<item>
+							CAPUT Quartum. _ _ _ _ pag:
+							Forma Circuli _ pag: 6
+							Confessio facienda ab exorcizatore pag: 9
+						</item>
+						<item>
+							CAPUT Quintum. _ _ _ pag:
+							Oratio, et Conjurationes _ pag: 12
+						</item>
+						<item>
+							CAPUT Sextum.
+							Conjuratio fortior _ _ pag: 14
+						</item>
+						<item>
+							CAPUT Septimum.
+							Conjuratio Fortissima _ pag: 18
+						</item>
+						<item>
+							CAPUT Octavum.
+							De Cander<g ref="#ylig">ij</g>s, aut Pentaculis _ _ _ pag: 24
+						</item>
+
+					<pb n="iiiv" />
+
+						<item>
+							CAPUT Nonum. _ _ _ pag: 26
+							De experimento furti, et quomodo fiat _ _ _ _ _ _ pag: 26
+						</item>
+						<item>
+							CAPUT Decimum.
+							De experimento invisibilitatis, et quomodo fiat _ _ _ pag: 27
+						</item>
+						<item>
+							CAPUT Undecimum.
+							De experimento amoris, et quomodo in eo agendum sit _ pag: 28
+						</item>
+						<item>
+							CAPUT Duodecimum.
+							De experimento pomi _ pag: 31
+						</item>
+						<item>
+							CAPUT Decimum Tertium.
+							De experimento Amoris in dormiendo, et quomodo fiat _ pag: 32
+						</item>
+						<item>
+							CAPUT Decimum Quartum.
+							De experimentis ad odium, et destructionem inimicorum _ pag: 33
+						</item>
+						<item>
+							CAPUT Quintum Decimum.
+							Quomodo paventur experimenta ad Ludos, illusiones etc a: _ pag: 34 <!-- what is this floating a? -->
+						</item>
+						<item>
+							CAPUT Sextum Decimum.
+							Quomodo paventur experimenta extraordinaria _ _ pag: 35
+						</item>
+
+					<pb n="ivr" />
+
+						<item>
+							CAPUT Decimum Septimum.
+
+						</item>
+						<item>
+							Septem Pentacula nigri coloris, .
+
+						</item>
+						<item>
+
+
+						</item>
+						<item>
+
+						</item>
+						<item>
+
+						</item>
+						<item>
+
+
+						</item>
+						<item>
+
+
+						</item>
+						<item>
+
+
+						</item>
+					</list>
+				</div>
+
+
+				<div type="chapter" n="1">
+					<pb n="1r"/>
+					<head>Caput 1. De amore divino huic scienti<g ref="#aelig">ae</g> pr<g ref="#aelig">ae</g>mittendo.</head>
+						<p>
+							<lb n="1"/>Initium nostr<g ref="#aelig">ae</g> clavis inquit Salomon filius <w part="I">Da</w>
+							<lb n="2"/><w part="F">vid</w> Regis Israel, est Deum timere, <g ref="#etlig">et</g> adorare, cum
+							<lb n="3"/>que contritione cordis summaque devotione honorare,
+							<lb n="4"/>ac in omnibus rebus faciendis invocare, sic que ipse
+							<lb n="5"/>te ducet per viam rectam. Cum autem scientiarum
+							<lb n="6"/>ac magicarum artium notitiam velis acquirere, <w part="I">or</w>
+							<lb n="7"/><w part="F">dinem</w> dierum horarum, <g ref="#etlig">et</g> Lun<g ref="#aelig">ae</g> in promptu <w part="I">habe</w>
+							<lb n="8"/><w part="F">re</w> necesse e<g ref="#stlig">st</g>, sine quorum observatione aliquid
+							<lb n="9"/>haud fieri pote<g ref="#stlig">st</g>, nec unquam poterit, ijs autem
+							<lb n="10"/>diligenter observatis, faciliter ad optatum finem
+							<lb n="11"/>poteris pervenire.
+						</p>
+				</div>
+
+				<div type="chapter" n="2">
+					<head>Caput 2. De diebus, <g ref="#etlig">et</g> horis planetarum, eorumque virtutibus.</head>
+						<p>
+							<lb n="1"/>Cum aliquod experimentum perficere cupis, omnia
+							<lb n="2"/>necessaria prius <choice><abbr>pr<g ref="#ecaud">e</g>parare</abbr><expan>pr<ex>a</ex>eparare</expan></choice> oportet, ut in <w part="I">sequenti</w>
+							<lb n="3"/><w part="F">bus</w> capitibus observabis, notando dies, <g ref="#etlig">et</g> horas, <w part="I">alias</w>
+							<lb n="4"/><w part="F">que</w> constellationes ut in hoc capite apparet.
+						</p>
+						<p>
+							<lb n="5"/>Hora igitur diei, ac noctis sunt viginti <g ref="#etlig">et</g> <w part="I">qua</w>
+							<lb n="6"/><w part="F">tuor</w>, <g ref="#etlig">et</g> in harum singulis dominatur unus <w part="I">Pla</w>
+							<lb n="7"/><w part="F">neta</w> ex septem, iuxta eorum ordinem, incipiendo
+
+					<pb n="1v" />
+
+							<lb n="8"/>ab altioribus, usque ad inferiores, <g ref="#etlig">et</g> ita fit in
+							<lb n="9"/>qualibet hora diei ac noctis.
+						</p>
+						<p>
+							<lb n="10"/>Ordo autem Planetarum, incipiendo ab altiori, est
+							<lb n="11"/>sequens. Primus e<g ref="#stlig">st</g> Sabeta<g ref="#ylig">ij</g> id e<g ref="#stlig">st</g> Saturnus, sub
+							<lb n="12"/>Saturno. Zedett sive Jovis, sub Jove. Madaym sive
+							<lb n="13"/>Mars, sub Marte. Semes sive Sol, sub Sole. Noga
+							<lb n="14"/>sive Venus, sub Venere. Codab sive Mercurius, sub
+							<lb n="15"/>Mercurio. Levana sive Luna <choice><abbr><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice></abbr><expan>qu<ex>a</ex>e</expan></choice> e<g ref="#stlig">st</g> omnibus <w part="I">Plane</w>
+							<lb n="16"/><w part="F">tis</w> inferior.
+						</p>
+						<p>
+							<lb n="17"/>Scire ulterius debes Planetas habere dominium
+							<lb n="18"/>in die, cui proprium nomen tribuere, id e<g ref="#stlig">st</g> Saturnus
+							<lb n="19"/>die Sabathi. Jovis die Jovis; <g ref="#etlig">et</g> sic de reliquis. <w part="I">Inci</w>
+							<lb n="20"/><w part="F">pit</w> autem dominium Planet<g ref="#aelig">ae</g> cuiuslibet hor<g ref="#aelig">ae</g>, ab <w part="I">Au</w>
+							<lb n="21"/><w part="F">rora</w>, usque ad ortum solis illius diei, qui <w part="I">denomina</w>
+							<lb n="22"/><w part="F">tur</w> aut tali Planeta secundum ordinem, exempli
+							<lb n="23"/>gratia; prima hora diei Saturni, <choice><abbr><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice></abbr><expan>qu<ex>a</ex>e</expan></choice> e<g ref="#stlig">st</g> ab Aurora,
+							<lb n="24"/>usque ad ortum solis, dominatur Saturnus; secunda
+							<lb n="25"/>Jovis; tertia Mars; quarta Sol; quinta Venus;
+							<lb n="26"/>sexta Mercurius; septima Luna; octava iterum
+							<lb n="27"/>Saturnus, <g ref="#etlig">et</g> sic de reliquis intelligendum e<g ref="#stlig">st</g>.
+						</p>
+						<p>
+							<lb n="28"/>Nota: quamlibet operationem magicam debere
+							<lb n="29"/>fieri sub proprio Planeta, <g ref="#etlig">et</g> in hora eiusdem, e. g.
+							<lb n="30"/>in diebus, et horis Saturni pr<g ref="#aelig">ae</g>parari debent <w part="I">ex</w>
+							<lb n="31"/><w part="F">perimenta</w> ad animas ex inferis vocandas, illorum
+							<lb n="32"/>tantum qui naturali morte occubuerunt; <g ref="#etlig">et</g> etiam
+							<lb n="33"/>experimenta pro bona vel infelici sorte <g ref="#AElig">AE</g>dificiorum
+							<lb n="34"/>ad habendas in somn<g ref="#ylig">ij</g>s spiritus familiares, ad <w part="I">dan</w>
+							<lb n="35"/><w part="F">dam</w> prosperam, vel adversam fortunam pr<g ref="#aelig">ae</g>d<g ref="#ylig">ij</g>s, <w part="I">stabi</w>
+							<lb n="36"/><w part="F">libus</w> seminibus, fructibus, <g ref="#etlig">et</g> similibus ad <w part="I">acquiren</w>
+							<lb n="37"/><w part="F">dam</w> doctrinam, ad odia disseminanda, ad <w part="I">destructio</w>
+
+						<pb n="2r" />
+
+							<lb n="38"/><w part="F">nem</w>, <g ref="#etlig">et</g> mortem inferendam.
+						</p>
+						<p>
+							<lb n="39"/>Hor<g ref="#AElig">ae</g> <g ref="#etlig">et</g> dies Jovis inserviunt ad honores
+							<lb n="40"/>obtinendos, ad divitias comparandas, amicitias
+							<lb n="41"/>ineundas, sanitatem conservandam, <g ref="#etlig">et</g> ad res
+							<lb n="42"/>optatas consequendas.
+						</p>
+						<p>
+							<lb n="43"/>Diebus Martis patrabis experimenta ad <w part="I">bel</w>
+							<lb n="44"/><w part="F">lum</w>, <g ref="#etlig">et</g> militares honores assequandos, ad <w part="I">acqui</w>
+							<lb n="45"/><w part="F">rendam</w> audaciam <g ref="#etlig">et</g> fortitudinem, ad inimicos
+							<lb n="46"/>expellandos, <g ref="#etlig">et</g> etiam ad afferendam cladem, ruinam
+							<lb n="47"/>crudelitatem <g ref="#etlig">et</g> discordiam militibus, ad plagas,
+							<lb n="48"/><g ref="#etlig">et</g> necem quoque in<g ref="#ylig">ij</g>ciendam.
+						</p>
+						<p>
+							<lb n="49"/>Dies, hor<g ref="#aelig">ae</g> que solis optim<g ref="#aelig">ae</g> sunt ad perficienda
+							<lb n="50"/>experimenta de bonis temporalibus, de spe, de lucro,
+							<lb n="51"/>de fortuna, de divinatione, de gratua Principum,
+							<lb n="52"/>de inimicit<g ref="#ylig">ij</g>s disolvendis, et amicis muniendis.
+						</p>
+						<p>
+							<lb n="53"/>Dies, <g ref="#etlig">et</g> hor<g ref="#aelig">ae</g> Veneris propri<g ref="#aelig">ae</g> sunt amicit<g ref="#ylig">ij</g>s
+							<lb n="54"/>comparandis conciliand<g ref="#aelig">ae</g> benevolenti<g ref="#aelig">ae</g>, <g ref="#etlig">et</g> amori
+							<lb n="55"/>rebus hilaribus, ac iucundis patrandis, <g ref="#etlig">et</g> <w part="I">itine</w>
+							<lb n="56"/><w part="F">ribus</w> faciendis.
+						</p>
+						<p>
+							<lb n="57"/>Dies, <g ref="#etlig">et</g> hor<g ref="#aelig">ae</g> Mercur<g ref="#ylig">ij</g> <choice><abbr>apt<g ref="#ecaud">e</g></abbr><expan>apt<ex>a</ex>e</expan></choice> sunt ad <w part="I">ope</w>
+							<lb n="58"/><w part="F">rationes</w> scientiarum, divinationum, eloquenti<g ref="#aelig">ae</g>,
+							<lb n="59"/>intelligenti<g ref="#aelig">ae</g>, promptitudinis in <choice><abbr>pr<g ref="#ecaud">e</g>stigiorum</abbr><expan>pr<ex>a</ex>estigiorum</expan></choice> <w part="I">ne</w>
+							<lb n="60"/><w part="F">got<g ref="#ylig">ij</g>s</w>, <g ref="#etlig">et</g> apparitionum, rerum que futurarum
+							<lb n="61"/>responsionum. Poteris insuper suo Mercur<g ref="#ylig">ij</g> <w part="I">Sy</w>
+							<lb n="62"/><w part="F">dere</w> in furtis operari, <g ref="#etlig">et</g> scripturis ad fallendum,
+							<lb n="63"/><g ref="#etlig">et</g> mercatur<g ref="#aelig">ae</g>.
+						</p>
+						<p>
+							<lb n="64"/>Dies, hor<g ref="#aelig">ae</g> que Lun<g ref="#aelig">ae</g> valent ad operandum
+							<lb n="65"/>experimenta legationum, Nunciationum, <w part="I">navi</w>
+							<lb n="66"/><w part="F">gationum</w>, itinerum; insuper ad amorem <g ref="#etlig">et</g> <w part="I">gra</w>
+							<lb n="67"/><w part="F">tiam</w> apud Populos conciliandam, ac universitates,
+							<lb n="68"/><g ref="#etlig">et</g> ad acquisitionem aquaticarum mercium.
+
+						<pb n="2v" />
+
+							<lb n="69"/>Advertere insuper debes, si ad efectum peroptatum
+							<lb n="70"/>cupis pervenire, tuarum operationum omnia
+							<lb n="71"/>a te servanda esse, <choice><abbr><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice></abbr><expan>qu<ex>a</ex>e</expan></choice> hoc capite continentur,
+							<lb n="72"/>ab hoc enim <choice><abbr>magic<g ref="#ecaud">e</g></abbr><expan>magic<ex>a</ex>e</expan></choice> <choice><abbr>scienti<g ref="#ecaud">e</g></abbr><expan>scienti<ex>a</ex>e</expan></choice> veritas pendet.
+						</p>
+						<p>
+							<lb n="73"/>Hor<g ref="#aelig">ae</g> etiam Saturnin<g ref="#aelig">ae</g>, Martiales, <g ref="#etlig">et</g>
+							<lb n="74"/><choice><abbr>Lunatic<g ref="#ecaud">e</g></abbr><expan>Lunatic<ex>a</ex>e</expan></choice> <choice><abbr>optim<g ref="#ecaud">e</g></abbr><expan>optim<ex>a</ex>e</expan></choice> sunt ad loquendum cum <w part="I">spiri</w>
+							<lb n="75"/><w part="F">tibus</w>; hor<g ref="#aelig">ae</g> autem Mercur<g ref="#ylig">ij</g> ad furta invenienda
+							<lb n="76"/>med<g ref="#ylig">ij</g>s spiritibus.
+						</p>
+						<p>
+							<lb n="77"/>Hora Martis ad vocandas ex inferis
+							<lb n="78"/>animas interfectorum.
+						</p>
+						<p>
+							<lb n="79"/>Hor<g ref="#aelig">ae</g> solis, Jovis, <g ref="#etlig">et</g> Veneris apt<g ref="#aelig">ae</g> sunt
+							<lb n="80"/>ad quodlibet experimentum amori inserviens
+							<lb n="81"/>pr<g ref="#aelig">ae</g>parandum; insuper ad gratiam <g ref="#etlig">et</g> impetrationem,
+							<lb n="82"/>ac invisibilitatem, quemadmodum in propr<g ref="#ylig">ij</g>s <w part="I">Ca</w>
+							<lb n="83"/><w part="F">pitibus</w> habetur: additis etiam <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> de hac <w part="I">ma</w>
+							<lb n="84"/><w part="F">teria</w>, hoc in opere continentur.
+						</p>
+						<p>
+							<lb n="85"/>Hor<g ref="#aelig">ae</g> itidem Saturni ac Martis, eorumque
+							<lb n="86"/>dies, in quibus cum eis Luna coniungitur, aut ab
+							<lb n="87"/><g ref="#ylig">ij</g>sdem ex opposito, vel quadrata respicitur; <choice><abbr>optim<g ref="#ecaud">e</g></abbr><expan>optim<ex>a</ex>e</expan></choice>
+							<lb n="88"/>sunt ad facienda experimenta ad odium, <w part="I">inimi</w>
+							<lb n="89"/><w part="F">citiam</w>, rixam, <g ref="#etlig">et</g> discordiam, adiunctis rebus,
+							<lb n="90"/><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> de hac materia infra, in nostris Capitibus
+							<lb n="91"/>docentur.
+						</p>
+						<p>
+							<lb n="92"/>Hora Mercur<g ref="#ylig">ij</g> apta e<g ref="#stlig">st</g> ad <choice><abbr>pr<g ref="#ecaud">e</g>paranda</abbr><expan>pr<ex>a</ex>eparanda</expan></choice> omnia
+							<lb n="93"/>experimenta ad ludos <g ref="#etlig">et</g> jocos, et omnia <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> <w part="I">mi</w>
+							<lb n="94"/><w part="F">rabilia</w> videntur servatis tamen omnibus, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice>
+							<lb n="95"/>infra in no<g ref="#stlig">st</g>ris Capitibus de hac materia dicemus.
+						</p>
+						<p>
+							<lb n="96"/>Hor<g ref="#aelig">ae</g> Solis, Jovis, <g ref="#etlig">et</g> Veneris, specialiter in
+							<lb n="97"/>suis diebus ad probanda extraordinaria <w part="I">experi</w>
+
+						<pb n="3r"/>
+
+							<lb n="98"/><w part="F">menta</w> sunt <choice><abbr>bon<g ref="#ecaud">e</g></abbr><expan>bon<ex>a</ex>e</expan></choice>; illa inquam experimenta,
+							<lb n="99"/><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> non videntur contineri in aliquo ex supras
+							<lb n="100"/>memoratis generibus, adjunctis speciatim rebus
+							<lb n="101"/><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> de hac materia tractamus.
+						</p>
+						<p>
+							<lb n="102"/>Hor<g ref="#aelig">ae</g> Lun<g ref="#aelig">ae</g> ad probanda experimenta
+							<lb n="103"/>pro furtis inveniendis, ad habendas Vissiones <w part="I">noc</w>
+							<lb n="104"/><w part="F">turnas</w>, spiritus inter dormiendum conveniendos,
+							<lb n="105"/><g ref="#etlig">et</g> ad res aquatiles <choice><abbr>pr<g ref="#ecaud">e</g>parandas</abbr><expan>pr<ex>a</ex>eparandas</expan></choice> apt<g ref="#aelig">ae</g> sunt.
+						</p>
+						<p>
+							<lb n="106"/>Hor<g ref="#aelig">ae</g> itidem Veneris <choice><abbr>optim<g ref="#ecaud">e</g></abbr><expan>optim<ex>a</ex>e</expan></choice> sunt ad
+							<lb n="107"/><choice><abbr>pr<g ref="#ecaud">e</g>paranda</abbr><expan>pr<ex>a</ex>eparanda</expan></choice> experimenta sortilegiorum <w part="I">venefi</w>
+							<lb n="108"/><w part="F">ciorum</w>, Venenationum, rerum que omnium <w part="I">Ve</w>
+							<lb n="109"/><w part="F">nerearum</w>, ac pulverum, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> ad ph<add place="above">r</add>aeneses, aliaque
+							<lb n="110"/>similia provocanda conficiuntur.
+						</p>
+						<p>
+							<lb n="111"/>Sed ad artem conficiendam, non solum in
+							<lb n="112"/>horis, sed insuper conficies in die Planet<g ref="#aelig">ae</g>, quia <w part="I">ex</w>
+							<lb n="113"/><w part="F">perimentum</w> melius erit, semper que verificabitur,
+							<lb n="114"/>servatis etiam rebus de hac materia in no<g ref="#stlig">st</g>ris
+							<lb n="115"/>inferioribus Capitibus contentis, ex quibus, si
+							<lb n="116"/>aliquid <choice><abbr>pr<g ref="#ecaud">e</g>terieris</abbr><expan>pr<ex>a</ex>eterieris</expan></choice>, nunquam ad artis <w part="I">Com</w>
+							<lb n="117"/><w part="F">plementum</w> pervenire poteris.
+						</p>
+						<p>
+							<lb n="118"/>In rebus autem <choice><abbr>Lun<g ref="#ecaud">e</g></abbr><expan>Lun<ex>a</ex>e</expan></choice> pertinentibus,
+							<lb n="119"/>ut pro invocatione spirituum, pro operibus <choice><abbr><w part="I">Ne</w>
+							<lb n="120"/><w part="F">cromanti<g ref="#ecaud">e</g></w></abbr><expan>Necromanti<ex>a</ex>e</expan></choice>, <g ref="#etlig">et</g> pro inveniendis furtis, oportet ut
+							<lb n="121"/>Luna sit in aliquo signo terreo, scilicet
+							<lb n="122"/>Tauro, Virgine, aut Capricorno; Pro amore
+							<lb n="123"/>gratia, <g ref="#etlig">et</g> invisibilitate, sit Luna in signo
+							<lb n="124"/>ignes, Ariete videlicet, Leone, <g ref="#etlig">et</g> Sagitario.
+						</p>
+						<p>
+							<lb n="125"/>Pro odio, discordia, <g ref="#etlig">et</g> de<g ref="#stlig">st</g>ructione sit Luna
+							<lb n="126"/>in signo aqueo, nimirum in Cancro, Scorpione <g ref="#etlig">et</g>
+							<lb n="127"/>Pisce.
+
+						<pb n="3v"/>
+
+							<lb n="128"/>Pro experimentis extraordinar<g ref="#ylig">ij</g>s, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> non <w part="I">conti</w>
+							<lb n="129"/><w part="F">nentur</w> sub determinato genere sit Luna in <w part="I">Sig</w>
+							<lb n="130"/><w part="F">no</w> Aereo, videlicet Gemini, Libra, <g ref="#etlig">et</g> Aquario,
+							<lb n="131"/>taliter agere, <g ref="#etlig">et</g> operari sufficit, si hoc solum facias
+							<lb n="132"/>nimirum observare Lunam, po<g ref="#stlig">st</g> coniunctionem
+							<lb n="133"/>aut combu<g ref="#stlig">st</g>ionem statim ac egredietur <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> rad<g ref="#ylig">ij</g>s
+							<lb n="134"/>solaribus <g ref="#etlig">et</g> apparere incipiet, tunc bonum erit
+							<lb n="135"/>facere omnia experimenta, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> tendunt ad <w part="I">cons</w>
+							<lb n="136"/><w part="F">tructionem</w> <g ref="#etlig">et</g> operationem alicuius rei, quoniam
+							<lb n="137"/>tunc Luna crescit usque ad suam plenitudinem
+							<lb n="138"/>cumque cadem reperiatur in pari numero cum Sole,
+							<lb n="139"/>bonum erit res supradictas operari, cum vero Luna
+							<lb n="140"/>est opposita Soli, <g ref="#etlig">et</g> lumine plena bonum est facere
+							<lb n="141"/>experimenta ad bellum, rixam, ac discordiam.
+						</p>
+						<p>
+							<lb n="142"/>Illa vero decrescente, hoc e<g ref="#stlig">st</g> lumine <w part="I">dimi</w>
+							<lb n="143"/><w part="F">nuta</w>, bonum erit facere experimenta ad mortem,
+							<lb n="144"/>quoniam <g ref="#etlig">et</g> ipsa eo tempore lumine privata e<g ref="#stlig">st</g>.
+						</p>
+						<p>
+							<lb n="145"/>Hoc etiam inviolabiliter observa, nihil
+							<lb n="146"/>incipere dum Luna Soli coniuncta e<g ref="#stlig">st</g>, quoniam
+							<lb n="147"/>tempus illud infelicissimum e<g ref="#stlig">st</g>, nihilque ad
+							<lb n="148"/>efectum reducere poteris; Luna autem crescente
+							<lb n="149"/><g ref="#etlig">et</g> lumine aucta, poteris scribere, facere, <w part="I">ope</w>
+							<lb n="150"/><w part="F">rari</w>, ac <choice><abbr>pr<g ref="#ecaud">e</g>parare</abbr><expan>pr<ex>a</ex>eparare</expan></choice> omnia experimenta, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> <w part="I">vo</w>
+							<lb n="151"/><w part="F">lueris</w>, servatis tamen servandis. Alloqui etiam
+							<lb n="152"/>ad spiritus, specialiter die Mercur<g ref="#ylig">ij</g>, in qui eadem
+							<lb n="153"/>Luna sit in Signo Aereo, ut supra dictum e<g ref="#stlig">st</g>,
+							<lb n="154"/><g ref="#etlig">et</g> etiam sit in signo aereo in pari numero cum
+							<lb n="155"/>sole.
+						</p>
+				</div>
+
+				<div type="chapter" n="3">
+					<head>Caput 3. De Artibus.</head>
+
+						<pb n="4r"/>
+
+						<p>
+							<lb n="1"/>Si igitur experimenta <g ref="#etlig">et</g> artes efficere velis, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice>
+							<lb n="2"/>superius diximus, habeas <choice><abbr>pr<g ref="#ecaud">e</g>parata</abbr><expan>pr<ex>a</ex>eparata</expan></choice> experimenta
+							<lb n="3"/>debitis diebus, horisque congruis, omnibusque
+							<lb n="4"/>solemnitatibus requisitis, ut in propr<g ref="#ylig">ij</g>s capitibus
+							<lb n="5"/>continetur.
+						</p>
+						<p>
+							<lb n="6"/>Experimenta autem sunt duplicis generis.
+							<lb n="7"/>Primum e<g ref="#stlig">st</g> experiri quod faciliter, absque <w part="I">circu</w>
+							<lb n="8"/><w part="F">lis</w> fieri potest, <g ref="#etlig">et</g> in hoc non aliud observandum
+							<lb n="9"/>est, quam id quod scriptum reperitur in propr<g ref="#ylig">ij</g>s
+							<lb n="10"/>capitibus.
+						</p>
+						<p>
+							<lb n="11"/>Aliud genus nullo modo ad finem reduci
+							<lb n="12"/>potest abque circulo, ad quem perfecte faciendum,
+							<lb n="13"/>observanda sunt sequentia ab artis Magistro
+							<lb n="14"/>una cum suis discipulis, antequam ad circulum
+							<lb n="15"/>deveniatur.
+						</p>
+						<p>
+							<lb n="16"/>Primo igitur antequam Magi<g ref="#stlig">st</g>er opus
+							<lb n="17"/>incipiat, debet ipse cum discipulis grandi ac
+							<lb n="18"/>exacta continentia abstineri <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> coitu per novem
+							<lb n="19"/>dies, sicut etiam <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> vanis <g ref="#etlig">et</g> otiosis colloqu<g ref="#ylig">ij</g>s, ut
+							<lb n="20"/>in secundo libro plene apparet Cap. 4. Horum
+							<lb n="21"/>autem dierum sex transactis, recitare orationem
+							<lb n="22"/><g ref="#etlig">et</g> confessionem, ut infra dicetur; septimo autem
+							<lb n="23"/>die, Magister solus ingrediatur aliquem locum
+							<lb n="24"/>secretum, <g ref="#etlig">et</g> vestimenta exuat, habeat que aquam
+							<lb n="25"/>exorcizatam, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> vertice capitis, usque ad ipsius
+							<lb n="26"/>pedes descendere debet, dicendo orationem <w part="I">Do</w>
+							<lb n="27"/><w part="F">mine</w> Adonay <choice><abbr><g ref="#et">et</g>c.</abbr><expan><ex>et</ex> c.<ex>etera</ex></expan></choice> ut in 2. Libro.
+						</p>
+						<p>
+							<lb n="28"/>Finita oratione, Magi<g ref="#stlig">st</g>er egrediatur
+							<lb n="29"/>ex aqua, induat que se super Carnem <w part="I">Vestimen</w>
+
+						<pb n="4v" />
+
+							<lb n="30"/><w part="F">tis</w> lineis albis, mundis, <g ref="#etlig">et</g> expolitis; <g ref="#etlig">et</g> tunc
+							<lb n="31"/>una cum discipulis pergat ad locum secretum
+							<lb n="32"/>eisque <choice><abbr>pr<g ref="#ecaud">e</g>cipiat</abbr><expan>pr<ex>a</ex>cipiat</expan></choice> ut sese exuant, usque ad <w part="I">nudi</w>
+							<lb n="33"/><w part="F">tatem</w>, quibus exutis, Magister habeat <choice><abbr>aqu<g ref="#atilde">a</g></abbr><expan>aqua<ex>m</ex></expan></choice>
+							<lb n="34"/>exorcizatam, quam expendat supra capita eorum,
+							<lb n="35"/>taliter ut illos aspergat, <g ref="#etlig">et</g> lavet usque ad pedes,
+							<lb n="36"/>et spargendo aquam, dicat Magister: <w part="I">Renova</w>
+							<lb n="37"/><w part="F">ti</w>, loti, et mundi <g ref="#longs">s</g>itis. <choice><abbr><g ref="#et">et</g>c.</abbr><expan><ex>et</ex> c.<ex>etera</ex></expan></choice> ut in Lib. 2 Cap. 3.
+						</p>
+						<p>
+							<lb n="38"/>Quo finito, soc<g ref="#ylig">ij</g> sicut Magister super <w part="I">car</w>
+							<lb n="39"/><w part="F">nem</w> induant lineas ve<g ref="#stlig">st</g>es albas, mundas, <g ref="#etlig">et</g>
+							<lb n="40"/>expolitas, <g ref="#etlig">et</g> in illis tribus diebus Magister, atque
+							<lb n="41"/>discipuli ieiunare debent cum ea solemnitate atque
+							<lb n="42"/>oratione ut in Lib. 2. Cap. 2.
+						</p>
+						<p>
+							<lb n="43"/>Notandum quod ultimi tres dies debent esse
+							<lb n="44"/>suaves, clari, absque vento, <g ref="#etlig">et</g> nubibus <w part="I">percurren</w>
+							<lb n="45"/><w part="F">tibus</w>; <g ref="#etlig">et</g> ultimo die Magister cum discipulis
+							<lb n="46"/>pergat ad fontem a<choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> <choice><abbr>viv<g ref="#ecaud">e</g></abbr><expan>viv<ex>a</ex>e</expan></choice> secretum, aut ad <w part="I">flu</w>
+							<lb n="47"/><w part="F">minem</w>, <g ref="#etlig">et</g> unoquoque denudato, se lavent <w part="I">pro</w>
+							<lb n="48"/><w part="F">pria</w> corpora, ea solemnitate, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> habetur in
+							<lb n="49"/>2 Lib. Cap. ult. mundo autem, <g ref="#etlig">et</g> perpolito
+							<lb n="50"/>unoquoque illorum, induat se supra carnem <w part="I">tybia</w>
+							<lb n="51"/><w part="F">lia</w>, <g ref="#etlig">et</g> ve<g ref="#stlig">st</g>er lineas albas, mundasque, ut habetur
+							<lb n="52"/>Lib. 2. Cap. 6. solemnitate <g ref="#etlig">et</g> oratione ut ibidem.
+						</p>
+						<p>
+							<lb n="53"/>Postea solus Magi<g ref="#stlig">st</g>er dicat confessionem
+							<lb n="54"/>ut in Lib. 2. Cap. 4. Qua finita, Magi<g ref="#stlig">st</g>er, in
+							<lb n="55"/>signum <choice><abbr>penitenti<g ref="#ecaud">e</g></abbr><expan>penitenti<ex>a</ex>e</expan></choice>, discipulos in fronte osculetur
+							<lb n="56"/><g ref="#etlig">et</g> discipuli eodem modo ad invicem osculentur,
+							<lb n="57"/><g ref="#etlig">et</g> Magister extendat manus suas super <w part="I">disci</w>
+							<lb n="58"/><w part="F">pulos</w>, eosque in signym absolutionis, absolvat <g ref="#etlig">et</g>
+
+						<pb n="5r" />
+							<lb n="59"/>benedicat.
+						</p>
+						<p>
+							<lb n="60"/>Hoc peracto, Magi<g ref="#stlig">st</g>er discipulis <w part="I">distri</w>
+							<lb n="61"/><w part="F">buat</w> omnia in<g ref="#stlig">st</g>rumenta necessaria in <w part="I">circu</w>
+							<lb n="62"/><w part="F">lum</w> deferenda.
+						</p>
+						<p>
+							<lb n="63"/>Primus discipulorum deferat thuribulum
+							<lb n="64"/>cum speciebus odoriferis; secundus deferat <choice><abbr>libr<g ref="#utilde">u</g></abbr><expan>libru<ex>m</ex></expan></choice>,
+							<lb n="65"/>caram, pennam, atramentum, <g ref="#etlig">et</g> species <w part="I">horri</w>
+							<lb n="66"/><w part="F">biles</w> <g ref="#etlig">et</g> <choice><abbr>f<g ref="#ecaud">e</g>tidas</abbr><expan>f<ex>o</ex>etidas</expan></choice>. Tertius gladium, falcem artis,
+							<lb n="67"/>laternam, atque candelas; Quartus Psalmos,
+							<lb n="68"/>aliaque instrumenta; Quintus ollas <g ref="#etlig">et</g> carbones;
+							<lb n="69"/>Magi<g ref="#stlig">st</g>er vero baculum, <g ref="#etlig">et</g> virgam.
+						</p>
+						<p>
+							<lb n="70"/>Rebus igitur ita dispositis, discipuli una cum
+							<lb n="71"/>magistro progrediantur ad locum <choice><abbr>pr<g ref="#ecaud">e</g>paratum</abbr><expan>pr<ex>a</ex>eparatum</expan></choice>, in
+							<lb n="72"/>quo circulum facere proposuerunt, ad artes per
+							<lb n="73"/>agendas, <g ref="#etlig">et</g> experimenta, recitando in itinere
+							<lb n="74"/>orationes, quemadmodum videbis in Lib. 2.
+						</p>
+						<p>
+							<lb n="75"/>Cum vero Magister cum discipulis <w part="I">perve</w>
+							<lb n="76"/><w part="F">nerit</w> ad locum <choice><abbr>pr<g ref="#ecaud">e</g>paratum</abbr><expan>pr<ex>a</ex>eparatum</expan></choice>, Magister habendo
+							<lb n="77"/>lumen accensum ex igne noviter excusso, ac
+							<lb n="78"/>exorcizato, ut dicetur in Lib. 2. Cap. 12., <w part="I">accen</w>
+							<lb n="79"/><w part="F">dat</w> candelam, <g ref="#etlig">et</g> ponat in laterna, eamque semper
+							<lb n="80"/>manu teneat unus ex discipulis, ut Magistro <w part="I">lu</w>
+							<lb n="81"/><w part="F">mine</w> inserviat. Tunc Magister artis <w part="I">quoties</w>
+							<lb n="82"/><w part="F">cumque</w> habuerit aliquod experimentum <w part="I">allo</w>
+							<lb n="83"/><w part="F">quendi</w> ad spiritus, studeat efformare aliquem
+							<lb n="84"/>circulum particularem, facto circulo artis, pro <w part="I">ma</w>
+							<lb n="85"/><w part="F">iori</w> securitate <g ref="#etlig">et</g> eficacia, <g ref="#etlig">et</g> sic facies.
+						</p>
+						<p>
+							<lb n="86"/>Habeas itidem gladium, aut falciculam
+							<lb n="87"/>artis consecratam, iuxta morem <g ref="#etlig">et</g> ordinem
+							<lb n="88"/>quod dabimus in Lib. 2.
+
+						<pb n="5v" />
+
+							<lb n="89"/>Hoc igitur gladio artis, aut falciculo, detrahes, <choice><abbr><w part="I">pr<g ref="#ecaud">e</g></w>
+							<lb n="90"/><w part="F">ter</w></abbr><expan>pr<ex>a</ex>eter</expan></choice> circulum particularem, alium circulum, <w part="I">cir</w>
+							<lb n="91"/><w part="F">cumcirca</w>, per pedis distantiam, super centrum
+							<lb n="92"/>primi circuli, et <choice><abbr>pr<g ref="#ecaud">e</g>ter</abbr><expan>pr<ex>a</ex>eter</expan></choice> hunc circulum, supra idem
+							<lb n="93"/>centrum per eandem di<g ref="#stlig">st</g>antiam, inter primum
+							<lb n="94"/>circulum artis, quem fecisti artavo, per pedis <w part="I">spa</w>
+							<lb n="95"/><w part="F">tium</w> formabis in quatuor mundi partibus <w part="I">ve</w>
+							<lb n="96"/><w part="F">nerabilia</w> signa: <hi rend="emphasis">Tau</hi> <g ref="#etlig">et</g> inter primum <g ref="#etlig">et</g> <w part="I">se</w>
+							<lb n="97"/><w part="F">cundum</w> circulum artis <choice><abbr><g ref="#acircum">a</g>te</abbr><expan>a<ex>r</ex>te</expan></choice> tractum, Artavo artis,
+							<lb n="98"/>facies in quatuor pentacolis tremenda nomina
+							<lb n="99"/>creatoris, scilicet inter orientem, <g ref="#etlig">et</g> meridiem:
+							<lb n="100"/><hi rend="emphasis">Tetagramaton</hi>. Inter meridiem <g ref="#etlig">et</g> occidentem
+							<lb n="101"/><hi rend="emphasis">Eheije</hi>. Inter occidentem <g ref="#etlig">et</g> aquilonem <hi rend="emphasis">Elÿon</hi>.
+							<lb n="102"/><g ref="#etlig">Et</g> inter aquilonem <g ref="#etlig">et</g> orientem <hi rend="emphasis">Eloha</hi>. Quod
+							<lb n="103"/>gravissimum e<g ref="#stlig">st</g> in cathalogo, <hi rend="emphasis">Sephirot</hi>. <g ref="#etlig">Et</g> <w part="I">supre</w>
+							<lb n="104"/><w part="F">marum</w> collu<g ref="#stlig">st</g>rationum.
+						</p>
+						<p>
+							<lb n="105"/>Facies insuper, <choice><abbr>pr<g ref="#ecaud">e</g>ter</abbr><expan>pr<ex>a</ex>eter</expan></choice> hos circulos, duos
+							<lb n="106"/>quatrangulos equales, quorum anguli sint versus
+							<lb n="107"/>quatuor mundi partes, <g ref="#etlig">et</g> spatium inter duas <w part="I">qua</w>
+							<lb n="108"/><w part="F">drangulorum</w> lineas erit semipedis; in extremis
+							<lb n="109"/>angulis inius quadrati constitues centrum <w part="I">qua</w>
+							<lb n="110"/><w part="F">tuor</w> circulorum, quorum mensura, aut diametrum
+							<lb n="111"/>sit spatium unius pedis, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> omnia fieri debent
+							<lb n="112"/>gladio, aut artavo consecrato; in quatuor <w part="I">cir</w>
+							<lb n="113"/><w part="F">culis</w> inscribantur quatuor sactissima nomina
+							<lb n="114"/>dei, videlicet: ad orientem <hi rend="emphasis">El</hi>. <g ref="#acircum">a</g><add type="partial" place="inline">d</add> occidentem
+							<lb n="115"/><hi rend="emphasis">Agla</hi>. ad meridiem <hi rend="emphasis">Iah</hi>. ad septentrionem <hi rend="emphasis">Adonay</hi>.
+							<lb n="116"/>inter unum, <g ref="#etlig">et</g> alium quatrangulum inscribatur
+							<lb n="117"/>in quatuor partibus nomen <hi rend="emphasis">Tetagramaton</hi>. Eo modo,
+
+						<pb n="6r" />
+
+							<lb n="118"/>in figura circuli vides.
+						</p>
+						<p>
+							<lb n="119"/>Respice formam circuli.
+						</p>
+						<p>
+							<lb n="120"/>Dum vero Magister circulum facit, hos
+							<lb n="121"/>psalmos dicere debet: Quare fremuerunt gentes.
+							<lb n="122"/>Deus in nomine tuo <g ref="#et">et</g>. Laudate pueri Dominum <choice><abbr><g ref="#et">et</g>c</abbr><expan><ex>et</ex> c<ex>etera</ex></expan></choice>
+							<lb n="123"/>Deus mi<g ref="#longs">s</g>ereatur no<g ref="#longs">s</g>tri <choice><abbr><g ref="#et">et</g>c.</abbr><expan><ex>et</ex> c.<ex>etera</ex></expan></choice> Omnes gentes plaudite <choice><abbr><g ref="#et">et</g>c</abbr><expan><ex>et</ex> c<ex>etera</ex></expan></choice>
+							<lb n="124"/>Exurgat Deus <choice><abbr><g ref="#et">et</g>c.</abbr><expan><ex>et</ex> c.<ex>etera</ex></expan></choice> aut eos dicat antequam circulum
+							<lb n="125"/>efformet.
+						</p>
+						<p>
+							<lb n="126"/>Quo finito, factisque suffumigijs, <w part="I">quemad</w>
+							<lb n="127"/><w part="F">modum</w> dicitur Cap. de suffumig<g ref="#ylig">ij</g>s; Magister
+							<lb n="128"/>congreget discipulos, eosque animet, <g ref="#etlig">et</g> <w part="I">corrobo</w>
+							<lb n="129"/><w part="F">ret</w>, <g ref="#etlig">et</g> ducat ad partes circuli artis, <g ref="#etlig">et</g> collocet
+							<lb n="130"/>ad quatuor mundi partes, horteturque eos ad <w part="I">ex</w>
+							<lb n="131"/><w part="F">pellendum</w> timorem, sed ad custodienda loca sibi
+							<lb n="132"/>asignata; socius vero orientalis habeat <w part="I">atra</w>
+							<lb n="133"/><w part="F">mentum</w>, pennam, <g ref="#etlig">et</g> cartam xylinam albam
+							<lb n="134"/>mundam, <g ref="#etlig">et</g> expolitam, <g ref="#etlig">et</g> unusquisque <w part="I">socio</w>
+							<lb n="135"/><w part="F">rum</w> habeat novum ensem nudum, <choice><abbr>pr<g ref="#ecaud">e</g>ter</abbr><expan>pr<ex>a</ex>eter</expan></choice> ensem
+							<lb n="136"/>artis, <g ref="#etlig">et</g> debent manus habere super capulum
+							<lb n="137"/>ensis, <g ref="#etlig">et</g> numquam discedere <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> locis sibi <w part="I">assig</w>
+							<lb n="138"/><w part="F">natis</w>; <g ref="#etlig">et</g> Magister exeat e circulo, <g ref="#etlig">et</g> accendat
+							<lb n="139"/>carbones ollarum, eisque imponat suffumigia
+							<lb n="140"/>habeat etiam in manu cereum exorcizatum
+							<lb n="141"/>eumque accendat, <g ref="#etlig">et</g> ponat in loco abscondito, ibi
+							<lb n="142"/><choice><abbr>pr<g ref="#ecaud">e</g>parato</abbr><expan>pr<ex>a</ex>eparato</expan></choice>, postea ingrediatur circulum, eumque
+							<lb n="143"/>claudat, <g ref="#etlig">et</g> iterum admoneat socios, eisque
+							<lb n="144"/><choice><abbr>pr<g ref="#ecaud">e</g>cipiat</abbr><expan>pr<ex>a</ex>cipiat</expan></choice> omne ab ipsis faciendum, <g ref="#etlig">et</g> <choice><abbr>observand<g ref="#utilde">u</g></abbr><expan>observandu<ex>m</ex></expan></choice>,
+							<lb n="145"/>quod, iuramento se facturos promitant.
+						</p>
+						<p>
+							<lb n="146"/>Deinde Magister dicat hanc orationem
+							<lb n="147"/>Intret Deus omnipotens in hunc circulum, sub
+
+						<pb n="6v" />
+
+							<lb n="148"/>introitu humilitatis nostr<g ref="#ecaud">e</g>, <g ref="#etlig">et</g> <g ref="#ecaud">e</g>tern<g ref="#ecaud">e</g> felicitatis,
+							<lb n="149"/>sever<g ref="#ecaud">e</g> l<g ref="#ecaud">e</g>titi<g ref="#ecaud">e</g>, fructifer<g ref="#ecaud">e</g> charitatis, <g ref="#etlig">et</g> salutis
+							<lb n="150"/>sempitern<g ref="#ecaud">e</g>; absint ab isto loco omnes d<g ref="#ecaud">e</g>mones
+							<lb n="151"/>adversar<g ref="#ylig">ij</g>, <g ref="#etlig">et</g> adsint Angeli pacifici, <g ref="#etlig">et</g> <w part="I">custo</w>
+							<lb n="152"/><w part="F">diant</w> hunc circulum, aquo fugiant <g ref="#etlig">et</g> recedant
+							<lb n="153"/>discordi<g ref="#ecaud">e</g>: magnifica Domine super nos nomen
+							<lb n="154"/>sanctum tuum, <g ref="#etlig">et</g> benedic nostram <w part="I">conversa</w>
+							<lb n="155"/><w part="F">tionem</w>. Sanctifica Domine Deus noster humilem
+							<lb n="156"/>nostrum introitum, qui pius <g ref="#etlig">et</g> sanctus es in
+							<lb n="157"/><choice><abbr>s<g ref="#ecaud">e</g>cula</abbr><expan>s<ex>a</ex>ecula</expan></choice> <choice><abbr>s<g ref="#ecaud">e</g>culorum</abbr><expan>s<ex>a</ex>eculorum</expan></choice>. amen.
+						</p>
+						<p>
+							<lb n="158"/>Postea Magi<g ref="#stlig">st</g>er flexis genibus dicat:
+							<lb n="159"/><hi rend="emphasis">Domine</hi> Deus omnipotens <g ref="#etlig">et</g> misericors, qui
+							<lb n="160"/>non vis mortem peccatoris, sed ut magis <w part="I">con</w>
+							<lb n="161"/><w part="F">vertatur</w> <g ref="#etlig">et</g> vivat, da, <g ref="#etlig">et</g> <choice><abbr>pr<g ref="#ecaud">e</g>sta</abbr><expan>pr<ex>a</ex>esta</expan></choice> nobis gratiam
+							<lb n="162"/>tuam, benedicendo, <g ref="#etlig">et</g> consecrando hanc terram,
+							<lb n="163"/><g ref="#etlig">et</g> hunc circulum hic signatum, per <choice><abbr>potentissim<g ref="#utilde">u</g></abbr><expan>potentissimu<ex>m</ex></expan></choice>
+							<lb n="164"/><g ref="#etlig">et</g> corroboratissimum nomen Dei; et conjuro te
+							<lb n="165"/>terra, et per nomen Dei Emanuel benedico
+							<lb n="166"/>te terra, per potentissimum nomen Dei.
+							<lb n="167"/><hi rend="emphasis">Essereije</hi> sacro te terra intra hunc circulum
+							<lb n="168"/>manu nostra compositum <g ref="#etlig">et</g> factum; <g ref="#etlig">et</g> hunc <choice><abbr>loc<g ref="#utilde">u</g></abbr><expan>locu<ex>m</ex></expan></choice>
+							<lb n="169"/>benedicat Deus <hi rend="emphasis">Adona<g ref="#ylig">ij</g></hi>, cum omnibus <w part="I">virtu</w>
+							<lb n="170"/><w part="F">tibus</w> c<g ref="#aelig">ae</g>li, ita ut nullus spiritus immundus
+							<lb n="171"/>pote<g ref="#stlig">st</g>atem habeat introeundi in hunc circulum
+							<lb n="172"/>nec nocendi alicui hic commemoranti per <choice><abbr>Domin<g ref="#utilde">u</g></abbr><expan>Dominu<ex>m</ex></expan></choice>
+							<lb n="173"/>Deum <hi rend="emphasis">Adona<g ref="#ylig">ij</g></hi> qui vitam habeat in sempiterna
+							<lb n="174"/><choice><abbr>s<g ref="#ecaud">e</g>cula</abbr><expan>s<ex>a</ex>ecula</expan></choice>. amen.
+						</p>
+						<p>
+							<lb n="175"/><hi rend="emphasis">Oro te</hi> Domine omnipotens, <g ref="#etlig">et</g> misericors
+							<lb n="176"/>ut benedicendo, benedico te digneris hunc <w part="I">circu</w>
+							<lb n="177"/><w part="F">lum</w>, <g ref="#etlig">et</g> totum hunc locum, <g ref="#etlig">et</g> omnes qui hic
+
+						<pb n="7r" />
+
+							<lb n="178"/>manent, <g ref="#etlig">et</g> Angelum bonum nobis <choice><abbr>pr<g ref="#ecaud">e</g>beas</abbr><expan>pr<ex>a</ex>ebeas</expan></choice>, <g ref="#etlig">et</g> ad
+							<lb n="179"/>custodiam nostram, qui tibi servimus, <g ref="#etlig">et</g> <w part="I">mira</w>
+							<lb n="180"/><w part="F">cula</w> <choice><abbr>tu<g ref="#ecaud">e</g></abbr><expan>tu<ex>a</ex>e</expan></choice> legis desideramus; remove a nobis omnem
+							<lb n="181"/>virtutem contrariam, <g ref="#etlig">et</g> pote<g ref="#stlig">st</g>atem, <g ref="#etlig">et</g> salva
+							<lb n="182"/>nos ab omni malo, <g ref="#etlig">et</g> perturbatione: dignare
+							<lb n="183"/>nos tutos in loco isto manere, per te, qui vivis
+							<lb n="184"/><g ref="#etlig">et</g> regnas Deus in <choice><abbr>s<g ref="#ecaud">e</g>cula</abbr><expan>s<ex>a</ex>ecula</expan></choice> seculorum. amen.
+						</p>
+						<p>
+							<lb n="185"/>Interim Magister surgat, <g ref="#etlig">et</g> suo capiti
+							<lb n="186"/>imponat coronam ex carta virgine confectam,
+							<lb n="187"/>in qua scripta sint colore, <g ref="#etlig">et</g> al<g ref="#ylig">ij</g>s rebus infra
+							<lb n="188"/>dicendis, quatuor nomina <hi rend="emphasis">Agla _ Agla<g ref="#ylig">ij</g> _ Aglata _</hi>
+							<lb n="189"/><hi rend="emphasis">Aglata<g ref="#ylig">ij</g></hi>, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> nomina ponantur ante, retro, <g ref="#etlig">et</g>
+							<lb n="190"/>hinc, <g ref="#etlig">et</g> inde in lateribus capitis.
+						</p>
+						<p>
+							<lb n="191"/>Habeat etiam Magister in circulo <w part="I">pentacu</w>
+							<lb n="192"/><w part="F">las</w>, aut canderias infrascriptas, secundum <w part="I">nece</w>
+							<lb n="193"/><w part="F">sitatem</w>, <g ref="#etlig">et</g> facta sint quemadmodum legitur in
+							<lb n="194"/>capite de Pentaculis; <g ref="#etlig">et</g> descripta sint in carta
+							<lb n="195"/>virgine, cum calamo, <g ref="#etlig">et</g> atramento, sanguine, aut
+							<lb n="196"/>colore <choice><abbr>pr<g ref="#ecaud">e</g>parato</abbr><expan>pr<ex>a</ex>eparato</expan></choice>, modo quo infra dicetur in suis
+							<lb n="197"/>capitibus; sed accipiat ea pentacula <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> <w part="I">conve</w>
+							<lb n="198"/><w part="F">niunt</w>, <g ref="#etlig">et</g> apta sunt ad opus, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> debent esse
+							<lb n="199"/>coniecta ante pectus Magistri, in ve<g ref="#stlig">st</g>e alba linea
+							<lb n="200"/>cum acu artis, <g ref="#etlig">et</g> filo elaborato <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> Virgine <w part="I">Pue</w>
+							<lb n="201"/><w part="F">lla</w>; Postea Magister, ab oriente, ni tamen aliter
+							<lb n="202"/>doceatur, aut appellare vellit spiritus ab alia
+							<lb n="203"/>parte mundi, incipiat dicere coniurationem,
+							<lb n="204"/><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> continetur in illa arte, <g ref="#etlig">et</g> si spiritus fuerint
+							<lb n="205"/>inobedientes, <g ref="#etlig">et</g> non comparverint, tunc surgat,
+							<lb n="206"/><g ref="#etlig">et</g> accipiat gladium exorcizatum, quo circulum
+							<lb n="207"/>perfecit, eum que elevando versus c<g ref="#aelig">ae</g>lum, quasi
+
+						<pb n="7v"/>
+
+							<lb n="208"/>ad percutiendum aerem, vel ad feriendum eum,
+							<lb n="209"/><g ref="#etlig">et</g> coniurandos spiritus, ponat dexteram cum <w part="I">gla</w>
+							<lb n="210"/><w part="F">dio</w> super pentacula descripta in carta virginea,
+							<lb n="211"/><g ref="#etlig">et</g> posita super pectus eius, <g ref="#etlig">et</g> dicat submissa voce
+							<lb n="212"/>hanc coniurationem flexis genibus versus orientem:
+						</p>
+						<p>
+							<lb n="213"/><hi rend="emphasis">Domine</hi> exaudi orationem meam, <g ref="#etlig">et</g>
+							<lb n="214"/>clamor meus ad te veniat.
+						</p>
+						<p>
+							<lb n="215"/><hi rend="emphasis">Domine</hi> Deus omnipotens, qui ante secula
+							<lb n="216"/>regnasti, <g ref="#etlig">et</g> tua infinita sapientia creasti <choice><abbr>c<g ref="#aelig">ae</g>l<g ref="#utilde">u</g></abbr><expan>c<g ref="#aelig">ae</g>lu<ex>m</ex></expan></choice>,
+							<lb n="217"/><g ref="#etlig">et</g> terram, mare, <g ref="#etlig">et</g> quidquid in eis continetur,
+							<lb n="218"/><g ref="#etlig">et</g> existit visibile, <g ref="#etlig">et</g> invissibile, solo verbo; ego
+							<lb n="219"/>te laudo, te benedico, <g ref="#etlig">et</g> te adoro, glorifico, <g ref="#etlig">et</g> <w part="I">ex</w>
+							<lb n="220"/><w part="F">oro</w>, ut sis mihi propitius peccatori, quia opus <w part="I">ma</w>
+							<lb n="221"/><w part="F">num</w> tuarum sum; sed salva me, <g ref="#etlig">et</g> guberna per
+							<lb n="222"/>nomen sanctum, cui nihil est dificile, nihil <w part="I">impo</w>
+							<lb n="223"/><w part="F">sibile</w>; eripe me <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> nocte ignoranti<g ref="#ecaud">e</g> me<g ref="#ecaud">e</g>, <g ref="#etlig">et</g> <w part="I">illu</w> <!-- AB nocte? -->
+							<lb n="224"/><w part="F">mina</w> me de una particula sapienti<g ref="#ecaud">e</g> tu<g ref="#ecaud">e</g>; tolle
+							<lb n="225"/>a meo sensu desiderium libidinis, <g ref="#etlig">et</g> <choice><abbr>iniquitat<g ref="#etilde">e</g></abbr><expan>iniquitate<ex>m</ex></expan></choice>
+							<lb n="226"/>vani sermonis, dona mihi servo tuo cor capax
+							<lb n="227"/><g ref="#etlig">et</g> intelligens, acutum <g ref="#etlig">et</g> subtile, ad omnem
+							<lb n="228"/>scientiam <g ref="#etlig">et</g> facultatem percipiendam, <g ref="#etlig">et</g> <w part="I">capa</w>
+							<lb n="229"/><w part="F">citatem</w> intelligendi, <g ref="#etlig">et</g> tenacitatem retinendi,
+							<lb n="230"/>ut meum desiderium adimplere possim, <g ref="#etlig">et</g> <w part="I">disci</w>
+							<lb n="231"/><w part="F">plinarum</w> studia intelligere, <g ref="#etlig">et</g> percipere, <g ref="#etlig">et</g> <w part="I">sa</w>
+							<lb n="232"/><w part="F">crarum</w> scripturarum secreta secretorum; <choice><abbr>pr<g ref="#ecaud">e</g>sta</abbr><expan>pr<ex>a</ex>esta</expan></choice>
+							<lb n="233"/>mihi facultatem capiendi, ut possim patienter
+							<lb n="234"/><g ref="#etlig">et</g> humiliter verba proferre illarum rerum, quas
+							<lb n="235"/>mihi Domine concesseris ad documentum <choice><abbr>alior<g ref="#utilde">u</g></abbr><expan>alioru<ex>m</ex></expan></choice>.
+							<lb n="236"/><hi rend="emphasis">D</hi>eus Pater omnipotens, <g ref="#etlig">et</g> misericors, qui omnia
+							<lb n="237"/>creasti, <g ref="#etlig">et</g> omnia scis, <g ref="#etlig">et</g> cognoscis, <g ref="#etlig">et</g> nihil tibi
+
+						<pb n="8r" />
+
+							<lb n="238"/>e<g ref="#stlig">st</g> absconditum, nec imposibile: Ego enim tuus
+							<lb n="239"/>servus tuam gratiam <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice>ro, quia scis quod hoc
+							<lb n="240"/>non facimus ut tuam virtutem experiamur,
+							<lb n="241"/>sed ut sciamus veritatem omnium rerum <w part="I">occul</w>
+							<lb n="242"/><w part="F">tarum</w>, per tuam magnificentiam <g ref="#etlig">et</g> pietatem,
+							<lb n="243"/><g ref="#etlig">et</g> per ineffabile, <g ref="#etlig">et</g> tremendum nomen tuum,
+							<lb n="244"/>quod e<g ref="#stlig">st</g> <hi rend="emphasis">Iah</hi>, per quod contremiscit omne
+							<lb n="245"/>seculum, <g ref="#etlig">et</g> eius timore omnes <choice><abbr>creatur<g ref="#ecaud">e</g></abbr><expan>creatur<ex>a</ex>e</expan></choice> <w part="I">obe</w>
+							<lb n="246"/><w part="F">diunt</w>, nobis correspondere tuam gratiam dignare,
+							<lb n="247"/>ita ut facias secreta secretorum, <g ref="#etlig">et</g> omnium
+							<lb n="248"/>spirituum, hic ante nostram <choice><abbr>pr<g ref="#ecaud">e</g>sentiam</abbr><expan>pr<ex>a</ex>esentiam</expan></choice> patefieri,
+							<lb n="249"/><g ref="#etlig">et</g> spiritus mites, <g ref="#etlig">et</g> obedientes nostris <w part="I">man</w>
+							<lb n="250"/><w part="F">datis</w> advenire, per te sanctissime <hi rend="emphasis">Adona<g ref="#ylig">ij</g></hi>, cuius
+							<lb n="251"/>regnum <g ref="#etlig">et</g> imperium permanet in s<g ref="#ecaud">e</g>cula
+							<lb n="252"/>s<g ref="#ecaud">e</g>culorum. amen.
+						</p>
+						<p>
+							<lb n="253"/>His dictis, Magister surgat, ponat que
+							<lb n="254"/>manum super pentacula, <g ref="#etlig">et</g> unus sociorum
+							<lb n="255"/>semper teneat librum apertum ante <choice><abbr>Magistr<g ref="#utilde">u</g></abbr><expan>Magistru<ex>m</ex></expan></choice>,
+							<lb n="256"/><g ref="#etlig">et</g> respiciendo c<g ref="#aelig">ae</g>lum versus unamque
+							<lb n="257"/>mundi partem dicat:
+						</p>
+						<p>
+							<lb n="258"/><hi rend="emphasis">Domine</hi> Deus e<g ref="#stlig">st</g>o mihi turris <w part="I">fortitu</w>
+							<lb n="259"/><w part="F">dinis</w> a facie spirituum malignantium.
+						</p>
+						<p>
+							<lb n="260"/>Postea iterum convertat se ad quatuor
+							<lb n="261"/>mundi partes, <g ref="#etlig">et</g> versus quamcumque dicat
+							<lb n="262"/>sequentia verba:
+						</p>
+						<p>
+							<lb n="263"/><hi rend="emphasis">E</hi>cce signa <g ref="#etlig">et</g> nomina creatoris per <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice>
+							<lb n="264"/>expavescitis quotidie, <g ref="#etlig">et</g> timetis, obedite ergo per
+							<lb n="265"/>h<g ref="#ecaud">e</g>c sacratissima nomina, <g ref="#etlig">et</g> per h<g ref="#ecaud">e</g>c secreta
+							<lb n="266"/>secretorum.
+						</p>
+						<p>
+							<lb n="267"/>Quod dicto, ac facto videbis venire illos ab
+							<lb n="268"/>omnibus partibus, quod si impediti fuerint,
+
+						<pb n="8v"/>
+
+							<lb n="269"/>et in aliquo loco detenti, <g ref="#etlig">et</g> non possent aut <w part="I">nol</w>
+							<lb n="270"/><w part="F">llent</w> venire; tunc factis suffumig<g ref="#ylig">ij</g>s, ensibusque
+							<lb n="271"/>per ordinem retactis, confortatisque discipulis,
+							<lb n="272"/>reformet Magister circulum cum gladio artis,
+							<lb n="273"/>postea elevet ad c<g ref="#aelig">ae</g>lum dictum gladium, quasi
+							<lb n="274"/>aerem velit percutere, <g ref="#etlig">et</g> ponat manum dexteram
+							<lb n="275"/>super pentacula cum gladio, <g ref="#etlig">et</g> flexis genibus, dicat
+							<lb n="276"/>coram altissimo, magna cum humilitate, <w part="I">sequen</w>
+							<lb n="277"/><w part="F">tem</w> confessionem, quam etiam discipuli facere
+							<lb n="278"/>debent, submissa voce, ut non intelligatur.
+						</p>
+				</div>
+
+				<div type="chapter" n="4">
+					<head>Caput 4. Confessio facienda ab exorcizatore.</head>
+						<p>
+							<lb n="1"/>Confiteor tibi Domine Rex C<g ref="#aelig">ae</g>li, <g ref="#etlig">et</g> terr<g ref="#ecaud">e</g>, <g ref="#etlig">et</g> <w part="I">pro</w>
+							<lb n="2"/><w part="F">nus</w> ante faciem tuam deploro peccata mea, <choice><abbr>quoni<g ref="#atilde">a</g></abbr><expan>quonia<ex>m</ex></expan></choice>
+							<lb n="3"/>peccavi coram te in superbia, in invidia, in <w part="I">ava</w>
+							<lb n="4"/><w part="F">ritia</w> tam honoris, quam pecuni<g ref="#ecaud">e</g>, in accidia, in
+							<lb n="5"/>ventris ingluvie, in gula, in come<g ref="#stlig">st</g>ionibus, in
+							<lb n="6"/>ebrietatibus, in femoribus, in genitalibus meis,
+							<lb n="7"/>in omni genere carnis, in adulterijs, in <w part="I">mas</w>
+							<lb n="8"/><w part="F">turbationibus</w>, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> in me, <g ref="#etlig">et</g> in al<g ref="#ylig">ij</g>s facientibus
+							<lb n="9"/>consensi, <g ref="#etlig">et</g> in sacrilegijs, in furtis, in rapinis,
+							<lb n="10"/>in stupris, in homicid<g ref="#ylig">ij</g>s, in facultate, <g ref="#etlig">et</g> <w part="I">prodi</w>
+							<lb n="11"/><w part="F">galitate</w>, contra spem <g ref="#etlig">et</g> charitatem, in <w part="I">exhor</w>
+							<lb n="12"/><w part="F">tationibus</w>, <g ref="#etlig">et</g> adulationibus, in dandis, <g ref="#etlig">et</g> <w part="I">dis</w>
+							<lb n="13"/><w part="F">tribuendis</w> muneribus, in exasperandis <g ref="#etlig">et</g> <w part="I">des</w>
+							<lb n="14"/><w part="F">perandis</w> pauperibus, in dispensationibus <choice><abbr>bonor<g ref="#utilde">u</g></abbr><expan>bonoru<ex>m</ex></expan></choice>
+							<lb n="15"/>mihi commissorum, in astictionibus populi,
+							<lb n="16"/>mihi commissi, in non vissitando detentos, <g ref="#etlig">et</g>
+							<lb n="17"/>in carcere positos, in non sepeliendo mortuos,
+
+						<pb n="9r" />
+
+							<lb n="18"/>in non cu<g ref="#stlig">st</g>odiendo pauperes, in non reficiendo
+							<lb n="19"/>esurientes, in non potando sitientes, in non
+							<lb n="20"/>solemnizando fe<g ref="#stlig">st</g>a sabatha, <g ref="#etlig">et</g> neomeniah,
+							<lb n="21"/>nec in eis castè <g ref="#etlig">et</g> piè vivendo, in comentiendo
+							<lb n="22"/>suadentibus mihi mala, in nocendo potius, <choice><abbr>qu<g ref="#atilde">a</g></abbr><expan>qua<ex>m</ex></expan></choice>
+							<lb n="23"/>adiuvando petentibus, in clamorem pauperum
+							<lb n="24"/>non libenter nec misericorditer audiendo, in
+							<lb n="25"/>non servando senioribus reverentiam, <w part="I">propin</w>
+							<lb n="26"/><w part="F">quis</w>, <g ref="#etlig">et</g> benefactoribus meis fidem, <g ref="#etlig">et</g> <choice><abbr>grati<g ref="#atilde">a</g></abbr><expan>gratia<ex>m</ex></expan></choice>
+							<lb n="27"/>non reddendo, in delectatione, in carnalia <w part="I">con</w>
+							<lb n="28"/><w part="F">cubita</w> non evitando, in Ecclesia Dei superbè
+							<lb n="29"/>stando, sedendo, egrediendo, superfluis, <g ref="#etlig">et</g> <w part="I">ocio</w>
+							<lb n="30"/><w part="F">sis</w> colloquijs ibidem vacando, ac taliter <w part="I">ope</w>
+							<lb n="31"/>rando in vasa sancta, <g ref="#etlig">et</g> ministerium <choice><abbr>sanct<g ref="#utilde">u</g></abbr><expan>sanctu<ex>m</ex></expan></choice>
+							<lb n="32"/>ac panem propositionis palluto ore, ac manibus
+							<lb n="33"/>immundis tangendo, <g ref="#etlig">et</g> comedendo, in <w part="I">oratio</w>
+							<lb n="34"/><w part="F">nibus</w>, <g ref="#etlig">et</g> psalmod<g ref="#ylig">ij</g>s negligenter recitandis,
+							<lb n="35"/><g ref="#etlig">et</g> audiendis.
+						</p>
+						<p>
+							<lb n="36"/>Detestor etiam ea<choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> peccavi in <w part="I">cogi</w>
+							<lb n="37"/><w part="F">tationibus</w> pessimus, meditationibus pravis, <w part="I">sus</w>
+							<lb n="38"/><w part="F">picationibus</w> falsis, iudicijs temerarijs, in <w part="I">con</w>
+							<lb n="39"/><w part="F">sensu</w> malo, in adiuvando consilio impiorum,
+							<lb n="40"/>in concupiscentia carnali, in delectatione <w part="I">immun</w>
+							<lb n="41"/><w part="F">da</w>, in verbis otiosis, in mendacijs, <g ref="#etlig">et</g> <w part="I">falsita</w>
+							<lb n="42"/><w part="F">tibus</w>, in iuramentis diversimodè factis, in
+							<lb n="43"/>detractionibus, in discord<g ref="#ylig">ij</g>s seminatis, in <w part="I">curiosi</w>
+							<lb n="44"/><w part="F">tate</w>, in gulositate, in susurratione, in violentia,
+							<lb n="45"/>in maledictione, in murmuratione in blasphem<g ref="#ylig">ij</g>s,
+
+						<pb n="9v" />
+
+							<lb n="46"/>in curiositatibus, in vaniloqu<g ref="#ylig">ij</g>s, in insultibus,
+							<lb n="47"/>in dissimulatione, in vigil<g ref="#ylig">ij</g>s Deo contrar<g ref="#ylig">ij</g>s, in <w part="I">trans</w>
+							<lb n="48"/><w part="F">gressione</w> pr<g ref="#ecaud">e</g>ceptorum decem, in negligentia <w part="I">propo</w>
+							<lb n="49"/><w part="F">siti</w> mei, in dilectione Dei, <g ref="#etlig">et</g> proximi mei, in vissu,
+							<lb n="50"/>in auditu, gustu, odoratu, <g ref="#etlig">et</g> tactu, omnibus <g ref="#etlig">et</g>
+							<lb n="51"/>quibuscumque modis, in quibus humana <w part="I">fragi</w>
+							<lb n="52"/><w part="F">litas</w> contra Deum Creatorem suum, aut cogitando,
+							<lb n="53"/>aut operando, aut concupiscendo, aut delectando
+							<lb n="54"/>peccare pote<g ref="#stlig">st</g>, in omnibus me peccasse, ac reum
+							<lb n="55"/>in conspectu Domini, super omnes homines, me
+							<lb n="56"/>esse cognosco, <g ref="#etlig">et</g> ideo confiteor vobis, <g ref="#etlig">et</g> supplex
+							<lb n="57"/>adoro sanctos Angelos omnes, <g ref="#etlig">et</g> filios Dei, in
+							<lb n="58"/>quorum conspectu h<g ref="#ecaud">e</g>c omnia confessus sum, <w part="I">qua</w>
+							<lb n="59"/><w part="F">tenus</w> non gaudeat de me inimicus meus, nec <w part="I">glo</w>
+							<lb n="60"/><w part="F">rietur</w> adversus me in die novissima, dicens me
+							<lb n="61"/>scelera mea tacuisse, <g ref="#etlig">et</g> ante faciem Domini <w part="I">con</w>
+							<lb n="62"/><w part="F">fessum</w> me fuisse; sed sit gaudium in c<g ref="#aelig">ae</g>lo de me <!--me fuisse: ligature -->
+							<lb n="63"/>sicut de al<g ref="#ylig">ij</g>s iustis, qui confessi fuerunt peccata
+							<lb n="64"/>sua ante tuam pr<g ref="#ecaud">e</g>sentiam Altissime Pater <w part="I">omnipo</w>
+							<lb n="65"/><w part="F">tens</w>, per tuam immensam clementiam, concede
+							<lb n="66"/>mihi ut possim videre <g ref="#etlig">et</g> cognoscere omnes spiritu<g ref="#longs">s</g>,
+							<lb n="67"/>quos invocavero; ita ut cum ipsis adimplere possim
+							<lb n="68"/>meam voluntatem, per gloriam <g ref="#etlig">et</g> magnitudinem
+							<lb n="69"/>tuam, Pater ineffabilis <g ref="#etlig">et</g> sanctus.
+						</p>
+						<p>
+							<lb n="70"/>Finita conffessione, <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> fieri debet coram
+							<lb n="71"/>Altissimo, magna cum humilitate, <g ref="#etlig">et</g> intimo cordis
+							<lb n="72"/>affectu, Magister dicat sequentem orationem:
+							<lb n="73"/><hi rend="emphasis">Oratio</hi>.
+							<lb n="74"/><hi rend="emphasis">Domine</hi> omnipotens sempiterne Deus Pater
+
+						<pb n="10r" />
+
+							<lb n="75"/>omnium creaturarum; Pietas, <g ref="#etlig">et</g> misericordia
+							<lb n="76"/>tua veniat super me, quia per te Domine creatus
+							<lb n="77"/>sum, supplex exoro te, ut me deffendas ab <w part="I">ad</w>
+							<lb n="78"/><w part="F">versar<g ref="#ylig">ij</g>s</w> meis, <g ref="#etlig">et</g> fides pietatis tu<g ref="#ecaud">e</g> confirmetur
+							<lb n="79"/>in me: tibi Domine commendo corpus meum
+							<lb n="80"/><g ref="#etlig">et</g> animam meam, quia in alio non e<g ref="#stlig">st</g> spes mea,
+							<lb n="81"/>nec habere volo, nisi in te Deus meus, adiuva
+							<lb n="82"/>me Domine, exaudi me in quacumque die,
+							<lb n="83"/><g ref="#etlig">et</g> hora invocavero te, nec de me oblibiscari<g ref="longs">s</g>
+							<lb n="84"/>per tuam misericordiam, nec ame elongaberi<g ref="longs">s</g>:
+							<lb n="85"/>Domine e<g ref="#stlig">st</g>o in meum auxilium, Deus salutis
+							<lb n="86"/>me<g ref="#ecaud">e</g>. Domine indue me cor, <g ref="#etlig">et</g> viscera mea
+							<lb n="87"/>misericordia tua, per te Deum, qui vivis <g ref="#etlig">et</g> <w part="I">reg</w>
+							<lb n="88"/><w part="F">nas</w> in s<g ref="#ecaud">e</g>cula s<g ref="#ecaud">e</g>culorum. amen.
+						</p>
+						<p>
+							<lb n="89"/><hi rend="emphasis">Domine</hi> Deus Pater omnipotens, qui
+							<lb n="90"/>ante omnia s<g ref="#ecaud">e</g>cula ineffabilem, summam, ac tibi
+							<lb n="91"/><g ref="#ecaud">e</g>ternam sapientiam formasti, ac in ortu <w part="I">s<g ref="#ecaud">e</g>culo</w>
+							<lb n="92"/><w part="F">rum</w>, c<g ref="#aelig">ae</g>lum <g ref="#etlig">et</g> terram, mare, <g ref="#etlig">et</g> omnia <choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> in
+							<lb n="93"/>eis sunt, oris tui spiritu vivificasti; te laudo,
+							<lb n="94"/>te benedico, te adoro, atque glorifico: Esto
+							<lb n="95"/><choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice>ro propitius mihi peccatori, <g ref="#etlig">et</g> ne despicia<g ref="longs">s</g>
+							<lb n="96"/>me, sed salva, <g ref="#etlig">et</g> adiuva me opus manuum
+							<lb n="97"/>tuarum, per nomen sanctum tuum depelle
+							<lb n="98"/>ab anima mea ignorantiam, <g ref="#etlig">et</g> illumina me
+							<lb n="99"/>igniculo sapienti<g ref="#ecaud">e</g> tu<g ref="#ecaud">e</g>; aufer <choice><abbr><g ref="#acircum">a</g></abbr><expan>a<ex>ut</ex></expan></choice> sensu meo
+							<lb n="100"/>desideria libidinis, <g ref="#etlig">et</g> stultiloquium, per te <choice><abbr>De<g ref="#utilde">u</g></abbr><expan>Deu<ex>m</ex></expan></choice>
+							<lb n="101"/>vivum, cuius honor <g ref="#etlig">et</g> imperium per s<g ref="#ecaud">e</g>cula
+							<lb n="102"/>s<g ref="#ecaud">e</g>culorum. amen.
+						</p>
+				</div>
+
+				<div type="chapter" n="5">
+					<head>Caput 5. Oratio <g ref="#etlig">et</g> coniuratio.</head>
+						<p>
+							<lb n="1"/><hi rend="emphasis">D</hi>omine sancte Pater omnipotens, ac Deus
+
+					  <pb n="10v" />
+
+							<lb n="2"/>misericor<g ref="longs">s</g> qui omnia creasti, cuncta cognoscis
+							<lb n="3"/><g ref="#etlig">et</g> vales, cuique nihil e<g ref="#stlig">st</g> absconditum, <g ref="#etlig">et</g> <w part="I">impos</w>
+							<lb n="4"/><w part="F">sibile</w>, <g ref="#etlig">et</g> scis quod hoc non facimu<g ref="#longs">s</g>, ut <w part="I">experia</w>
+							<lb n="5"/><w part="F">mur</w> virtutem tuam, sed ut videamus lumen
+							<lb n="6"/>rerum occultarum, rogamus te ut per <choice><abbr>sanct<g ref="#atilde">a</g></abbr><expan>sancta<ex>m</ex></expan></choice>
+							<lb n="7"/>misericordiam tuam, sub<g ref="#ylig">ij</g>cere digneris, ut <w part="I">se</w>
+							<lb n="8"/><w part="F">creta</w> secretorum omnium specierum nobis <w part="I">un</w>
+							<lb n="9"/><w part="F">dique</w> sint manife<g ref="#stlig">st</g>a, per te sanctissime <w part="I"><hi rend="emphasis">Ado</hi></w>
+							<lb n="10"/><w part="F"><hi rend="emphasis">nay</hi></w>, cuius potestas, <g ref="#etlig">et</g> imperium sine fine
+							<lb n="11"/>permanet per s<g ref="#ecaud">e</g>cula cuncta. amen.
+						</p>
+						<p>
+							<lb n="12"/>Dicta oratione, exorcizator extendat
+							<lb n="13"/>manus super Pentacula, <g ref="#etlig">et</g> unus ex soc<g ref="#ylig">ij</g>s <w part="I">te</w>
+							<lb n="14"/><w part="F">neat</w> librum apertum ante magistratum, in quo
+							<lb n="15"/>scripte sint orationes, <g ref="#etlig">et</g> coniurationes, ad <w part="I">sub</w>
+							<lb n="16"/><w part="F">mittendos</w>, <g ref="#etlig">et</g> subiugandos spiritus, <g ref="#etlig">et</g> Magister
+							<lb n="17"/>intuendo c<g ref="#aelig">ae</g>lum, versus unamquamque mundi
+							<lb n="18"/>partem, dicat:
+						</p>
+						<p>
+							<lb n="19"/><hi rend="emphasis">Domine</hi> Deus e<g ref="#stlig">st</g>o mihi turris fortitudini<g ref="#longs">s</g>
+							<lb n="20"/>a facie spiritum malignantium.
+						</p>
+						<p>
+							<lb n="21"/>Postea se vertat iterum ad quatuor <w part="I">mun</w>
+							<lb n="22"/><w part="F">di</w> partes, <g ref="#etlig">et</g> versus unamquamque illarum dicat
+							<lb n="23"/>h<g ref="#ecaud">e</g>c verba:
+						</p>
+						<p>
+							<lb n="24"/>Ecce signa <g ref="#etlig">et</g> nomina Creatoris, per<choice><abbr>qu<g ref="#ecaud">e</g></abbr><expan>qu<ex>a</ex>e</expan></choice> <w part="I">ex</w>
+							<lb n="25"/><w part="F">pavescitis</w> quotidie, <g ref="#etlig">et</g> timetis, obedite ergo per
+							<lb n="26"/>h<g ref="#ecaud">e</g>c sacratissima nomina <g ref="#etlig">et</g> per h<g ref="#ecaud">e</g>c secreta <choice><abbr>secretor<g ref="#utilde">u</g></abbr><expan>secretoru<ex>m</ex></expan></choice>.
+						</p>
+						<p>
+							<lb n="27"/>Quo dicto, ac peracto, acquacumque mundi <w part="I">par</w>
+							<lb n="28"/><w part="F">te</w> videbis illos venire, <g ref="#etlig">et</g> si impediti fuerint,
+							<lb n="29"/>aut in aliquo loco detenti, ut venire non poterint;
+							<lb n="30"/>tunc incipies iterum sequenti modo coniurare,
+							<lb n="31"/><g ref="#etlig">et</g> scias illos non desinere ad te venire, ad tuam
+							<lb n="32"/>voluntatem adimplendam, etiam si ferreis, igneis
+
+						<pb n="11r" />
+
+							<lb n="33"/>que catenis adstricti fuerint.
+						</p>
+						<p>
+							<lb n="34"/><hi rend="emphasis">Conjuro</hi> vos spiritus per potentiam, sa
+							<lb n="35"/>pientiam, <g ref="#etlig">et</g> virtutem spiritus Dei, per <choice><abbr>increat<g ref="#atilde">a</g></abbr><expan>increata<ex>m</ex></expan></choice>
+							<lb n="36"/>Dei sapientiam, per immensam bonitatem Dei,
+							<lb n="37"/>per fortitudinem Dei, per magnitudinem Dei,
+							<lb n="38"/>per unitatem Dei, per nomina sancta Dei.
+							<lb n="39"/><hi rend="emphasis">Eheije</hi>, quod e<g ref="#stlig">st</g> radix <g ref="#etlig">et</g> truncus omnium <choice><abbr>alior<g ref="#utilde">u</g></abbr><expan>alioru<ex>m</ex></expan></choice>
+							<lb n="40"/>divinorum nominum, <g ref="#etlig">et</g> unde accipiunt esse <g ref="#etlig">et</g>
+							<lb n="41"/>virtutem, quod Adam nominavit, <g ref="#etlig">et</g> assequtus
+							<lb n="42"/>est cognitionem omnium creaturarum. Coniuro
+							<lb n="43"/>vos per nomen invissibile <hi rend="emphasis">Iod</hi>, quod unitatem
+							<lb n="44"/><g ref="#etlig">et</g> simplicitatem divin<g ref="#ecaud">e</g> natur<g ref="#ecaud">e</g> significat, quod
+							<lb n="45"/>etiam Abel nominavit, <g ref="#etlig">et</g> meruit eradere manu<g ref="#longs">s</g>
+							<lb n="46"/>fratris sui Ca<g ref="#ylig">ij</g>n. Conjuro vos per nomen <hi rend="emphasis">Iehova</hi>
+							<lb n="47"/><hi rend="emphasis">Elohijm</hi>, quod tant<g ref="#ecaud">e</g> Maiestatis diffusionem, <w part="I">sig</w>
+							<lb n="48"/><w part="F">nificat</w>, quod etiam Noe nominavit, <g ref="#etlig">et</g> aquas
+							<lb n="49"/>diluv<g ref="#ylig">ij</g> valuit effugere cum tota domo sua.
+						</p>
+						<p>
+							<lb n="50"/><hi rend="emphasis">Conjuro</hi> vos per nomen Dei <hi rend="emphasis">El</hi> forte <g ref="#etlig">et</g>
+							<lb n="51"/>admirabile, quod in tante Maie<g ref="#stlig">st</g>ate <choice><abbr>clementi<g ref="#atilde">a</g></abbr><expan>clementia<ex>m</ex></expan></choice>
+							<lb n="52"/><g ref="#etlig">et</g> bonitatem significat, quod Abraham <w part="I">nomi</w>
+							<lb n="53"/><w part="F">navit</w>, <g ref="#etlig">et</g> meruit effugere de Ur Cald<g ref="#ecaud">e</g>orum.
+						</p>
+						<p>
+							<lb n="54"/><hi rend="emphasis">Conjuro</hi> vos per corroboratum nomen
+							<lb n="55"/><hi rend="emphasis">Elohijm Gibor</hi>, quod Deum fortem significat
+							<lb n="56"/>atque robustum, punientem culpas <choice><abbr>improbor<g ref="#utilde">u</g></abbr><expan>improboru<ex>m</ex></expan></choice>,
+							<lb n="57"/><g ref="#etlig">et</g> vissitantem iniquitates Patrum in filios
+							<lb n="58"/>usque ad tertiam, <g ref="#etlig">et</g> quartam Generationem,
+							<lb n="59"/>quod Isaac nominavit, <g ref="#etlig">et</g> meruit effugere
+							<lb n="60"/>gladium Patris sui Abrah<g ref="#ecaud">e</g>.
+						</p>
+						<p>
+							<lb n="61"/><hi rend="emphasis">Conjuro</hi> vos, <g ref="#etlig">et</g> exorcizo per <w part="I">sanctissi</w>
+							<lb n="62"/><w part="F">mum</w> nomen <hi rend="emphasis">Eloha Vangadat</hi>, quod Iacob <w part="I">no</w>
+							<lb n="63"/><w part="F">minavit</w> in magna tribulatione, <g ref="#etlig">et</g> meruit nomen
+							<lb n="64"/>Israel, quod e<g ref="#stlig">st</g> pr<g ref="#ecaud">e</g>valens de Deo, <g ref="#etlig">et</g> liberatus
+
+						<pb n="11v" />
+
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+						</p>
+				</div>
+
+				<!--
+				<div type="chapter" n="X">
+					<head>Caput X</head>
+						<p>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+							<lb n=""/>
+						</p>
+				</div>
+			   -->
+			</div>
+
+		</body>
+	</text>
+</TEI>
