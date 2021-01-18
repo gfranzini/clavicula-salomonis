@@ -61,8 +61,7 @@ TEI reference:
 * `@part` attribute: https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.fragmentable.html
 
 ### V vs. U
-
-For the purposes of computational analysis, I automatically distinguish between _u_ and _v_, regardless of how they appear in the MS.
+SISTEMARE RETRO-ATTIVAMENTE.
 
 ### Ligatures and special characters
 
