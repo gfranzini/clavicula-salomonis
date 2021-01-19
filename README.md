@@ -161,6 +161,6 @@ TEI references:
 ---
 
 ## To do
-- Finish encoding index of book 1
+- index of book 1
 - line break in chapter headers?
-- additions and deletions: mark them or not? see example correction UTQUE > USQUE on folio 4r
+- additions and deletions? see example correction UTQUE > USQUE on folio 4r
