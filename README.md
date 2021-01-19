@@ -61,7 +61,8 @@ TEI reference:
 * `@part` attribute: https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.fragmentable.html
 
 ### V vs. U
-SISTEMARE RETRO-ATTIVAMENTE.
+
+FIX
 
 ### Ligatures and special characters
 
