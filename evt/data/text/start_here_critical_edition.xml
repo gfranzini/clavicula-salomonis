@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "schema/tei_dse.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+          <!-- supply a title -->
+        </title>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+          <!-- supply publication information -->
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p><!-- supply information about the source --></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+
+    <front>
+      <div>
+        <listWit>
+          <head></head>
+          <witness xml:id="X">*****</witness>
+          <witness xml:id="W">*****</witness>
+          <witness xml:id="Y">*****</witness>
+          <witness xml:id="Z">*****</witness>
+          <!--<witness xml:id="XX">
+            <msDesc>
+              <msIdentifier>
+                <settlement>*****</settlement>
+                <repository>*****</repository>
+                <msName>*****</msName>
+              </msIdentifier>
+            </msDesc>
+          </witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <div>
+        <head></head>
+        <p></p>
+      </div>
+    </body>
+
+  </text>
+
+</TEI>

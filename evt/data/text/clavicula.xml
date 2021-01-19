@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei-vbd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+	  <fileDesc>
+			 <titleStmt>
+				<title type="main">Clavicula Salomonis</title>
+				<title type="sub">Diplomatic transcription</title>
+				<respStmt>
+				   <resp>Encoded by:</resp>
+				   <name>Greta Franzini</name>
+					 <name>Eleonora Litta</name>
+				</respStmt>
+			 </titleStmt>
+			 <publicationStmt>
+				<publisher></publisher>
+				<pubPlace></pubPlace>
+				<date>XXXX</date> <!-- define -->
+				<availability>
+				   <p>CC0</p> <!-- define -->
+				</availability>
+			 </publicationStmt>
+			 <sourceDesc>
+				<p>Images: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>
+	    	</sourceDesc>
+		</fileDesc>
+		<!--<encodingDesc>
+		<charDecl> https://unicode-table.com/en/
+			<glyph xml:id="AElig">
+				<localProp name="name" value="Latin Capital Ligature AE"/>
+				<mapping type="standard">Æ</mapping>
+				<mapping type="PUA">U+00C6</mapping>
+			</glyph>
+			<glyph xml:id="aelig">
+				<localProp name="name" value="Latin Small Ligature AE"/>
+				<mapping type="standard">æ</mapping>
+				<mapping type="PUA">U+00E6</mapping>
+			</glyph>
+			<glyph xml:id="stlig">
+				<localProp name="name" value="Latin Small Ligature Long ST"/>
+				<mapping type="standard">ﬅ</mapping>
+				<mapping type="PUA">U+FB05</mapping>
+			</glyph>
+			<glyph xml:id="ylig">
+				<localProp name="name" value="Latin Small Ligature IJ"/>
+				<mapping type="standard">ÿ</mapping>
+				<mapping type="PUA">U+0133</mapping>
+			</glyph>
+			<glyph xml:id="etlig">
+				<localProp name="name" value="Latin Small Ligature ET"/>
+				<mapping type="standard">et</mapping>
+        <mapping type="PUA">??</mapping>
+			</glyph>
+			<glyph xml:id="ecaud">
+				<localProp name="name" value="Latin Small Letter E with Ogonek"/>
+				<mapping type="standard">ę</mapping>
+				<mapping type="PUA">U+0119</mapping>
+			</glyph>
+			<glyph xml:id="acircum">
+				<localProp name="name" value="Latin Small Letter A with Circumflex"/>
+				<mapping type="standard">â</mapping>
+				<mapping type="PUA">U+00E2</mapping>
+			</glyph>
+			<glyph xml:id="et">
+				<localProp name="name" value="Ampersand"/>
+				<mapping type="standard">&amp;</mapping>
+				<mapping type="PUA">U+0026</mapping>
+			</glyph>
+			<glyph xml:id="atilde">
+				<localProp name="name" value="Latin Small Letter A with Tilde"/>
+				<mapping type="standard">ã</mapping>
+				<mapping type="PUA">U+00E3</mapping>
+			</glyph>
+			<glyph xml:id="utilde">
+				<localProp name="name" value="Latin Small Letter U with Tilde"/>
+				<mapping type="standard">ũ</mapping>
+				<mapping type="PUA">U+0169</mapping>
+			</glyph>
+			<glyph xml:id="etilde">
+				<localProp name="name" value="Latin Small Letter E with Tilde"/>
+				<mapping type="standard">ẽ</mapping>
+				<mapping type="PUA">U+1EBD</mapping>
+			</glyph>
+			<glyph xml:id="longs">
+				<localProp name="name" value="Latin Small Letter Long S"/>
+				<mapping type="standard">ſ</mapping>
+				<mapping type="PUA">U+017F</mapping>
+			</glyph>
+			<glyph xml:id="icircum">
+				<localProp name="name" value="Latin Capital Letter I with Circumflex"/>
+				<mapping type="standard">Î</mapping>
+				<mapping type="PUA">U+00CE</mapping>
+			</glyph>
+		</charDecl>
+	</encodingDesc>-->
+  </teiHeader>
+
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <titlePart>Clavicula Salomonis</titlePart>
+      </titlePage>
+      <div type="paratext" subtype="index">
+        <head>INDEX LIBRI PRIMI <choice><abbr>CLAVICUlę</abbr><expan>CLAVICUL<ex>ae</ex></expan></choice> Salomonis</head>
+        <list type="index" rend="simple">
+          <item>
+            CAPUT Primum.
+            De Amore Divino huic scientię pręmittendo_ _ _ _ _ _pag: 1
+          </item>
+          <item>
+            CAPUT Secundum.
+            De diebus, et horas Planetarum pag: 2
+          </item>
+          <item>
+            CAPUT Tertium.
+            De Artibus _ _ _ _ pag: 3
+          </item>
+          <item>
+            CAPUT Quartum. _ _ _ _ pag:
+            Forma Circuli _ pag: 6
+            Confessio facienda ab exorcizatore pag: 9
+          </item>
+          <item>
+            CAPUT Quintum. _ _ _ pag:
+            Oratio, et Conjurationes _ pag: 12
+          </item>
+          <item>
+            CAPUT Sextum.
+            Conjuratio fortior _ _ pag: 14
+          </item>
+          <item>
+            CAPUT Septimum.
+            Conjuratio Fortissima _ pag: 18
+          </item>
+          <item>
+            CAPUT Octavum.
+            De Canderÿs, aut Pentaculis _ _ _ pag: 24
+          </item>
+
+          <item>
+            CAPUT Nonum. _ _ _ pag: 26
+            De experimento furti, et quomodo fiat _ _ _ _ _ _ pag: 26
+          </item>
+          <item>
+            CAPUT Decimum.
+            De experimento invisibilitatis, et quomodo fiat _ _ _ pag: 27
+          </item>
+          <item>
+            CAPUT Undecimum.
+            De experimento amoris, et quomodo in eo agendum sit _ pag: 28
+          </item>
+          <item>
+            CAPUT Duodecimum.
+            De experimento pomi _ pag: 31
+          </item>
+          <item>
+            CAPUT Decimum Tertium.
+            De experimento Amoris in dormiendo, et quomodo fiat _ pag: 32
+          </item>
+          <item>
+            CAPUT Decimum Quartum.
+            De experimentis ad odium, et destructionem inimicorum _ pag: 33
+          </item>
+          <item>
+            CAPUT Quintum Decimum.
+            Quomodo paventur experimenta ad Ludos, illusiones etc a: _ pag: 34 what is this floating a?
+          </item>
+          <item>
+            CAPUT Sextum Decimum.
+            Quomodo paventur experimenta extraordinaria _ _ pag: 35
+          </item>
+
+          <item>
+            CAPUT Decimum Septimum.
+
+          </item>
+          <item>
+            Septem Pentacula nigri coloris, .
+
+          </item>
+          <!-- continua-->
+        </list>
+      </div>
+    </front>
+
+
+		<body>
+
+			<div xml:id="CS">
+				<head>CLAVICULA SALOMONIS REGIS EX IDIOMATE HÆBREO VERSA PER DOM. ABRAHAMUM COTURNIUM. LIBER PRIMUS.</head>
+
+
+				<div type="chapter" n="1">
+
+          <pb n="1r" xml:id="CS_fol_001r" facs="data/images/single/clav_1r.png"/>
+  					<head>Caput 1. De amore divino huic scientiæ præmittendo.</head>
+  					<p>Initium nostræ clavis inquit Salomon filius David Regis Israel, est Deum timere, et adorare, cum que contritione cordis summaque devotione honorare, ac in omnibus rebus faciendis invocare, sic que ipse te ducet per viam rectam. Cum autem scientiarum ac magicarum artium notitiam velis acquirere, ordinem dierum horarum, et Lunæ in promptu habere necesse eﬅ, sine quorum observatione aliquid haud fieri poteﬅ, nec unquam poterit, ijs autem diligenter observatis, faciliter ad optatum finem poteris pervenire.</p>
+				</div>
+
+				<div type="chapter" n="2">
+  					<head>Caput 2. De diebus, et horis planetarum, eorumque virtutibus.</head>
+  					<p>Cum aliquod experimentum perficere cupis, omnia necessaria prius <choice><abbr>pręparare</abbr><expan>pr<ex>ae</ex>parare</expan></choice> oportet, ut in sequentibus capitibus observabis, notando dies, et horas, aliasque constellationes ut in hoc capite apparet.</p>
+  					<p>Hora igitur diei, ac noctis sunt viginti et quatuor, et in harum singulis dominatur unus Planeta ex septem, iuxta eorum ordinem, incipiendo
+
+
+					<pb n="1v" xml:id="CS_fol_001v" facs="data/images/single/clav_1v.png"/>
+            ab altioribus, usque ad inferiores, et ita fit in qualibet hora diei ac noctis.</p>
+						<p>Ordo autem Planetarum, incipiendo ab altiori, est	sequens. Primus eﬅ Sabetaÿ id eﬅ Saturnus, sub Saturno. Zedett sive Jovis, sub Jove. Madaym sive Mars, sub Marte. Semes sive Sol, sub Sole. Noga sive Venus, sub Venere. Codab sive Mercurius, sub Mercurio. Levana sive Luna <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> eﬅ omnibus Planetis inferior.</p>
+						<p>Scire ulterius debes Planetas habere dominium in die, cui proprium nomen tribuere, id eﬅ Saturnus die Sabathi. Jovis die Jovis; et sic de reliquis. Incipit autem dominium Planetæ cuiuslibet horæ, ab Aurora, usque ad ortum solis illius diei, qui denominatur aut tali Planeta secundum ordinem, exempli gratia; prima hora diei Saturni, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> eﬅ ab Aurora, usque ad ortum solis, dominatur Saturnus; secunda Jovis; tertia Mars; quarta Sol; quinta Venus; sexta Mercurius; septima Luna; octava iterum Saturnus, et sic de reliquis intelligendum eﬅ.</p>
+						<p>Nota: quamlibet operationem magicam debere fieri sub proprio Planeta, et in hora eiusdem, e. g. in diebus, et horis Saturni præparari debent experimenta ad animas ex inferis vocandas, illorum tantum qui naturali morte occubuerunt; et etiam experimenta pro bona vel infelici sorte ædificiorum ad habendas in somnÿs spiritus familiares, ad dandam prosperam, vel adversam fortunam prædÿs, stabilibus seminibus, fructibus, et similibus ad acquirendam doctrinam, ad odia disseminanda, ad destructio-
+
+
+					<pb n="2r" xml:id="CS_fol_002r" facs="data/images/single/clav_2r.png"/>
+						nem, et mortem inferendam.</p>
+						<p>Horæ et dies Jovis inserviunt ad honores obtinendos, ad divitias comparandas, amicitias ineundas, sanitatem conservandam, et ad res optatas consequendas.</p>
+						<p>Diebus Martis patrabis experimenta ad bellum, et militares honores assequandos, ad acquirendam audaciam et fortitudinem, ad inimicos expellandos, et etiam ad afferendam cladem, ruinam crudelitatem et discordiam militibus, ad plagas, et necem quoque inÿciendam.</p>
+						<p>Dies, horæ que solis optimæ sunt ad perficienda experimenta de bonis temporalibus, de spe, de lucro, de fortuna, de divinatione, de gratua Principum, de inimicitÿs disolvendis, et amicis muniendis.</p>
+						<p>Dies, et horæ Veneris propriæ sunt amicitÿs comparandis conciliandæ benevolentiæ, et amori rebus hilaribus, ac iucundis patrandis, et itineribus faciendis.</p>
+						<p>Dies, et horæ Mercurÿ <choice><abbr>aptę</abbr><expan>apt<ex>ae</ex></expan></choice> sunt ad operationes scientiarum, divinationum, eloquentiæ, intelligentiæ, promptitudinis in <choice><abbr>pręstigiorum</abbr><expan>pr<ex>ae</ex>stigiorum</expan></choice> negotÿs, et apparitionum, rerum que futurarum responsionum. Poteris insuper suo Mercurÿ Sydere in furtis operari, et scripturis ad fallendum, et mercaturæ.</p>
+						<p>Dies, horæ que Lunæ valent ad operandum experimenta legationum, Nunciationum, navigationum, itinerum; insuper ad amorem et gratiam apud Populos conciliandam, ac universitates, et ad acquisitionem aquaticarum mercium.
+
+
+					<pb n="2v" xml:id="CS_fol_002v" facs="data/images/single/clav_2v.png"/>
+						Advertere insuper debes, si ad efectum peroptatum cupis pervenire, tuarum operationum omnia a te servanda esse, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> hoc capite continentur, ab hoc enim <choice><abbr>magicę</abbr><expan>magic<ex>ae</ex></expan></choice> <choice><abbr>scientię</abbr><expan>scienti<ex>ae</ex></expan></choice> veritas pendet.</p>
+					  <p>Horæ etiam Saturninæ, Martiales, et <choice><abbr>Lunaticę</abbr><expan>Lunatic<ex>ae</ex></expan></choice> <choice><abbr>optimę</abbr><expan>optim<ex>ae</ex></expan></choice> sunt ad loquendum cum spiritibus; horæ autem Mercurÿ ad furta invenienda medÿs spiritibus.</p>
+						<p>Hora Martis ad vocandas ex inferis animas interfectorum.</p>
+						<p>Horæ solis, Jovis, et Veneris aptæ sunt ad quodlibet experimentum amori inserviens præparandum; insuper ad gratiam et impetrationem, ac invisibilitatem, quemadmodum in proprÿs Capitibus habetur: additis etiam <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> de hac materia, hoc in opere continentur.</p>
+						<p>Horæ itidem Saturni ac Martis, eorumque dies, in quibus cum eis Luna coniungitur, aut ab ÿsdem ex opposito, vel quadrata respicitur; <choice><abbr>optimę</abbr><expan>optim<ex>ae</ex></expan></choice> sunt ad facienda experimenta ad odium, inimicitiam, rixam, et discordiam, adiunctis rebus, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> de hac materia infra, in nostris Capitibus docentur.</p>
+						<p>Hora Mercurÿ apta eﬅ ad <choice><abbr>pręparanda</abbr><expan>pr<ex>ae</ex>paranda</expan></choice> omnia experimenta ad ludos et jocos, et omnia <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> mirabilia videntur servatis tamen omnibus, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> infra in noﬅris Capitibus de hac materia dicemus.</p>
+						<p>Horæ Solis, Jovis, et Veneris, specialiter in suis diebus ad probanda extraordinaria experi-
+
+
+					<pb n="3r" xml:id="CS_fol_003r" facs="data/images/single/clav_3r.png"/>
+						menta sunt <choice><abbr>bonę</abbr><expan>bon<ex>a</ex>e</expan></choice>; illa inquam experimenta, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> non videntur contineri in aliquo ex supras memoratis generibus, adjunctis speciatim rebus <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> de hac materia tractamus.</p>
+					  <p>Horæ Lunæ ad probanda experimenta pro furtis inveniendis, ad habendas Vissiones nocturnas, spiritus inter dormiendum conveniendos, et ad res aquatiles <choice><abbr>pręparandas</abbr><expan>pr<ex>ae</ex>parandas</expan></choice> aptæ sunt.</p>
+				  	<p>Horæ itidem Veneris <choice><abbr>optimę</abbr><expan>optim<ex>ae</ex></expan></choice> sunt ad <choice><abbr>pręparanda</abbr><expan>pr<ex>ae</ex>paranda</expan></choice> experimenta sortilegiorum veneficiorum, Venenationum, rerum que omnium Venerearum, ac pulverum, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> ad ph<add place="above">r</add>aeneses, aliaque similia provocanda conficiuntur.</p>
+					  <p>Sed ad artem conficiendam, non solum in	horis, sed insuper conficies in die Planetæ, quia experimentum melius erit, semper que verificabitur,
+						servatis etiam rebus de hac materia in noﬅris inferioribus Capitibus contentis, ex quibus, si aliquid <choice><abbr>pręterieris</abbr><expan>pr<ex>ae</ex>terieris</expan></choice>, nunquam ad artis Complementum pervenire poteris.</p>
+				  	<p>In rebus autem <choice><abbr>Lunę</abbr><expan>Lun<ex>ae</ex></expan></choice> pertinentibus, ut pro invocatione spirituum, pro operibus <choice><abbr>Necromantię</abbr><expan>Necromanti<ex>ae</ex></expan></choice>, et pro inveniendis furtis, oportet ut Luna sit in aliquo signo terreo, scilicet Tauro, Virgine, aut Capricorno; Pro amore gratia, et invisibilitate, sit Luna in signo ignes, Ariete videlicet, Leone, et Sagitario.</p>
+				   	<p>Pro odio, discordia, et deﬅructione sit Luna in signo aqueo, nimirum in Cancro, Scorpione et Pisce.
+
+
+					<pb n="3v" xml:id="CS_fol_003v" facs="data/images/single/clav_3v.png"/>
+						Pro experimentis extraordinarÿs, <choice><abbr>quę</abbr><expan>qu<ex>a</ex>e</expan></choice> non continentur sub determinato genere sit Luna in Signo Aereo, videlicet Gemini, Libra, et Aquario, taliter agere, et operari sufficit, si hoc solum facias nimirum observare Lunam, poﬅ coniunctionem aut combuﬅionem statim ac egredietur <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> radÿs solaribus et apparere incipiet, tunc bonum erit facere omnia experimenta, <choice><abbr>quę</abbr><expan>qu<ex>a</ex>e</expan></choice> tendunt ad constructionem et operationem alicuius rei, quoniam tunc Luna crescit usque ad suam plenitudinem cumque cadem reperiatur in pari numero cum Sole, bonum erit res supradictas operari, cum vero Luna est opposita Soli, et lumine plena bonum est facere experimenta ad bellum, rixam, ac discordiam.</p>
+					  <p>Illa vero decrescente, hoc eﬅ lumine diminuta, bonum erit facere experimenta ad mortem, quoniam et ipsa eo tempore lumine privata eﬅ.</p>
+					  <p>Hoc etiam inviolabiliter observa, nihil incipere dum Luna Soli coniuncta eﬅ, quoniam tempus illud infelicissimum eﬅ, nihilque ad efectum reducere poteris; Luna autem crescente et lumine aucta, poteris scribere, facere, operari, ac <choice><abbr>pręparare</abbr><expan>pr<ex>a</ex>eparare</expan></choice> omnia experimenta, <choice><abbr>quę</abbr><expan>qu<ex>a</ex>e</expan></choice> volueris, servatis tamen servandis. Alloqui etiam ad spiritus, specialiter die Mercurÿ, in qui eadem Luna sit in Signo Aereo, ut supra dictum eﬅ, et etiam sit in signo aereo in pari numero cum	sole.</p>
+
+        </div>
+
+				<div type="chapter" n="3">
+					<head>Caput 3. De Artibus.</head>
+
+				  <pb n="4r" xml:id="CS_fol_004r" facs="data/images/single/clav_4r.png"/>
+						<p>Si igitur experimenta et artes efficere velis, <choice><abbr>quę</abbr><expan>qu<ex>a</ex>e</expan></choice> superius diximus, habeas <choice><abbr>pręparata</abbr><expan>pr<ex>a</ex>eparata</expan></choice> experimenta debitis diebus, horisque congruis, omnibusque solemnitatibus requisitis, ut in proprÿs capitibus continetur.</p>
+						<p>Experimenta autem sunt duplicis generis. Primum eﬅ experiri quod faciliter, absque circulis fieri potest, et in hoc non aliud observandum est, quam id quod scriptum reperitur in proprÿs capitibus.</p>
+						<p>Aliud genus nullo modo ad finem reduci potest abque circulo, ad quem perfecte faciendum, observanda sunt sequentia ab artis Magistro una cum suis discipulis, antequam ad circulum deveniatur.</p>
+						<p>Primo igitur antequam Magiﬅer opus incipiat, debet ipse cum discipulis grandi ac exacta continentia abstineri <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> coitu per novem dies, sicut etiam <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> vanis et otiosis colloquÿs, ut in secundo libro plene apparet Cap. 4. Horum autem dierum sex transactis, recitare orationem et confessionem, ut infra dicetur; septimo autem die, Magister solus ingrediatur aliquem locum secretum, et vestimenta exuat, habeat que aquam exorcizatam, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> vertice capitis, usque ad ipsius pedes descendere debet, dicendo orationem Domine Adonay <choice><abbr>etc.</abbr><expan><ex>et</ex>c.<ex>etera</ex></expan></choice> ut in 2. Libro.</p>
+						<p>Finita oratione, Magiﬅer egrediatur ex aqua, induat que se super Carnem Vestimen-
+
+
+          <pb n="4v" xml:id="CS_fol_004v" facs="data/images/single/clav_4v.png"/>
+						tis lineis albis, mundis, et expolitis; et tunc una cum discipulis pergat ad locum secretum eisque <choice><abbr>pręcipiat</abbr><expan>pr<ex>ae</ex>cipiat</expan></choice> ut sese exuant, usque ad nuditatem, quibus exutis, Magister habeat <choice><abbr>aquã</abbr><expan>aqua<ex>m</ex></expan></choice>	exorcizatam, quam expendat supra capita eorum, taliter ut illos aspergat, et lavet usque ad pedes, et spargendo aquam, dicat Magister: Renovati, loti, et mundi ſitis. <choice><abbr>etc.</abbr><expan><ex>et</ex>c.<ex>etera</ex></expan></choice> ut in Lib. 2 Cap. 3.</p>
+					  <p>Quo finito, socÿ sicut Magister super carnem induant lineas veﬅes albas, mundas, et expolitas, et in illis tribus diebus Magister, atque discipuli ieiunare debent cum ea solemnitate atque oratione ut in Lib. 2. Cap. 2.</p>
+					  <p>Notandum quod ultimi tres dies debent esse suaves, clari, absque vento, et nubibus percurrentibus; et ultimo die Magister cum discipulis pergat ad fontem a<choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> <choice><abbr>vivę</abbr><expan>viv<ex>ae</ex></expan></choice> secretum, aut ad fluminem, et unoquoque denudato, se lavent propria corpora, ea solemnitate, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> habetur in 2 Lib. Cap. ult. mundo autem, et perpolito unoquoque illorum, induat se supra carnem tybialia, et veﬅer lineas albas, mundasque, ut habetur Lib. 2. Cap. 6. solemnitate et oratione ut ibidem.</p>
+					  <p>Postea solus Magiﬅer dicat confessionem ut in Lib. 2. Cap. 4. Qua finita, Magiﬅer, in signum <choice><abbr>penitentię</abbr><expan>penitenti<ex>ae</ex></expan></choice>, discipulos in fronte osculetur et discipuli eodem modo ad invicem osculentur, et Magister extendat manus suas super discipulos, eosque in signym absolutionis, absolvat et
+
+					<pb n="5r" xml:id="CS_fol_005r" facs="data/images/single/clav_5r.png"/>
+						benedicat.</p>
+						<p>Hoc peracto, Magiﬅer discipulis distribuat omnia inﬅrumenta necessaria in circulum deferenda.</p>
+						<p>Primus discipulorum deferat thuribulum cum speciebus odoriferis; secundus deferat <choice><abbr>librũ</abbr><expan>libru<ex>m</ex></expan></choice>, caram, pennam, atramentum, et species horribiles et <choice><abbr>fętidas</abbr><expan>f<ex>o</ex>etidas</expan></choice>. Tertius gladium, falcem artis, laternam, atque candelas; Quartus Psalmos, aliaque instrumenta; Quintus ollas et carbones; Magiﬅer vero baculum, et virgam.</p>
+            <p>Rebus igitur ita dispositis, discipuli una cum magistro progrediantur ad locum <choice><abbr>pręparatum</abbr><expan>pr<ex>ae</ex>paratum</expan></choice>, in quo circulum facere proposuerunt, ad artes per agendas, et experimenta, recitando in itinere orationes, quemadmodum videbis in Lib. 2.</p>
+						<p>Cum vero Magister cum discipulis pervenerit ad locum <choice><abbr>pręparatum</abbr><expan>pr<ex>ae</ex>paratum</expan></choice>, Magister habendo lumen accensum ex igne noviter excusso, ac exorcizato, ut dicetur in Lib. 2. Cap. 12., accendat candelam, et ponat in laterna, eamque semper manu teneat unus ex discipulis, ut Magistro lumine inserviat. Tunc Magister artis quotiescumque habuerit aliquod experimentum alloquendi ad spiritus, studeat efformare aliquem circulum particularem, facto circulo artis, pro maiori securitate et eficacia, et sic facies.</p>
+						<p>Habeas itidem gladium, aut falciculam artis consecratam, iuxta morem et ordinem 	quod dabimus in Lib. 2.
+
+
+				  <pb n="5v" xml:id="CS_fol_005v" facs="data/images/single/clav_5v.png"/>
+						Hoc igitur gladio artis, aut falciculo, detrahes, <choice><abbr>pręter</abbr><expan>pr<ex>ae</ex>ter</expan></choice> circulum particularem, alium circulum, circumcirca, per pedis distantiam, super centrum primi circuli, et <choice><abbr>pręter</abbr><expan>pr<ex>ae</ex>ter</expan></choice> hunc circulum, supra idem centrum per eandem diﬅantiam, inter primum circulum artis, quem fecisti artavo, per pedis spatium formabis in quatuor mundi partibus venerabilia signa: <hi rend="emphasis">Tau</hi> et inter primum et secundum circulum artis <choice><abbr>âte</abbr><expan>a<ex>r</ex>te</expan></choice> tractum, Artavo artis, facies in quatuor pentacolis tremenda nomina creatoris, scilicet inter orientem, et meridiem: <hi rend="emphasis">Tetagramaton</hi>. Inter meridiem et occidentem <hi rend="emphasis">Eheije</hi>. Inter occidentem et aquilonem <hi rend="emphasis">Elÿon</hi>. et inter aquilonem et orientem <hi rend="emphasis">Eloha</hi>. Quod gravissimum eﬅ in cathalogo, <hi rend="emphasis">Sephirot</hi>. et supremarum colluﬅrationum.</p>
+						<p>Facies insuper, <choice><abbr>pręter</abbr><expan>pr<ex>ae</ex>ter</expan></choice> hos circulos, duos quatrangulos equales, quorum anguli sint versus quatuor mundi partes, et spatium inter duas quadrangulorum lineas erit semipedis; in extremis angulis inius quadrati constitues centrum quatuor circulorum, quorum mensura, aut diametrum sit spatium unius pedis, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> omnia fieri debent gladio, aut artavo consecrato; in quatuor circulis inscribantur quatuor sactissima nomina dei, videlicet: ad orientem <hi rend="emphasis">El</hi>. â<add type="partial" place="inline">d</add> occidentem <hi rend="emphasis">Agla</hi>. ad meridiem <hi rend="emphasis">Iah</hi>. ad septentrionem <hi rend="emphasis">Adonay</hi>. inter unum, et alium quatrangulum inscribatur in quatuor partibus nomen <hi rend="emphasis">Tetagramaton</hi>. Eo modo,
+
+
+				  <pb n="6r" xml:id="CS_fol_006r" facs="data/images/single/clav_6r.png"/>
+					  in figura circuli vides.</p>
+						<p>Respice formam circuli.</p>
+						<p>Dum vero Magister circulum facit, hos psalmos dicere debet: Quare fremuerunt gentes. Deus in nomine tuo et. Laudate pueri Dominum <choice><abbr>etc</abbr><expan><ex>et</ex>c<ex>etera</ex></expan></choice> Deus miſereatur noſtri <choice><abbr>etc.</abbr><expan><ex>et</ex>c.<ex>etera</ex></expan></choice> Omnes gentes plaudite <choice><abbr>etc</abbr><expan><ex>et</ex>c<ex>etera</ex></expan></choice> Exurgat Deus <choice><abbr>etc.</abbr><expan><ex>et</ex>c.<ex>etera</ex></expan></choice> aut eos dicat antequam circulum efformet.</p>
+						<p>Quo finito, factisque suffumigijs, quemadmodum dicitur Cap. de suffumigÿs; Magister congreget discipulos, eosque animet, et corroboret, et ducat ad partes circuli artis, et collocet ad quatuor mundi partes, horteturque eos ad expellendum timorem, sed ad custodienda loca sibi asignata; socius vero orientalis habeat atramentum, pennam, et cartam xylinam albam mundam, et expolitam, et unusquisque sociorum habeat novum ensem nudum, <choice><abbr>pręter</abbr><expan>pr<ex>ae</ex>ter</expan></choice> ensem artis, et debent manus habere super capulum ensis, et numquam discedere <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> locis sibi assignatis; et Magister exeat e circulo, et accendat carbones ollarum, eisque imponat suffumigia habeat etiam in manu cereum exorcizatum eumque accendat, et ponat in loco abscondito, ibi <choice><abbr>pręparato</abbr><expan>pr<ex>ae</ex>parato</expan></choice>, postea ingrediatur circulum, eumque claudat, et iterum admoneat socios, eisque <choice><abbr>pręcipiat</abbr><expan>pr<ex>ae</ex>cipiat</expan></choice> omne ab ipsis faciendum, et <choice><abbr>observandũ</abbr><expan>observandu<ex>m</ex></expan></choice>, quod, iuramento se facturos promitant.</p>
+						<p>Deinde Magister dicat hanc orationem Intret Deus omnipotens in hunc circulum, sub
+
+
+					<pb n="6v" xml:id="CS_fol_006v" facs="data/images/single/clav_6v.png"/>
+						introitu humilitatis nostrę, et ęternę felicitatis, severę lętitię, fructiferę charitatis, et salutis sempiternę; absint ab isto loco omnes dęmones adversarÿ, et adsint Angeli pacifici, et custodiant hunc circulum, aquo fugiant et recedant discordię: magnifica Domine super nos nomen sanctum tuum, et benedic nostram conversationem. Sanctifica Domine Deus noster humilem nostrum introitum, qui pius et sanctus es in <choice><abbr>sęcula</abbr><expan>s<ex>ae</ex>cula</expan></choice> <choice><abbr>sęculorum</abbr><expan>s<ex>ae</ex>culorum</expan></choice>. amen.</p>
+					  <p>Postea Magiﬅer flexis genibus dicat: <hi rend="emphasis">Domine</hi> Deus omnipotens et misericors, qui 	non vis mortem peccatoris, sed ut magis convertatur et vivat, da, et <choice><abbr>pręsta</abbr><expan>pr<ex>a</ex>esta</expan></choice> nobis gratiam tuam, benedicendo, et consecrando hanc terram, et hunc circulum hic signatum, per <choice><abbr>potentissimũ</abbr><expan>potentissimu<ex>m</ex></expan></choice> et corroboratissimum nomen Dei; et conjuro te terra, et per nomen Dei Emanuel benedico te terra, per potentissimum nomen Dei. <hi rend="emphasis">Essereije</hi> sacro te terra intra hunc circulum manu nostra compositum et factum; et hunc <choice><abbr>locũ</abbr><expan>locu<ex>m</ex></expan></choice> benedicat Deus <hi rend="emphasis">Adonaÿ</hi>, cum omnibus virtutibus cæli, ita ut nullus spiritus immundus poteﬅatem habeat introeundi in hunc circulum nec nocendi alicui hic commemoranti per <choice><abbr>Dominũ</abbr><expan>Dominu<ex>m</ex></expan></choice> Deum <hi rend="emphasis">Adonaÿ</hi> qui vitam habeat in sempiterna <choice><abbr>sęcula</abbr><expan>s<ex>ae</ex>cula</expan></choice>. amen.</p>
+						<p><hi rend="emphasis">Oro te</hi> Domine omnipotens, et misericors ut benedicendo, benedico te digneris hunc circulum, et totum hunc locum, et omnes qui hic
+
+
+					<pb n="7r" xml:id="CS_fol_007r" facs="data/images/single/clav_7r.png"/>
+						manent, et Angelum bonum nobis <choice><abbr>prębeas</abbr><expan>pr<ex>a</ex>ebeas</expan></choice>, et ad custodiam nostram, qui tibi servimus, et miracula <choice><abbr>tuę</abbr><expan>tu<ex>ae</ex></expan></choice> legis desideramus; remove a nobis omnem virtutem contrariam, et poteﬅatem, et salva nos ab omni malo, et perturbatione: dignare nos tutos in loco isto manere, per te, qui vivis et regnas Deus in <choice><abbr>sęcula</abbr><expan>s<ex>ae</ex>cula</expan></choice> seculorum. amen.</p>
+						<p>Interim Magister surgat, et suo capiti imponat coronam ex carta virgine confectam, in qua scripta sint colore, et alÿs rebus infra dicendis, quatuor nomina <hi rend="emphasis">Agla _ Aglaÿ _ Aglata _</hi> <hi rend="emphasis">Aglataÿ</hi>, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> nomina ponantur ante, retro, et hinc, et inde in lateribus capitis.</p>
+						<p>Habeat etiam Magister in circulo pentaculas, aut canderias infrascriptas, secundum necessitatem, et facta sint quemadmodum legitur in capite de Pentaculis; et descripta sint in carta virgine, cum calamo, et atramento, sanguine, aut colore <choice><abbr>pręparato</abbr><expan>pr<ex>ae</ex>parato</expan></choice>, modo quo infra dicetur in suis capitibus; sed accipiat ea pentacula <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> conveniunt, et apta sunt ad opus, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> debent esse coniecta ante pectus Magistri, in veﬅe alba linea cum acu artis, et filo elaborato <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> Virgine Puella; Postea Magister, ab oriente, ni tamen aliter doceatur, aut appellare vellit spiritus ab alia parte mundi, incipiat dicere coniurationem, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> continetur in illa arte, et si spiritus fuerint inobedientes, et non comparverint, tunc surgat, et accipiat gladium exorcizatum, quo circulum perfecit, eum que elevando versus cælum, quasi
+
+
+				  <pb n="7v" xml:id="CS_fol_007v" facs="data/images/single/clav_7v.png"/>
+						ad percutiendum aerem, vel ad feriendum eum, et coniurandos spiritus, ponat dexteram cum gladio super pentacula descripta in carta virginea, et posita super pectus eius, et dicat submissa voce hanc coniurationem flexis genibus versus orientem:</p>
+						<p><hi rend="emphasis">Domine</hi> exaudi orationem meam, et clamor meus ad te veniat.</p>
+						<p><hi rend="emphasis">Domine</hi> Deus omnipotens, qui ante secula regnasti, et tua infinita sapientia creasti <choice><abbr>cælũ</abbr><expan>cælu<ex>m</ex></expan></choice>, et terram, mare, et quidquid in eis continetur, et existit visibile, et invissibile, solo verbo; ego te laudo, te benedico, et te adoro, glorifico, et exoro, ut sis mihi propitius peccatori, quia opus manum tuarum sum; sed salva me, et guberna per nomen sanctum, cui nihil est dificile, nihil imposibile; eripe me <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> nocte ignorantię meę, et illumina me de una particula sapientię tuę; tolle a meo sensu desiderium libidinis, et <choice><abbr>iniquitatẽ</abbr><expan>iniquitate<ex>m</ex></expan></choice> vani sermonis, dona mihi servo tuo cor capax et intelligens, acutum et subtile, ad omnem scientiam et facultatem percipiendam, et capacitatem intelligendi, et tenacitatem retinendi, ut meum desiderium adimplere possim, et disciplinarum studia intelligere, et percipere, et sacrarum scripturarum secreta secretorum; <choice><abbr>pręsta</abbr><expan>pr<ex>ae</ex>sta</expan></choice>	mihi facultatem capiendi, ut possim patienter et humiliter verba proferre illarum rerum, quas mihi Domine concesseris ad documentum <choice><abbr>aliorũ</abbr><expan>alioru<ex>m</ex></expan></choice>. <hi rend="emphasis">D</hi>eus Pater omnipotens, et misericors, qui omnia creasti, et omnia scis, et cognoscis, et nihil tibi
+
+            <!-- ILLUMINA AB nocte? -->
+
+
+				  <pb n="8r" xml:id="CS_fol_008r" facs="data/images/single/clav_8r.png"/>
+						eﬅ absconditum, nec imposibile: Ego enim tuus servus tuam gratiam <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice>ro, quia scis quod hoc non facimus ut tuam virtutem experiamur, sed ut sciamus veritatem omnium rerum occultarum, per tuam magnificentiam et pietatem, et per ineffabile, et tremendum nomen tuum, quod eﬅ <hi rend="emphasis">Iah</hi>, per quod contremiscit omne seculum, et eius timore omnes <choice><abbr>creaturę</abbr><expan>creatur<ex>ae</ex></expan></choice> obediunt, nobis correspondere tuam gratiam dignare, ita ut facias secreta secretorum, et omnium spirituum, hic ante nostram <choice><abbr>pręsentiam</abbr><expan>pr<ex>ae</ex>sentiam</expan></choice> patefieri, et spiritus mites, et obedientes nostris mandatis advenire, per te sanctissime <hi rend="emphasis">Adonaÿ</hi>, cuius 	regnum et imperium permanet in sęcula sęculorum. amen.</p>
+						<p>His dictis, Magister surgat, ponat que manum super pentacula, et unus sociorum semper teneat librum apertum ante <choice><abbr>Magistrũ</abbr><expan>Magistru<ex>m</ex></expan></choice>, et respiciendo cælum versus unamque mundi partem dicat:</p>
+						<p><hi rend="emphasis">Domine</hi> Deus eﬅo mihi turris fortitudinis a facie spirituum malignantium.</p>
+						<p>Postea iterum convertat se ad quatuor mundi partes, et versus quamcumque dicat sequentia verba:</p>
+						<p><hi rend="emphasis">E</hi>cce signa et nomina creatoris per <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> expavescitis quotidie, et timetis, obedite ergo per hęc sacratissima nomina, et per hęc secreta secretorum.</p>
+						<p>Quod dicto, ac facto videbis venire illos ab omnibus partibus, quod si impediti fuerint,
+
+
+					<pb n="8v" xml:id="CS_fol_008v" facs="data/images/single/clav_8v.png"/>
+						et in aliquo loco detenti, et non possent aut nollent venire; tunc factis suffumigÿs, ensibusque per ordinem retactis, confortatisque discipulis, reformet Magister circulum cum gladio artis, postea elevet ad cælum dictum gladium, quasi aerem velit percutere, et ponat manum dexteram super pentacula cum gladio, et flexis genibus, dicat coram altissimo, magna cum humilitate, sequentem confessionem, quam etiam discipuli facere debent, submissa voce, ut non intelligatur.
+						</p>
+				</div>
+
+
+				<div type="chapter" n="4">
+					<head>Caput 4. Confessio facienda ab exorcizatore.</head>
+						<p>
+							Confiteor tibi Domine Rex Cæli, et terrę, et pronus ante faciem tuam deploro peccata mea, <choice><abbr>quoniã</abbr><expan>quonia<ex>m</ex></expan></choice> peccavi coram te in superbia, in invidia, in avaritia tam honoris, quam <choice><abbr>pecunię</abbr><expan>pecuni<ex>ae</ex></expan></choice>, in accidia, in ventris ingluvie, in gula, in comeﬅionibus, in ebrietatibus, in femoribus, in genitalibus meis, in omni genere carnis, in adulterijs, in masturbationibus, <choice><abbr>quę</abbr><expan>qu<ex>a</ex>e</expan></choice> in me, et in alÿs facientibus consensi, et in sacrilegijs, in furtis, in rapinis, in stupris, in homicidÿs, in facultate, et prodigalitate, contra spem et charitatem, in exhortationibus, et adulationibus, in dandis, et distribuendis muneribus, in exasperandis et desperandis pauperibus, in dispensationibus <choice><abbr>bonorũ</abbr><expan>bonoru<ex>m</ex></expan></choice> mihi commissorum, in astictionibus populi, mihi commissi, in non vissitando detentos, et in carcere positos, in non sepeliendo mortuos,
+
+
+				    <pb n="9r" xml:id="CS_fol_009r" facs="data/images/single/clav_9r.png"/>
+							in non cuﬅodiendo pauperes, in non reficiendo esurientes, in non potando sitientes, in non solemnizando feﬅa sabatha, et neomeniah, nec in eis castè et piè vivendo, in comentiendo suadentibus mihi mala, in nocendo potius, <choice><abbr>quã</abbr><expan>qua<ex>m</ex></expan></choice>
+							adiuvando petentibus, in clamorem pauperum 	non libenter nec misericorditer audiendo, in non servando senioribus reverentiam, propinquis, et benefactoribus meis fidem, et <choice><abbr>gratiã</abbr><expan>gratia<ex>m</ex></expan></choice> non reddendo, in delectatione, in carnalia concubita non evitando, in Ecclesia Dei superbè stando, sedendo, egrediendo, superfluis, et ociosis colloquijs ibidem vacando, ac taliter operando in vasa sancta, et ministerium <choice><abbr>sanctũ</abbr><expan>sanctu<ex>m</ex></expan></choice> ac panem propositionis palluto ore, ac manibus immundis tangendo, et comedendo, in orationibus, et psalmodÿs negligenter recitandis, et audiendis.</p>
+						  <p>Detestor etiam ea<choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> peccavi in cogitationibus pessimus, meditationibus pravis, suspicationibus falsis, iudicijs temerarijs, in consensu malo, in adiuvando consilio impiorum, in concupiscentia carnali, in delectatione immunda, in verbis otiosis, in mendacijs, et falsitatibus, in iuramentis diversimodè factis, in detractionibus, in discordÿs seminatis, in curiositate, in gulositate, in susurratione, in violentia,
+							in maledictione, in murmuratione in blasphemÿs,
+
+
+					  <pb n="9v" xml:id="CS_fol_009v" facs="data/images/single/clav_9v.png"/>
+							in curiositatibus, in vaniloquÿs, in insultibus, in dissimulatione, in vigilÿs Deo contrarÿs, in transgressione <choice><abbr>pręceptorum</abbr><expan>pr<ex>ae</ex>ceptorum</expan></choice> decem, in negligentia propositi mei, in dilectione Dei, et proximi mei, in vissu, in auditu, gustu, odoratu, et tactu, omnibus et quibuscumque modis, in quibus humana fragilitas contra Deum Creatorem suum, aut cogitando, aut operando, aut concupiscendo, aut delectando peccare poteﬅ, in omnibus me peccasse, ac reum in conspectu Domini, super omnes homines, me esse cognosco, et ideo confiteor vobis, et supplex adoro sanctos Angelos omnes, et filios Dei, in quorum conspectu hęc omnia confessus sum, quatenus non gaudeat de me inimicus meus, nec glorietur adversus me in die novissima, dicens me scelera mea tacuisse, et ante faciem Domini confessum me fuisse; sed sit gaudium in cælo de me <!--me fuisse: ligature --> sicut de alÿs iustis, qui confessi fuerunt peccata sua ante tuam pręsentiam Altissime Pater omnipotens, per tuam immensam clementiam, concede mihi ut possim videre et cognoscere omnes spirituſ, quos invocavero; ita ut cum ipsis adimplere possim meam voluntatem, per gloriam et magnitudinem tuam, Pater ineffabilis et sanctus.</p>
+					   	<p>Finita conffessione, <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> fieri debet coram Altissimo, magna cum humilitate, et intimo cordis affectu, Magister dicat sequentem orationem: <hi rend="emphasis">Oratio</hi>. <hi rend="emphasis">Domine</hi> omnipotens sempiterne Deus Pater
+
+
+					  <pb n="10r" xml:id="CS_fol_010r" facs="data/images/single/clav_10r.png"/>
+							omnium creaturarum; Pietas, et misericordia tua veniat super me, quia per te Domine creatus sum, supplex exoro te, ut me deffendas ab adversarÿs meis, et fides pietatis tuę confirmetur in me: tibi Domine commendo corpus meum et animam meam, quia in alio non eﬅ spes mea, nec habere volo, nisi in te Deus meus, adiuva me Domine, exaudi me in quacumque die, et hora invocavero te, nec de me oblibiscariſ per tuam misericordiam, nec ame elongaberiſ: Domine eﬅo in meum auxilium, Deus salutis meę. Domine indue me cor, et viscera mea misericordia tua, per te Deum, qui vivis et regnas in sęcula sęculorum. amen.</p>
+					  	<p><hi rend="emphasis">Domine</hi> Deus Pater omnipotens, qui ante omnia sęcula ineffabilem, summam, ac tibi ęternam sapientiam formasti, ac in ortu sęculorum, cælum et terram, mare, et omnia <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> in eis sunt, oris tui spiritu vivificasti; te laudo, te benedico, te adoro, atque glorifico: Esto <choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice>ro propitius mihi peccatori, et ne despiciaſ me, sed salva, et adiuva me opus manuum tuarum, per nomen sanctum tuum depelle ab anima mea ignorantiam, et illumina me igniculo sapientię tuę; aufer <choice><abbr>â</abbr><expan>a<ex>ut</ex></expan></choice> sensu meo desideria libidinis, et stultiloquium, per te <choice><abbr>Deũ</abbr><expan>Deu<ex>m</ex></expan></choice> vivum, cuius honor et imperium per sęcula sęculorum. amen.</p>
+
+        </div>
+
+				<div type="chapter" n="5">
+					<head>Caput 5. Oratio et coniuratio.</head>
+						<p><hi rend="emphasis">D</hi>omine sancte Pater omnipotens, ac Deus
+
+				    <pb n="10v" xml:id="CS_fol_010v" facs="data/images/single/clav_10v.png"/>
+							misericorſ qui omnia creasti, cuncta cognoscis et vales, cuique nihil eﬅ absconditum, et imposibile, et scis quod hoc non facimuſ, ut experiamur virtutem tuam, sed ut videamus lumen rerum occultarum, rogamus te ut per <choice><abbr>sanctã</abbr><expan>sancta<ex>m</ex></expan></choice> misericordiam tuam, subÿcere digneris, ut secreta secretorum omnium specierum nobis undique sint manifeﬅa, per te sanctissime <hi rend="emphasis">Adonay</hi>, cuius potestas, et imperium sine fine permanet per sęcula cuncta. amen.</p>
+						  <p>Dicta oratione, exorcizator extendat manus super Pentacula, et unus ex socÿs teneat librum apertum ante magistratum, in quo scripte sint orationes, et coniurationes, ad submittendos, et subiugandos spiritus, et Magister intuendo cælum, versus unamquamque mundi partem, dicat:</p>
+						  <p><hi rend="emphasis">Domine</hi> Deus eﬅo mihi turris fortitudiniſ a facie spiritum malignantium.</p>
+						  <p>Postea se vertat iterum ad quatuor mundi partes, et versus unamquamque illarum dicat hęc verba:</p>
+					   	<p>Ecce signa et nomina Creatoris, per<choice><abbr>quę</abbr><expan>qu<ex>ae</ex></expan></choice> expavescitis quotidie, et timetis, obedite ergo per <choice><abbr>hęc</abbr><expan>h<ex>ae</ex>c</expan></choice> sacratissima nomina et per <choice><abbr>hęc</abbr><expan>h<ex>ae</ex>c</expan></choice> secreta <choice><abbr>secretorũ</abbr><expan>secretoru<ex>m</ex></expan></choice>.</p>
+              <p>Quo dicto, ac peracto, acquacumque mundi parte videbis illos venire, et si impediti fuerint, aut in aliquo loco detenti, ut venire non poterint; tunc incipies iterum sequenti modo coniurare, et scias illos non desinere ad te venire, ad tuam voluntatem adimplendam, etiam si ferreis, igneis
+
+
+						<pb n="11r" xml:id="CS_fol_011r" facs="data/images/single/clav_11r.png"/>
+    					que catenis adstricti fuerint.</p>
+    					<p><hi rend="emphasis">Conjuro</hi> vos spiritus per potentiam, sapientiam, et virtutem spiritus Dei, per <choice><abbr>increatã</abbr><expan>increata<ex>m</ex></expan></choice> Dei sapientiam, per immensam bonitatem Dei, per fortitudinem Dei, per magnitudinem Dei, per unitatem Dei, per nomina sancta Dei. <hi rend="emphasis">Eheije</hi>, quod eﬅ radix et truncus omnium <choice><abbr>aliorũ</abbr><expan>alioru<ex>m</ex></expan></choice> divinorum nominum, et unde accipiunt esse et virtutem, quod Adam nominavit, et assequtus est cognitionem omnium creaturarum. Coniuro vos per nomen invissibile <hi rend="emphasis">Iod</hi>, quod unitatem et simplicitatem divinę naturę significat, quod etiam Abel nominavit, et meruit eradere manuſ fratris sui Caÿn. Conjuro vos per nomen <hi rend="emphasis">Iehova</hi> <hi rend="emphasis">Elohijm</hi>, quod tantę Maiestatis diffusionem, significat, quod etiam Noe nominavit, et aquas diluvÿ valuit effugere cum tota domo sua.</p>
+    					<p><hi rend="emphasis">Conjuro</hi> vos per nomen Dei <hi rend="emphasis">El</hi> forte et admirabile, quod in tante Maieﬅate <choice><abbr>clementiã</abbr><expan>clementia<ex>m</ex></expan></choice> et bonitatem significat, quod Abraham nominavit, et meruit effugere de Ur <choice><abbr>Caldęorum</abbr><expan>Cald<ex>ae</ex>orum</expan></choice>.</p>
+    					<p><hi rend="emphasis">Conjuro</hi> vos per corroboratum nomen <hi rend="emphasis">Elohijm Gibor</hi>, quod Deum fortem significat atque robustum, punientem culpas <choice><abbr>improborũ</abbr><expan>improboru<ex>m</ex></expan></choice>, et vissitantem iniquitates Patrum in filios usque ad tertiam, et quartam Generationem, quod Isaac nominavit, et meruit effugere gladium Patris sui <choice><abbr>Abrahę</abbr><expan>Abrah<ex>ae</ex></expan></choice>.</p>
+    					<p><hi rend="emphasis">Conjuro</hi> vos, et exorcizo per sanctissimum nomen <hi rend="emphasis">Eloha Vangadat</hi>, quod Iacob nominavit in magna tribulatione, et meruit nomen Israel, quod eﬅ <choice><abbr>pręvalens</abbr><expan>pr<ex>ae</ex>valens</expan></choice> de Deo, et liberatus
+
+
+             <pb n="11v" xml:id="CS_fol_011v" facs="data/images/single/clav_11v.png"/>
+
+
+
+
+						</p>
+				</div>
+
+				<!--
+				<div type="chapter" n="X">
+					<head>Caput X</head>
+						<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						</p>
+				</div>
+			   -->
+			</div>
+
+		</body>
+	</text>
+</TEI>
