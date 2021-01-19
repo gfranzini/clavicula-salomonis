@@ -6,8 +6,8 @@ Transcribed for the [_Verba Bestiae_](https://github.com/CIRCSE/VerbaBestiae) pr
 
 ## Encoding criteria
 
-- It's not always 100% clear whether the first letter of a word is in capitals. I try to maintain capitalisation in the transcription.
-- I remove the last line of one folio if repeated on the next folio.
+- Not always 100% clear whether the first letter of a word is in capitals. I try to maintain capitalisation in the transcription.
+- I remove the last line of a folio if repeated on the next folio.
 
 
 ### Encoding Check-list
