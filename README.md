@@ -10,13 +10,12 @@ Transcribed for the [_Verba Bestiae_](https://github.com/CIRCSE/VerbaBestiae) pr
 
 - paragraphs
 - abbreviations
-- emphasis
 - special characters
 - ligatures
 - additions and deletions  
 
 
-## Encoding examples
+<!--## Encoding examples
 
 ### Ligatures and special characters
 
@@ -24,7 +23,7 @@ Transcribed for the [_Verba Bestiae_](https://github.com/CIRCSE/VerbaBestiae) pr
 - Special characters: ę, ſ
 
 
-<!--TEI references:
+TEI references:
 - `<charDecl>` element: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/examples-charDecl.html
 - `<g>` element: https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-g.html
 - `<glyph>` element: https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-glyph.html

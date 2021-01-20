@@ -81,7 +81,7 @@
             "value": "interpretative",
             "label": "Interpretative",
             "title": "Interpretative edition",
-            "visible": false
+            "visible": true
         }
     ],
 
