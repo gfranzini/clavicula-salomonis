@@ -99,10 +99,12 @@
   <text xml:id="text">
     <front>
       <titlePage>
-        <titlePart>Clavicula Salomonis</titlePart>
+        <titlePart>CLAVICULA SALOMONIS REGIS EX IDIOMATE HÆBREO VERSA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
       </titlePage>
       <div type="paratext" subtype="index">
-        <head>INDEX LIBRI PRIMI <choice><abbr>CLAVICUlę</abbr><expan>CLAVICUL<ex>ae</ex></expan></choice> Salomonis</head>
+        
+
+        <!--<head>INDEX LIBRI PRIMI CLAVICUlę Salomonis</head>
         <list type="index" rend="simple">
           <item>
             CAPUT Primum.
@@ -179,8 +181,7 @@
             Septem Pentacula nigri coloris, .
 
           </item>
-          <!-- continua-->
-        </list>
+        </list>-->
       </div>
     </front>
 
