@@ -94,7 +94,7 @@
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
 
-    "namedEntitiesSelector": false,
+    "namedEntitiesSelector": true,
     "namedEntitiesToHandle": [
         {
             "tagName": "persName",
