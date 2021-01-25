@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schema/tei-cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 <teiHeader>
  <fileDesc>
-  <titlestmt>
-   <title type="main">Clavicula salomonis</title>
-   <title type="sub">Transcription</title>
-   <respstmt>
-    <resp>Encoded by:</resp>
-    <name>Greta Franzini</name>
-   </respstmt>
-  </titlestmt>
- <publicationstmt>
-  <publisher></publisher>
-  <pubPlace></pubPlace>
-  <date>XXXX</date> <!-- define -->
-  <availability>
-  <p>CC0</p> <!-- define -->
-  </availability>
- </publicationstmt>
- <sourceDesc>
- <p>Images: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>
- </sourceDesc>
- </fileDesc>
- <encodingDesc>
-  <listPerson>
-   <person>
-    <persName xml:id="solomon">solomon</persName>
-    <note>see entry in <ref target="http://lila-erc.eu/data/id/lemma/20639">LiLa</ref>.</note>
-   </person>
-  </listPerson>
- </encodingDesc>
+    <titleStmt>
+     <title type="main">Clavicula Salomonis</title>
+     <title type="sub">Transcription</title>
+     <respStmt>
+      <resp>Encoded by:</resp>
+      <name>Greta Franzini</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher></publisher>
+    <pubPlace></pubPlace>
+    <date>XXXX</date> <!-- define -->
+    <availability>
+    <p>CC0</p> <!-- define -->
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+     <msDesc>
+       <!--<p>Images: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>-->
+       <msIdentifier>
+       </msIdentifier>
+     </msDesc>
 
+     <listPerson>
+      <person>
+       <persName xml:id="Salomon">Salomon</persName>
+       <note>See entry in <ref target="http://lila-erc.eu/data/id/lemma/20639">LiLa</ref>.</note>
+      </person>
+     </listPerson>
+   </sourceDesc>
+ </fileDesc>
 </teiHeader>
 
 <text xml:id="text">
@@ -40,7 +42,7 @@
 
 <front>
 <titlePage>
-<titlePart>CLAVICULA sALOMONIs REGIs EX IDIOMATE HAEBREO VERsA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
+<titlePart>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
 </titlePage>
 <div type="paratext">
 </div>
@@ -48,7 +50,7 @@
 
 
 <body>
-<head>CLAVICULA sALOMONIs REGIs EX IDIOMATE HAEBREO VERsA PER DOM. ABRAHAMUM COTURNIUM. LIBER PRIMUs.</head>
+<head>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM. LIBER PRIMUS.</head>
 
 <!--<div type="toc">
 <head>INDEX LIBRI PRIMI CLAVICUlae salomonis</head>
@@ -133,7 +135,7 @@ septem Pentacula nigri coloris, .
 
 <pb n="1r" xml:id="Cs_fol_001r" facs="data/images/single/clav_1r.png"/>
 <head>Caput 1. De amore divino huic scientiae praemittendo.</head>
-<p>Initium nostrae clavis inquit <persName ref="#solomon"><w>salomon</w></persName> David Regis Israel, est Deum timere, et adorare, eumque contritione cordis summaque devotione honorare, ac in omnibus rebus faciendis invocare, sic que ipse te ducet per viam rectam. Cum autem scientiarum ac magicarum artium notitiam velis acquirere, ordinem dierum horarum, et Lunae in promptu habere necesse est, sine quorum observatione aliquid haud fieri potest, nec unquam poterit, ijs autem diligenter observatis, faciliter ad optatum finem poteris pervenire.</p>
+<p>Initium nostrae clavis inquit <persName ref="#Salomon">Salomon</persName> David Regis Israel, est Deum timere, et adorare, eumque contritione cordis summaque devotione honorare, ac in omnibus rebus faciendis invocare, sic que ipse te ducet per viam rectam. Cum autem scientiarum ac magicarum artium notitiam velis acquirere, ordinem dierum horarum, et Lunae in promptu habere necesse est, sine quorum observatione aliquid haud fieri potest, nec unquam poterit, ijs autem diligenter observatis, faciliter ad optatum finem poteris pervenire.</p>
 </div>
 
 <div type="chapter" n="2">
@@ -145,7 +147,7 @@ septem Pentacula nigri coloris, .
 <pb n="1v" xml:id="Cs_fol_001v" facs="data/images/single/clav_1v.png"/>
 ab altioribus, usque ad inferiores, et ita fit in qualibet hora diei ac noctis.</p>
 <p>Ordo autem Planetarum, incipiendo ab altiori, est	sequens. Primus est sabetaij id est saturnus, sub saturno. Zedett sive Jovis, sub Jove. Madaym sive Mars, sub Marte. semes sive sol, sub sole. Noga sive Venus, sub Venere. Codab sive Mercurius, sub Mercurio. Levana sive Luna quae est omnibus Planetis inferior.</p>
-<p>scire ulterius debes Planetas habere dominium in die, cui proprium nomen tribuere, id est saturnus die sabathi. Jovis die Jovis; et sic de reliquis. Incipit autem dominium Planetae cuiuslibet horae, ab Aurora, usque ad ortum solis illius diei, qui denominatur aut tali Planeta secundum ordinem, exempli gratia; prima hora diei saturni, quae est ab Aurora, usque ad ortum solis, dominatur saturnus; secunda Jovis; tertia Mars; quarta sol; quinta Venus; sexta Mercurius; septima Luna; octava iterum saturnus, et sic de reliquis intelligendum est.</p>
+<p>Scire ulterius debes Planetas habere dominium in die, cui proprium nomen tribuere, id est saturnus die sabathi. Jovis die Jovis; et sic de reliquis. Incipit autem dominium Planetae cuiuslibet horae, ab Aurora, usque ad ortum solis illius diei, qui denominatur aut tali Planeta secundum ordinem, exempli gratia; prima hora diei saturni, quae est ab Aurora, usque ad ortum solis, dominatur saturnus; secunda Jovis; tertia Mars; quarta sol; quinta Venus; sexta Mercurius; septima Luna; octava iterum saturnus, et sic de reliquis intelligendum est.</p>
 <p>Nota: quamlibet operationem magicam debere fieri sub proprio Planeta, et in hora eiusdem, e. g. in diebus, et horis saturni praeparari debent experimenta ad animas ex inferis vocandas, illorum tantum qui naturali morte occubuerunt; et etiam experimenta pro bona vel infelici sorte aedificiorum ad habendas in somnijs spiritus familiares, ad dandam prosperam, vel adversam fortunam praedijs, stabilibus seminibus, fructibus, et similibus ad acquirendam doctrinam, ad odia disseminanda, ad destructio-
 
 
@@ -173,8 +175,7 @@ Advertere insuper debes, si ad efectum peroptatum cupis pervenire, tuarum operat
 menta sunt bonae; illa inquam experimenta, quae non videntur contineri in aliquo ex supras memoratis generibus, adjunctis speciatim rebus quae de hac materia tractamus.</p>
 <p>Horae Lunae ad probanda experimenta pro furtis inveniendis, ad habendas Vissiones nocturnas, spiritus inter dormiendum conveniendos, et ad res aquatiles praeparandas aptae sunt.</p>
 <p>Horae itidem Veneris optimae sunt ad praeparanda experimenta sortilegiorum veneficiorum, Venenationum, rerum que omnium Venerearum, ac pulverum, quae ad phraeneses, aliaque similia provocanda conficiuntur.</p>
-<p>sed ad artem conficiendam, non solum in	horis, sed insuper conficies in die Planetae, quia experimentum melius erit, semper que verificabitur,
-servatis etiam rebus de hac materia in nostris inferioribus Capitibus contentis, ex quibus, si aliquid praeterieris, nunquam ad artis Complementum pervenire poteris.</p>
+<p>Sed ad artem conficiendam, non solum in	horis, sed insuper conficies in die Planetae, quia experimentum melius erit, semper que verificabitur, servatis etiam rebus de hac materia in nostris inferioribus Capitibus contentis, ex quibus, si aliquid praeterieris, nunquam ad artis Complementum pervenire poteris.</p>
 <p>In rebus autem Lunae pertinentibus, ut pro invocatione spirituum, pro operibus Necromantiae, et pro inveniendis furtis, oportet ut Luna sit in aliquo signo terreo, scilicet Tauro, Virgine, aut Capricorno; Pro amore gratia, et invisibilitate, sit Luna in signo ignes, Ariete videlicet, Leone, et sagitario.</p>
 <p>Pro odio, discordia, et destructione sit Luna in signo aqueo, nimirum in Cancro, scorpione et Pisce.
 
@@ -190,7 +191,7 @@ Pro experimentis extraordinarijs, quae non continentur sub determinato genere si
 <head>Caput 3. De Artibus.</head>
 
 <pb n="4r" xml:id="Cs_fol_004r" facs="data/images/single/clav_4r.png"/>
-<p>si igitur experimenta et artes efficere velis, quae superius diximus, habeas praeparata experimenta debitis diebus, horisque congruis, omnibusque solemnitatibus requisitis, ut in proprijs capitibus continetur.</p>
+<p>Si igitur experimenta et artes efficere velis, quae superius diximus, habeas praeparata experimenta debitis diebus, horisque congruis, omnibusque solemnitatibus requisitis, ut in proprijs capitibus continetur.</p>
 <p>Experimenta autem sunt duplicis generis. Primum est experiri quod faciliter, absque circulis fieri potest, et in hoc non aliud observandum est, quam id quod scriptum reperitur in proprijs capitibus.</p>
 <p>Aliud genus nullo modo ad finem reduci potest abque circulo, ad quem perfecte faciendum, observanda sunt sequentia ab artis Magistro una cum suis discipulis, antequam ad circulum deveniatur.</p>
 <p>Primo igitur antequam Magister opus incipiat, debet ipse cum discipulis grandi ac exacta continentia abstineri aut coitu per novem dies, sicut etiam aut vanis et otiosis colloquijs, ut in secundo libro plene apparet Cap. 4. Horum autem dierum sex transactis, recitare orationem et confessionem, ut infra dicetur; septimo autem die, Magister solus ingrediatur aliquem locum secretum, et vestimenta exuat, habeat que aquam exorcizatam, quae aut vertice capitis, usque ad ipsius pedes descendere debet, dicendo orationem Domine Adonay etc. ut in 2. Libro.</p>
@@ -314,13 +315,17 @@ que catenis adstricti fuerint.</p>
 
 
 <pb n="13r" xml:id="Cs_fol_013r" facs="data/images/single/clav_13r.png"/>
+
+</p>
+</div>
+
 <div type="chapter" n="6">
 <head>Caput 6. Conjuratio fortior.</head>
-<p>si tunc venerint, bene; sin autem venerint, detegat Magister sacra Pentacula, quae facienda sunt ad imperandum spiritus, quae pentacula collo colligata esse debent, tenendo illa cum manu sinistra, et cum dextera fladium sacrum, confortandoque socios, elevet vocem, et dicat:</p>
+<p>Si tunc venerint, bene; sin autem venerint, detegat Magister sacra Pentacula, quae facienda sunt ad imperandum spiritus, quae pentacula collo colligata esse debent, tenendo illa cum manu sinistra, et cum dextera fladium sacrum, confortandoque socios, elevet vocem, et dicat:</p>
 <p>Haec sunt signa secretorum, et vexilla triumphatoris Dei, et arma omnipotentis, ad deterrendas aereas potestates, in horum virtute vobis irrevocabiliter impero, ac in virtute Dei contestor, ut huc veniatis coram nobis, de quacumque mundi parte sitis, et non tardetis ad obediendum nobis, qui vobis imperamus, in virtute magni Dei, venite ergo, et non tardetis ad obediendum nobis, qui vobis imperamus in virtute magni Dei, venite ergo, et non tardetis.</p>
-<p>si tunc apparverint, ostende illis sacra Pentacula, et illos excipe humane, et gratiose disposueris; quod si non comparverint, tenendo manu dextera gladium, et sinistra Pentacula tecta velo sacro, percutiendo, et feriendo aerem gladio, quasi praetium incipere velis, Conforta socios, deinde voce aliquantulum altiori dicas sequentem orationem,
+<p>Si tunc apparverint, ostende illis sacra Pentacula, et illos excipe humane, et gratiose disposueris; quod si non comparverint, tenendo manu dextera gladium, et sinistra Pentacula tecta velo sacro, percutiendo, et feriendo aerem gladio, quasi praetium incipere velis, Conforta socios, deinde voce aliquantulum altiori dicas sequentem orationem,
 
-  
+
 <pb n="13v" xml:id="Cs_fol_013v" facs="data/images/single/clav_13v.png"/>
 vel conjurationem.
 
@@ -340,8 +345,7 @@ vel conjurationem.
 <pb n="14v" xml:id="Cs_fol_014v" facs="data/images/single/clav_14v.png"/>
 
 
-</p>
-</div>
+
 
 <!--
 <div type="chapter" n="X">
