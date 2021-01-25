@@ -40,95 +40,16 @@
 <text xml:id="text">
 
 
-<front>
-<titlePage>
-<titlePart>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
-</titlePage>
-<div type="paratext">
-</div>
-</front>
-
+  <front>
+    <titlePage>
+    <titlePart>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
+    </titlePage>
+    <div type="paratext">
+    </div>
+  </front>
 
 <body>
 <head>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM. LIBER PRIMUS.</head>
-
-<!--<div type="toc">
-<head>INDEX LIBRI PRIMI CLAVICUlae salomonis</head>
-
-<list type="index">
-<item>
-CAPUT Primum. De Amore Divino huic scientiae praemittendo___ pag: 1
-</item>
-<item>
-CAPUT secundum. De diebus, et horas Planetarum ___ pag: 2
-</item>
-<item>
-CAPUT Tertium. De Artibus ___ pag: 3
-</item>
-<item>
-CAPUT Quartum ___ pag:
-Forma Circuli _ pag: 6
-Confessio facienda ab exorcizatore pag: 9
-</item>
-<item>
-CAPUT Quintum. _ _ _ pag:
-Oratio, et Conjurationes _ pag: 12
-</item>
-<item>
-CAPUT sextum.
-Conjuratio fortior _ _ pag: 14
-</item>
-<item>
-CAPUT septimum.
-Conjuratio Fortissima _ pag: 18
-</item>
-<item>
-CAPUT Octavum.
-De Canderijs, aut Pentaculis _ _ _ pag: 24
-</item>
-<item>
-CAPUT Nonum. _ _ _ pag: 26
-De experimento furti, et quomodo fiat _ _ _ _ _ _ pag: 26
-</item>
-<item>
-CAPUT Decimum.
-De experimento invisibilitatis, et quomodo fiat _ _ _ pag: 27
-</item>
-<item>
-CAPUT Undecimum.
-De experimento amoris, et quomodo in eo agendum sit _ pag: 28
-</item>
-<item>
-CAPUT Duodecimum.
-De experimento pomi _ pag: 31
-</item>
-<item>
-CAPUT Decimum Tertium.
-De experimento Amoris in dormiendo, et quomodo fiat _ pag: 32
-</item>
-<item>
-CAPUT Decimum Quartum.
-De experimentis ad odium, et destructionem inimicorum _ pag: 33
-</item>
-<item>
-CAPUT Quintum Decimum.
-Quomodo paventur experimenta ad Ludos, illusiones etc a: _ pag: 34 what is this floating a?
-</item>
-<item>
-CAPUT sextum Decimum.
-Quomodo paventur experimenta extraordinaria _ _ pag: 35
-</item>
-<item>
-CAPUT Decimum septimum.
-</item>
-<item>
-septem Pentacula nigri coloris, .
-
-</item>
-</list>
-</div>-->
-
-
 
 
 <div type="chapter" n="1">
@@ -146,9 +67,9 @@ septem Pentacula nigri coloris, .
 
 <pb n="1v" xml:id="CS_fol_001v" facs="data/images/single/clav_1v.png"/>
 ab altioribus, usque ad inferiores, et ita fit in qualibet hora diei ac noctis.</p>
-<p>Ordo autem Planetarum, incipiendo ab altiori, est	sequens. Primus est Sabetaij id est Saturnus, sub Saturno. Zedett sive Jovis, sub Jove. Madaym sive Mars, sub Marte. Semes sive Sol, sub Sole. Noga sive Venus, sub Venere. Codab sive Mercurius, sub Mercurio. Levana sive Luna quae est omnibus Planetis inferior.</p>
+<p>Ordo autem Planetarum, incipiendo ab altiori, est sequens. Primus est Sabetaij id est Saturnus, sub Saturno. Zedett sive Jovis, sub Jove. Madaym sive Mars, sub Marte. Semes sive Sol, sub Sole. Noga sive Venus, sub Venere. Codab sive Mercurius, sub Mercurio. Levana sive Luna quae est omnibus Planetis inferior.</p>
 <p>Scire ulterius debes Planetas habere dominium in die, cui proprium nomen tribuere, id est Saturnus die Sabathi. Jovis die Jovis; et sic de reliquis. Incipit autem dominium Planetae cuiuslibet horae, ab Aurora, usque ad ortum solis illius diei, qui denominatur aut tali Planeta secundum ordinem, exempli gratia; prima hora diei Saturni, quae est ab Aurora, usque ad ortum Solis, dominatur Saturnus; secunda Jovis; tertia Mars; quarta Sol; quinta Venus; sexta Mercurius; septima Luna; octava iterum Saturnus, et sic de reliquis intelligendum est.</p>
-<p>Nota: quamlibet operationem magicam debere fieri sub proprio Planeta, et in hora eiusdem, e. g. in diebus, et horis Saturni praeparari debent experimenta ad animas ex inferis vocandas, illorum tantum qui naturali morte occubuerunt; et etiam experimenta pro bona vel infelici sorte aedificiorum ad habendas in somnijs spiritus familiares, ad dandam prosperam, vel adversam fortunam praedijs, stabilibus seminibus, fructibus, et similibus ad acquirendam doctrinam, ad odia disseminanda, ad destructio-
+<p>Nota: quamlibet operationem magicam debere fieri sub proprio Planeta, et in hora eiusdem, e.g. in diebus, et horis Saturni praeparari debent experimenta ad animas ex inferis vocandas, illorum tantum qui naturali morte occubuerunt; et etiam experimenta pro bona vel infelici sorte aedificiorum ad habendas in somnijs spiritus familiares, ad dandam prosperam, vel adversam fortunam praedijs, stabilibus seminibus, fructibus, et similibus ad acquirendam doctrinam, ad odia disseminanda, ad destructio-
 
 
 <pb n="2r" xml:id="CS_fol_002r" facs="data/images/single/clav_2r.png"/>
@@ -354,7 +275,7 @@ omnes Daemones, et super aereas potestates; Per haec igitur, et omnia alia nomin
 <pb n="15v" xml:id="CS_fol_015v" facs="data/images/single/clav_15v.png"/>
 ut sine aliqua mora veniatis, facturi coram nobis quaecumque vobis iusserimus.</p>
 <p>Jterum conjuro vos per sanctissimum nomen, quod timet omne saeculum, quod describitur his litteris: Iod, He, Uau, He, et per ultimum et tremendum diem judicij, et per sedem Baldachiae, et per hoc sanctum nomen Ieija, quod Moijses nominavit, et in cavernis Abijsi absorti sunt Dathan, et Abijron, alioquin virtute huius nomini Ieija maledicimus vos usque in profundum abijssi, in quo vos ponemus, et relegabimus, si nobis, et praedictis secretissimis secretorum rebelles fueritis. Amen, Amen, fiat, fiat.</p>
-<p>Hanc conjuriationem dicet Magister versus orientem, sed si, illa dicta, spiritus non comparuerint, eandem repetere debet versus meridiem, versus occidentem, et septentrionem, quater, si vero hoc facot, non venerint, faciet in frontibus sociorum signum Iau, et dicet:</p>
+<p>Hanc conjuriationem dicet Magister versus orientem, sed si, illa dicta, spiritus non comparverint, eandem repetere debet versus meridiem, versus occidentem, et septentrionem, quater, si vero hoc facto, non venerint, faciet in frontibus sociorum signum Iau, et dicet:</p>
 <p>Ecce iterum signum, et nomen summi triumphatoris Dei, per quod universum timet, et contremiscit, et per illa secretissima secretorum verba, et per virtutem eorum conjuro vos iterum contestor, et exorcizo, et potenter impero per potentissimum et corroboratissimum nomen Dei El forte et admirabile, per eum qui dixit, et factum est, et per nomen Iah, quod Moijses audivit, et locutus est cum Deo, et per nomen Agla, quod Joseph nominavit et liberatus est demanibus fratrum
 
 
