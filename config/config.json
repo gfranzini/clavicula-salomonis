@@ -1,7 +1,7 @@
 {
     "indexTitle": "Clavicula Salomonis [Ms. Codex 1673]",
     "webSite": "https://gfranzini.github.io/clavicula-salomonis/",
-    "logoUrl": "",
+    "logoUrl": "data/images/single/sealSolomon.png",
 
     "dataUrl": "data/text/clavicula.xml",
     "sourcesUrl": "",
@@ -75,7 +75,7 @@
             "value": "diplomatic",
             "label": "Diplomatic",
             "title": "Diplomatic edition",
-            "visible": true
+            "visible": false
         },
         {
             "value": "interpretative",
