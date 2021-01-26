@@ -3,50 +3,50 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 <teiHeader>
- <fileDesc>
-    <titleStmt>
-     <title type="main">Clavicula Salomonis</title>
-     <title type="sub">Transcription</title>
-     <respStmt>
-      <resp>Encoded by:</resp>
-      <name>Greta Franzini</name>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher></publisher>
-    <pubPlace></pubPlace>
-    <date>XXXX</date> <!-- define -->
-    <availability>
-    <p>CC0</p> <!-- define -->
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-     <msDesc>
-       <!--<p>Images: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>-->
-       <msIdentifier>
-       </msIdentifier>
-     </msDesc>
+<fileDesc>
+<titleStmt>
+<title type="main">Clavicula Salomonis</title>
+<title type="sub">Transcription</title>
+<respStmt>
+<resp>Encoded by:</resp>
+<name>Greta Franzini</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher></publisher>
+<pubPlace></pubPlace>
+<date>XXXX</date> <!-- define -->
+<availability>
+<p>CC0</p> <!-- define -->
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<!--<p>Images: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>-->
+<msIdentifier>
+</msIdentifier>
+</msDesc>
 
-     <!--<listPerson>
-      <person>
-       <persName xml:id="Salomon">Salomon</persName>
-       <note>See entry in <ref target="http://lila-erc.eu/data/id/lemma/20639">LiLa</ref>.</note>
-      </person>
-    </listPerson>-->
-   </sourceDesc>
- </fileDesc>
+<!--<listPerson>
+<person>
+<persName xml:id="Salomon">Salomon</persName>
+<note>See entry in <ref target="http://lila-erc.eu/data/id/lemma/20639">LiLa</ref>.</note>
+</person>
+</listPerson>-->
+</sourceDesc>
+</fileDesc>
 </teiHeader>
 
 <text xml:id="text">
 
 
-  <front>
-    <titlePage>
-    <titlePart>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
-    </titlePage>
-    <div type="paratext">
-    </div>
-  </front>
+<front>
+<titlePage>
+<titlePart>CLAVICULA SALOMONIS REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM</titlePart>
+</titlePage>
+<div type="paratext">
+</div>
+</front>
 
 <body>
 <head>CLAVICULA SALOMONIs REGIS EX IDIOMATE HAEBREO VERSA PER DOM. ABRAHAMUM COTURNIUM. LIBER PRIMUS.</head>
@@ -137,7 +137,7 @@ benedicat.</p>
 
 <pb n="5v" xml:id="CS_fol_005v" facs="data/images/single/clav_5v.png"/>
 Hoc igitur gladio artis, aut falciculo, detrahes, praeter circulum particularem, alium circulum, circumcirca, per pedis distantiam, super centrum primi circuli, et praeter hunc circulum, supra idem centrum per eandem distantiam, inter primum circulum artis, quem fecisti artavo, per pedis spatium formabis in quatuor mundi partibus venerabilia signa: Tau et inter primum et secundum circulum artis arte tractum, Artavo artis, facies in quatuor pentacolis tremenda nomina creatoris, scilicet inter orientem, et meridiem: Tetagramaton. Inter meridiem et occidentem Eheije. Inter occidentem et aquilonem Elijon. et inter aquilonem et orientem Eloha. Quod gravissimum est in cathalogo, sephirot. et supremarum collustrationum.</p>
-<p>Facies insuper, praeter hos circulos, duos quatrangulos equales, quorum anguli sint versus quatuor mundi partes, et spatium inter duas quadrangulorum lineas erit semipedis; in extremis angulis inius quadrati constitues centrum quatuor circulorum, quorum mensura, aut diametrum sit spatium unius pedis, quae omnia fieri debent gladio, aut artavo consecrato; in quatuor circulis inscribantur quatuor sactissima nomina dei, videlicet: ad orientem El. ad occidentem Agla. ad meridiem Iah. ad septentrionem Adonay. inter unum, et alium quatrangulum inscribatur in quatuor partibus nomen Tetagramaton. Eo modo,
+<p>Facies insuper, praeter hos circulos, duos quatrangulos equales, quorum anguli sint versus quatuor mundi partes, et spatium inter duas quadrangulorum lineas erit semipedis; in extremis angulis inius quadrati constitues centrum quatuor circulorum, quorum mensura, aut diametrum sit spatium unius pedis, quae omnia fieri debent gladio, aut artavo consecrato; in quatuor circulis inscribantur quatuor sanctissima nomina dei, videlicet: ad orientem El. ad occidentem Agla. ad meridiem Iah. ad septentrionem Adonay. inter unum, et alium quatrangulum inscribatur in quatuor partibus nomen Tetagramaton. Eo modo,
 
 
 <pb n="6r" xml:id="CS_fol_006r" facs="data/images/single/clav_6r.png"/>
@@ -187,8 +187,8 @@ Confiteor tibi Domine Rex Caeli, et terrae, et pronus ante faciem tuam deploro p
 
 
 <pb n="9r" xml:id="CS_fol_009r" facs="data/images/single/clav_9r.png"/>
-in non custodiendo Pauperes, in non reficiendo esurientes, in non potando sitientes, in non solemnizando festa sabatha, et neomeniah, nec in eis castè et piè vivendo, in comentiendo suadentibus mihi mala, in nocendo potius, quam adiuvando petentibus, in clamorem pauperum non libenter nec misericorditer audiendo, in non servando senioribus reverentiam, propinquis, et benefactoribus meis fidem, et gratiam non reddendo, in delectatione, in carnalia concubita non evitando, in Ecclesia Dei superbè stando, sedendo, egrediendo, superfluis, et ociosis colloquijs ibidem vacando, ac taliter operando in vasa sancta, et ministerium sanctum ac panem propositionis palluto ore, ac manibus immundis tangendo, et comedendo, in orationibus, et psalmodijs negligenter recitandis, et audiendis.</p>
-<p>Detestor etiam ea quae peccavi in cogitationibus pessimus, meditationibus pravis, suspicationibus falsis, iudicijs temerarijs, in consensu malo, in adiuvando consilio impiorum, in concupiscentia carnali, in delectatione immunda, in verbis otiosis, in mendacijs, et falsitatibus, in iuramentis diversimodè factis, in detractionibus, in discordijs seminatis, in curiositate, in gulositate, in susurratione, in violentia, in maledictione, in murmuratione in blasphemijs,
+in non custodiendo Pauperes, in non reficiendo esurientes, in non potando sitientes, in non solemnizando festa sabatha, et neomeniah, nec in eis caste et pie vivendo, in comentiendo suadentibus mihi mala, in nocendo potius, quam adiuvando petentibus, in clamorem pauperum non libenter nec misericorditer audiendo, in non servando senioribus reverentiam, propinquis, et benefactoribus meis fidem, et gratiam non reddendo, in delectatione, in carnalia concubita non evitando, in Ecclesia Dei superbe stando, sedendo, egrediendo, superfluis, et ociosis colloquijs ibidem vacando, ac taliter operando in vasa sancta, et ministerium sanctum ac panem propositionis palluto ore, ac manibus immundis tangendo, et comedendo, in orationibus, et psalmodijs negligenter recitandis, et audiendis.</p>
+<p>Detestor etiam ea quae peccavi in cogitationibus pessimus, meditationibus pravis, suspicationibus falsis, iudicijs temerarijs, in consensu malo, in adiuvando consilio impiorum, in concupiscentia carnali, in delectatione immunda, in verbis otiosis, in mendacijs, et falsitatibus, in iuramentis diversimode factis, in detractionibus, in discordijs seminatis, in curiositate, in gulositate, in susurratione, in violentia, in maledictione, in murmuratione in blasphemijs,
 
 
 <pb n="9v" xml:id="CS_fol_009v" facs="data/images/single/clav_9v.png"/>
@@ -231,14 +231,11 @@ que catenis adstricti fuerint.</p>
 <pb n="12r" xml:id="CS_fol_012r" facs="data/images/single/clav_12r.png"/>
 <!--ELE-->
 
-
 <pb n="12v" xml:id="CS_fol_012v" facs="data/images/single/clav_12v.png"/>
 <!--ELE-->
 
 <pb n="13r" xml:id="CS_fol_013r" facs="data/images/single/clav_13r.png"/>
 <!--ELE-->
-
-
 </p>
 </div>
 
@@ -274,14 +271,21 @@ omnes Daemones, et super aereas potestates; Per haec igitur, et omnia alia nomin
 
 <pb n="15v" xml:id="CS_fol_015v" facs="data/images/single/clav_15v.png"/>
 ut sine aliqua mora veniatis, facturi coram nobis quaecumque vobis iusserimus.</p>
-<p>Jterum conjuro vos per sanctissimum nomen, quod timet omne saeculum, quod describitur his litteris: Iod, He, Uau, He, et per ultimum et tremendum diem judicij, et per sedem Baldachiae, et per hoc sanctum nomen Ieija, quod Moijses nominavit, et in cavernis Abijsi absorti sunt Dathan, et Abijron, alioquin virtute huius nomini Ieija maledicimus vos usque in profundum abijssi, in quo vos ponemus, et relegabimus, si nobis, et praedictis secretissimis secretorum rebelles fueritis. Amen, Amen, fiat, fiat.</p>
+<p>Iterum conjuro vos per sanctissimum nomen, quod timet omne saeculum, quod describitur his litteris: Iod, He, Uau, He, et per ultimum et tremendum diem judicij, et per sedem Baldachiae, et per hoc sanctum nomen Ieija, quod Moijses nominavit, et in cavernis Abijsi absorti sunt Dathan, et Abijron, alioquin virtute huius nomini Ieija maledicimus vos usque in profundum abijssi, in quo vos ponemus, et relegabimus, si nobis, et praedictis secretissimis secretorum rebelles fueritis. Amen, Amen, fiat, fiat.</p>
 <p>Hanc conjuriationem dicet Magister versus orientem, sed si, illa dicta, spiritus non comparverint, eandem repetere debet versus meridiem, versus occidentem, et septentrionem, quater, si vero hoc facto, non venerint, faciet in frontibus sociorum signum Iau, et dicet:</p>
 <p>Ecce iterum signum, et nomen summi triumphatoris Dei, per quod universum timet, et contremiscit, et per illa secretissima secretorum verba, et per virtutem eorum conjuro vos iterum contestor, et exorcizo, et potenter impero per potentissimum et corroboratissimum nomen Dei El forte et admirabile, per eum qui dixit, et factum est, et per nomen Iah, quod Moijses audivit, et locutus est cum Deo, et per nomen Agla, quod Joseph nominavit et liberatus est demanibus fratrum
 
 
 <pb n="16r" xml:id="CS_fol_016r" facs="data/images/single/clav_16r.png"/>
-suorum,
-</p>
+suorum, et per nomen Uau, quod Abraham audivit, et cognovit omnipotentem Deum et per nomen Tetagramaton, vel quatuor litterarum, quod Jossuas nominavit, et ad terram promissionis meruit introducere exercitum Israel; et per nomen Anabona, per quod Deus plasmavit hominem, et totum universum; et per nomen Arpheton, et in nomine Arpheton, per quod Angelo ad hoc determinati cum corporibus in specie vissibili, terribile judicium sonitu tubae mundum inclamabunt, et tunc peribit memoria impiorum; et per nomen Adonaij, et in nomine Adonaij, per quod Deus iudicaturus est omnem carnem, ad cuius vocem boni et mali, in ictu oculi resurgent, et stabunt cum Angelis in aere simul cum Domino judicaturi impios; et per nomen Oneiepheon, per quod Deus omnes vita functos, iterum ad vitam revocabit; et per nomen Eloijm, et in nomine Eloijm, in quo Deus turbabit maria, et pisces commovebuntur, et inter se bellabunt, et morietur una die tertia pars hominum, in circuitu maris, et fluminum; et per nomen Elija, et in nomine Elija, in quo Deus maria et flumina excitabit<!--?-->, et demeabit eorum profunda; et per nomen On, et in nomine On, in quo Deus restituet maria et flumina in pristinum; et per nomen Messiah, et in nomine Messiah,
+
+
+<pb n="16v" xml:id="CS_fol_016v" facs="data/images/single/clav_16v.png"/>
+per quod Deus faciet omnes bestias terrae inter se bellare, ita ut una die omnes morientur; et per nomen Ariel, et in nomine Ariel, in quo Deus destruet turres, Domos, et omnia aedificia, una die ita ut non remaneat lapis supra lapidem; et per nomen Iaphat, in quo Deus faciet lapides ad invicem contra se bellare, et tunc gentes fugient ad mare, et dicent: aquae cooperite nos; et per nomen Aemanuel, in quo Deus faciet mirabilia in volatilibus caeli, ita ut omnia insaniant, et inter se simul bellentur; et per nomen Anael, et in nomine Anael, in quo Deus omnia humiliabit, et valles, et colles implebit, et erit superficies orbis terrae, undique aequalis; et per nomen Zedeezia, et in nomine Zedeezia, in quo Deus faciet solem, et Lunam obscurare, et omnes stellas etiam excuti de caelo; et per nomen Sephosiel, et in nomine Sephosiel, in quo Deus ad judicium veniet sicut Princeps, cum triumpho, ad civitatem convocatus, et zona aurea praecinctus, cui Angeli praeibunt, et in eius adventu omnia climata mundi turbabuntur, et ignis praeibit ante eum in circuitu eius, et per gijrum tempestas, et turbo, et per nomen Iau, in quo Deus fecit diluvium, et aquae praevaluerunt montibus, et operuerunt cacumina eorum per quindecim cubitos; et per nomen Rechia, in quo Deus, purgatis saeculis, effundet super universum, spiritum sanctum suum, et vos rebelles creaturas et indig-
+
+
+<pb n="17r" xml:id="CS_fol_017r" facs="data/images/single/clav_17r.png"/>
+nas in profundo lacu, et miseria et futo faecis, sive profundi, catenis igneis demerget in sempiternum.</p>
 
 </div>
 
