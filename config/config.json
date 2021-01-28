@@ -89,7 +89,7 @@
     "enableNavBar": true,
     "initNavBarOpened": false,
     "thumbnailsButton": false,
-    "viscollButton": false,
+    "viscollButton": true,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
