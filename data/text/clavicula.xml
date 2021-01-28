@@ -5,7 +5,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title type="main">University of Pennsylvania Ms. Codex 1673: Clavicula Salomonis Regis</title>
+<title>University of Pennsylvania Ms. Codex 1673: Clavicula Salomonis Regis</title>
 <respStmt>
 <resp>Transcription by:</resp>
 <name>Greta Franzini</name>
@@ -13,6 +13,7 @@
 </titleStmt>
 <publicationStmt>
 <publisher>The University of Pennsylvania Libraries</publisher>
+<publisher>Greta Franzini</publisher>
 <availability>
 <licence target="http://creativecommons.org/publicdomain/mark/1.0/">
 These images and the content of Rare Book &amp; Manuscript Library, Ms. Codex 1673: Clavicula Salomonis Regis are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/.
@@ -45,7 +46,7 @@ The manuscript transcription is licensed under a Creative Commons Zero 1.0 Unive
 </msIdentifier>
 <msContents>
 <summary>
-18th-century Latin copy of the Key of Solomon, a 16th-century magical handbook which includes instructions on subjects such as the conjuration of spirits (f. 11r), enchanting a piece of fruit with a love charm (f. 31v), extracting bat's blood (f. 104v), the preparation of ink, paper or parchment for magical practices (f. 105r), and the use of knives, swords, and wands (f. 96v). The text is divided into two books and contains a complete list of contents for each book (f. iii recto, 113r).
+18th century Latin copy of the Key of Solomon, a 16th century magical handbook which includes instructions on subjects such as the conjuration of spirits (f. 11r), enchanting a piece of fruit with a love charm (f. 31v), extracting bat's blood (f. 104v), the preparation of ink, paper or parchment for magical practices (f. 105r), and the use of knives, swords, and wands (f. 96v). The text is divided into two books and contains a complete list of contents for each book (f. iii recto, 113r).
 </summary>
 <textLang mainLang="lat" otherLangs="heb">Latin, with transliterated Hebrew words</textLang>
 <msItem>
@@ -60,16 +61,16 @@ The manuscript transcription is licensed under a Creative Commons Zero 1.0 Unive
 <persName>Northumberland, Hugh Percy, Duke of, 1742-1817</persName>
 </respStmt>
 </msItem>
-<msItem n="iii recto">
+<!--<msItem n="iii recto">
 <locus>[iii recto]</locus>
 <title>Table of contents, f. iii recto</title>
-</msItem>
+</msItem>-->
 </msContents>
 <physDesc>
 <objectDesc>
 <supportDesc material="mixed">
 <support>
-<p>paper</p>
+<p>Paper</p>
 </support>
 <extent>121 leaves : 223 x 164 mm. bound to 233 x 170 mm</extent>
 <foliation>
@@ -142,7 +143,7 @@ Contemporary quarter leather with the remains of silk ties.
 <history>
 <origin>
 <p>Written in the second half of the 18th century.</p>
-<origDate>between 1750 and 1799</origDate>
+<origDate>Between 1750 and 1799.</origDate>
 </origin>
 <provenance>
 Formerly owned by Charles Rainsford (British army officer, fellow of the Royal Society, and alchemist); bequeathed by Rainsford to Hugh Percy, Second Duke of Northumberland.
@@ -270,7 +271,7 @@ Pro experimentis extraordinarijs, quae non continentur sub determinato genere si
 
 
 <pb n="4v" xml:id="CS_fol_004v" facs="data/images/single/5170_0017_web.jpeg"/>
-is lineis albis, mundis, et expolitis; et tunc una cum discipulis pergat ad locum secretum eisque praecipiat ut sese exuant, usque ad nuditatem, quibus exutis, Magister habeat aquam	exorcizatam, quam expendat supra capita eorum, taliter ut illos aspergat, et lavet usque ad pedes, et spargendo aquam, dicat Magister: Renovati, loti, et mundi sitis. etc. ut in Lib. 2 Cap. 3.</p>
+tis lineis albis, mundis, et expolitis; et tunc una cum discipulis pergat ad locum secretum eisque praecipiat ut sese exuant, usque ad nuditatem, quibus exutis, Magister habeat aquam	exorcizatam, quam expendat supra capita eorum, taliter ut illos aspergat, et lavet usque ad pedes, et spargendo aquam, dicat Magister: Renovati, loti, et mundi sitis. etc. ut in Lib. 2 Cap. 3.</p>
 <p>Quo finito, socij sicut Magister super carnem induant lineas vestes albas, mundas, et expolitas, et in illis tribus diebus Magister, atque discipuli ieiunare debent cum ea solemnitate atque oratione ut in Lib. 2. Cap. 2.</p>
 <p>Notandum quod ultimi tres dies debent esse suaves, clari, absque vento, et nubibus percurrentibus; et ultimo die Magister cum discipulis pergat ad fontem aquae vivae secretum, aut ad fluminem, et unoquoque denudato, se lavent propria corpora, ea solemnitate, quae habetur in 2 Lib. Cap. ult. mundo autem, et perpolito unoquoque illorum, induat se supra carnem tybialia, et vester lineas albas, mundasque, ut habetur Lib. 2. Cap. 6. solemnitate et oratione ut ibidem.</p>
 <p>Postea solus Magister dicat confessionem ut in Lib. 2. Cap. 4. Qua finita, Magister, in signum penitentiae, discipulos in fronte osculetur et discipuli eodem modo ad invicem osculentur, et Magister extendat manus suas super discipulos, eosque in signym absolutionis, absolvat et
@@ -304,19 +305,19 @@ introitu humilitatis nostrae, et aeternae felicitatis, severae laetitiae, fructi
 <p>Oro te Domine omnipotens, et misericors ut benedicendo, benedico te digneris hunc circulum, et totum hunc locum, et omnes qui hic
 
 
-<pb n="7r" xml:id="CS_fol_007r" facs="data/images/single/5170_0023_web.jpeg"/>
+<pb n="7r" xml:id="CS_fol_007r" facs="data/images/single/5170_0022_web.jpeg"/>
 manent, et Angelum bonum nobis praebeas, et ad custodiam nostram, qui tibi servimus, et miracula tuae legis desideramus; remove a nobis omnem virtutem contrariam, et potestatem, et salva nos ab omni malo, et perturbatione: dignare nos tutos in loco isto manere, per te, qui vivis et regnas Deus in saecula seculorum. amen.</p>
 <p>Interim Magister surgat, et suo capiti imponat coronam ex carta virgine confectam, in qua scripta sint colore, et alijs rebus infra dicendis, quatuor nomina Agla Aglaij Aglata Aglataij, quae nomina ponantur ante, retro, et hinc, et inde in lateribus capitis.</p>
 <p>Habeat etiam Magister in circulo pentaculas, aut canderias infrascriptas, secundum necessitatem, et facta sint quemadmodum legitur in capite de Pentaculis; et descripta sint in carta virgine, cum calamo, et atramento, sanguine, aut colore praeparato, modo quo infra dicetur in suis capitibus; sed accipiat ea pentacula quae conveniunt, et apta sunt ad opus, quae debent esse coniecta ante pectus Magistri, in veste alba linea cum acu artis, et filo elaborato aut Virgine Puella; Postea Magister, ab oriente, ni tamen aliter doceatur, aut appellare vellit spiritus ab alia parte mundi, incipiat dicere coniurationem, quae continetur in illa arte, et si spiritus fuerint inobedientes, et non comparverint, tunc surgat, et accipiat gladium exorcizatum, quo circulum perfecit, eum que elevando versus caelum, quasi
 
 
-<pb n="7v" xml:id="CS_fol_007v" facs="data/images/single/5170_0024_web.jpeg"/>
+<pb n="7v" xml:id="CS_fol_007v" facs="data/images/single/5170_0023_web.jpeg"/>
 ad percutiendum aerem, vel ad feriendum eum, et coniurandos spiritus, ponat dexteram cum gladio super pentacula descripta in carta virginea, et posita super pectus eius, et dicat submissa voce hanc coniurationem flexis genibus versus orientem:</p>
 <p>Domine exaudi orationem meam, et clamor meus ad te veniat.</p>
 <p>Domine Deus omnipotens, qui ante secula regnasti, et tua infinita sapientia creasti caelum, et terram, mare, et quidquid in eis continetur, et existit visibile, et invissibile, solo verbo; ego te laudo, te benedico, et te adoro, glorifico, et exoro, ut sis mihi propitius peccatori, quia opus manum tuarum sum; sed salva me, et guberna per nomen sanctum, cui nihil est dificile, nihil imposibile; eripe me ab<!--ab?--> nocte ignorantiae meae, et illumina me de una particula sapientiae tuae; tolle a meo sensu desiderium libidinis, et iniquitatem vani sermonis, dona mihi servo tuo cor capax et intelligens, acutum et subtile, ad omnem scientiam et facultatem percipiendam, et capacitatem intelligendi, et tenacitatem retinendi, ut meum desiderium adimplere possim, et disciplinarum studia intelligere, et percipere, et sacrarum scripturarum secreta secretorum; praesta	mihi facultatem capiendi, ut possim patienter et humiliter verba proferre illarum rerum, quas mihi Domine concesseris ad documentum aliorum. Deus Pater omnipotens, et misericors, qui omnia creasti, et omnia scis, et cognoscis, et nihil tibi
 
 
-<pb n="8r" xml:id="CS_fol_008r" facs="data/images/single/5170_0025_web.jpeg"/>
+<pb n="8r" xml:id="CS_fol_008r" facs="data/images/single/5170_0024_web.jpeg"/>
 est absconditum, nec imposibile: Ego enim tuus servus tuam gratiam quaero, quia scis quod hoc non facimus ut tuam virtutem experiamur, sed ut sciamus veritatem omnium rerum occultarum, per tuam magnificentiam et pietatem, et per ineffabile, et tremendum nomen tuum, quod est Iah, per quod contremiscit omne seculum, et eius timore omnes creaturae obediunt, nobis correspondere tuam gratiam dignare, ita ut facias secreta secretorum, et omnium spirituum, hic ante nostram praesentiam patefieri, et spiritus mites, et obedientes nostris mandatis advenire, per te sanctissime Adonaij, cuius regnum et imperium permanet in saecula saeculorum. amen.</p>
 <p>His dictis, Magister surgat, ponat que manum super pentacula, et unus sociorum semper teneat librum apertum ante Magistrum, et respiciendo caelum versus unamque mundi partem dicat:</p>
 <p>Domine Deus esto mihi turris fortitudinis a facie spirituum malignantium.</p>
@@ -325,7 +326,7 @@ est absconditum, nec imposibile: Ego enim tuus servus tuam gratiam quaero, quia 
 <p>Quod dicto, ac facto videbis venire illos ab omnibus partibus, quod si impediti fuerint,
 
 
-<pb n="8v" xml:id="CS_fol_008v" facs="data/images/single/5170_0026_web.jpeg"/>
+<pb n="8v" xml:id="CS_fol_008v" facs="data/images/single/5170_0025_web.jpeg"/>
 et in aliquo loco detenti, et non possent aut nollent venire; tunc factis suffumigijs, ensibusque per ordinem retactis, confortatisque discipulis, reformet Magister circulum cum gladio artis, postea elevet ad caelum dictum gladium, quasi aerem velit percutere, et ponat manum dexteram super pentacula cum gladio, et flexis genibus, dicat coram altissimo, magna cum humilitate, sequentem confessionem, quam etiam discipuli facere debent, submissa voce, ut non intelligatur.</p>
 </div>
 
@@ -336,18 +337,18 @@ et in aliquo loco detenti, et non possent aut nollent venire; tunc factis suffum
 Confiteor tibi Domine Rex Caeli, et terrae, et pronus ante faciem tuam deploro peccata mea, quoniam peccavi coram te in superbia, in invidia, in avaritia tam honoris, quam pecuniae, in accidia, in ventris ingluvie, in gula, in comestionibus, in ebrietatibus, in femoribus, in genitalibus meis, in omni genere carnis, in adulterijs, in masturbationibus, quae in me, et in alijs facientibus consensi, et in sacrilegijs, in furtis, in rapinis, in stupris, in homicidijs, in facultate, et prodigalitate, contra spem et charitatem, in exhortationibus, et adulationibus, in dandis, et distribuendis muneribus, in exasperandis et desperandis pauperibus, in dispensationibus bonorum mihi commissorum, in astictionibus populi, mihi commissi, in non vissitando detentos, et in carcere positos, in non sepeliendo mortuos,
 
 
-<pb n="9r" xml:id="CS_fol_009r" facs="data/images/single/5170_0027_web.jpeg"/>
+<pb n="9r" xml:id="CS_fol_009r" facs="data/images/single/5170_0026_web.jpeg"/>
 in non custodiendo Pauperes, in non reficiendo esurientes, in non potando sitientes, in non solemnizando festa sabatha, et neomeniah, nec in eis caste et pie vivendo, in comentiendo suadentibus mihi mala, in nocendo potius, quam adiuvando petentibus, in clamorem pauperum non libenter nec misericorditer audiendo, in non servando senioribus reverentiam, propinquis, et benefactoribus meis fidem, et gratiam non reddendo, in delectatione, in carnalia concubita non evitando, in Ecclesia Dei superbe stando, sedendo, egrediendo, superfluis, et ociosis colloquijs ibidem vacando, ac taliter operando in vasa sancta, et ministerium sanctum ac panem propositionis palluto ore, ac manibus immundis tangendo, et comedendo, in orationibus, et psalmodijs negligenter recitandis, et audiendis.</p>
 <p>Detestor etiam ea quae peccavi in cogitationibus pessimus, meditationibus pravis, suspicationibus falsis, iudicijs temerarijs, in consensu malo, in adiuvando consilio impiorum, in concupiscentia carnali, in delectatione immunda, in verbis otiosis, in mendacijs, et falsitatibus, in iuramentis diversimode factis, in detractionibus, in discordijs seminatis, in curiositate, in gulositate, in susurratione, in violentia, in maledictione, in murmuratione in blasphemijs,
 
 
-<pb n="9v" xml:id="CS_fol_009v" facs="data/images/single/5170_0028_web.jpeg"/>
+<pb n="9v" xml:id="CS_fol_009v" facs="data/images/single/5170_0027_web.jpeg"/>
 in curiositatibus, in vaniloquijs, in insultibus, in dissimulatione, in vigilijs Deo contrarijs, in transgressione praeceptorum decem, in negligentia propositi mei, in dilectione Dei, et proximi mei, in vissu, in auditu, gustu, odoratu, et tactu, omnibus et quibuscumque modis, in quibus humana fragilitas contra Deum Creatorem suum, aut cogitando, aut operando, aut concupiscendo, aut delectando peccare potest, in omnibus me peccasse, ac reum in conspectu Domini, super omnes homines, me esse cognosco, et ideo confiteor vobis, et supplex adoro sanctos Angelos omnes, et filios Dei, in quorum conspectu haec omnia confessus sum, quatenus non gaudeat de me inimicus meus, nec glorietur adversus me in die novissima, dicens me scelera mea tacuisse, et ante faciem Domini confessum me fuisse; sed sit gaudium in caelo de me sicut de alijs iustis, qui confessi fuerunt peccata sua ante tuam praesentiam Altissime Pater omnipotens, per tuam immensam clementiam, concede mihi ut possim videre et cognoscere omnes spiritus, quos invocavero; ita ut cum ipsis adimplere possim meam voluntatem, per gloriam et magnitudinem tuam, Pater ineffabilis et sanctus.
 </p>
 <p>Finita conffessione, quae fieri debet coram Altissimo, magna cum humilitate, et intimo cordis affectu, Magister dicat sequentem orationem: Oratio. Domine omnipotens sempiterne Deus Pater
 
 
-<pb n="10r" xml:id="CS_fol_010r" facs="data/images/single/5170_0029_web.jpeg"/>
+<pb n="10r" xml:id="CS_fol_010r" facs="data/images/single/5170_0028_web.jpeg"/>
 omnium creaturarum; Pietas, et misericordia tua veniat super me, quia per te Domine creatus sum, supplex exoro te, ut me deffendas ab adversarijs meis, et fides pietatis tuae confirmetur in me: tibi Domine commendo corpus meum et animam meam, quia in alio non est spes mea, nec habere volo, nisi in te Deus meus, adiuva me Domine, exaudi me in quacumque die, et hora invocavero te, nec de me oblibiscaris per tuam misericordiam, nec ame elongaberis: Domine esto in meum auxilium, Deus salutis meae. Domine indue me cor, et viscera mea misericordia tua, per te Deum, qui vivis et regnas in saecula saeculorum. amen.</p>
 <p>Domine Deus Pater omnipotens, qui ante omnia saecula ineffabilem, summam, ac tibi aeternam sapientiam formasti, ac in ortu saeculorum, caelum et terram, mare, et omnia quae in eis sunt, oris tui spiritu vivificasti; te laudo, te benedico, te adoro, atque glorifico: Esto quaero propitius mihi peccatori, et ne despicias me, sed salva, et adiuva me opus manuum tuarum, per nomen sanctum tuum depelle ab anima mea ignorantiam, et illumina me igniculo sapientiae tuae; aufer aut sensu meo desideria libidinis, et stultiloquium, per te Deum vivum, cuius honor et imperium per saecula saeculorum. amen.</p>
 
@@ -358,7 +359,7 @@ omnium creaturarum; Pietas, et misericordia tua veniat super me, quia per te Dom
 <p>Domine sancte Pater omnipotens, ac Deus
 
 
-<pb n="10v" xml:id="CS_fol_010v" facs="data/images/single/5170_0030_web.jpeg"/>
+<pb n="10v" xml:id="CS_fol_010v" facs="data/images/single/5170_0029_web.jpeg"/>
 misericors qui omnia creasti, cuncta cognoscis et vales, cuique nihil est absconditum, et imposibile, et scis quod hoc non facimus, ut experiamur virtutem tuam, sed ut videamus lumen rerum occultarum, rogamus te ut per sanctam misericordiam tuam, subijcere digneris, ut secreta secretorum omnium specierum nobis undique sint manifesta, per te sanctissime Adonay, cuius potestas, et imperium sine fine permanet per saecula cuncta. amen.</p>
 <p>Dicta oratione, exorcizator extendat manus super Pentacula, et unus ex socijs teneat librum apertum ante magistratum, in quo scripte sint orationes, et coniurationes, ad submittendos, et subiugandos spiritus, et Magister intuendo caelum, versus unamquamque mundi partem, dicat:</p>
 <p>Domine Deus esto mihi turris fortitudinis a facie spiritum malignantium.</p>
@@ -367,7 +368,7 @@ misericors qui omnia creasti, cuncta cognoscis et vales, cuique nihil est abscon
 <p>Quo dicto, ac peracto, acquacumque mundi parte videbis illos venire, et si impediti fuerint, aut in aliquo loco detenti, ut venire non poterint; tunc incipies iterum sequenti modo coniurare, et scias illos non desinere ad te venire, ad tuam voluntatem adimplendam, etiam si ferreis, igneis
 
 
-<pb n="11r" xml:id="CS_fol_011r" facs="data/images/single/5170_0031_web.jpeg"/>
+<pb n="11r" xml:id="CS_fol_011r" facs="data/images/single/5170_0030_web.jpeg"/>
 que catenis adstricti fuerint.</p>
 <p>Conjuro vos spiritus per potentiam, sapientiam, et virtutem spiritus Dei, per increatam Dei sapientiam, per immensam bonitatem Dei, per fortitudinem Dei, per magnitudinem Dei, per unitatem Dei, per nomina sancta Dei. Eheije, quod est radix et truncus omnium aliorum divinorum nominum, et unde accipiunt esse et virtutem, quod Adam nominavit, et assequtus est cognitionem omnium creaturarum. Coniuro vos per nomen invissibile Iod, quod unitatem et simplicitatem divinae naturae significat, quod etiam Abel nominavit, et meruit eradere manus fratris sui Caijn. Conjuro vos per nomen Iehova Elohijm, quod tantae Maiestatis diffusionem, significat, quod etiam Noe nominavit, et aquas diluvij valuit effugere cum tota domo sua.</p>
 <p>Conjuro vos per nomen Dei El forte et admirabile, quod in tante Maiestate clementiam et bonitatem significat, quod Abraham nominavit, et meruit effugere de Ur Caldaeorum.</p>
@@ -375,16 +376,16 @@ que catenis adstricti fuerint.</p>
 <p>Conjuro vos, et exorcizo per sanctissimum nomen Eloha Vangadat, quod Iacob nominavit in magna tribulatione, et meruit nomen Israel, quod est praevalens de Deo, et liberatus
 
 
-<pb n="11v" xml:id="CS_fol_011v" facs="data/images/single/5170_0032_web.jpeg"/>
+<pb n="11v" xml:id="CS_fol_011v" facs="data/images/single/5170_0031_web.jpeg"/>
 <!--ELE-->
 
-<pb n="12r" xml:id="CS_fol_012r" facs="data/images/single/5170_0033_web.jpeg"/>
+<pb n="12r" xml:id="CS_fol_012r" facs="data/images/single/5170_0032_web.jpeg"/>
 <!--ELE-->
 
-<pb n="12v" xml:id="CS_fol_012v" facs="data/images/single/5170_0034_web.jpeg"/>
+<pb n="12v" xml:id="CS_fol_012v" facs="data/images/single/5170_0033_web.jpeg"/>
 <!--ELE-->
 
-<pb n="13r" xml:id="CS_fol_013r" facs="data/images/single/5170_0035_web.jpeg"/>
+<pb n="13r" xml:id="CS_fol_013r" facs="data/images/single/5170_0034_web.jpeg"/>
 <!--ELE-->
 </p>
 </div>
@@ -398,49 +399,49 @@ que catenis adstricti fuerint.</p>
 <p>Si tunc apparverint, ostende illis sacra Pentacula, et illos excipe humane, et gratiose disposueris; quod si non comparverint, tenendo manu dextera gladium, et sinistra Pentacula tecta velo sacro, percutiendo, et feriendo aerem gladio, quasi praetium incipere velis, Conforta socios, deinde voce aliquantulum altiori dicas sequentem orationem,
 
 
-<pb n="13v" xml:id="CS_fol_013v" facs="data/images/single/5170_0036_web.jpeg"/>
+<pb n="13v" xml:id="CS_fol_013v" facs="data/images/single/5170_0035_web.jpeg"/>
 vel conjurationem.</p>
 <p>Ecce iterum vos instantius conjuro, et adjuro contestor, et exorcizo, per potentissimum, et corroboratissimum nomen Dei El forte, et admirabile per Deum magnum, iustum, et terribilem: vos exorcizo, vobis impero, ut nullam moram ad comparendum protrahatis, sed statim, sine strepitu, et sine aliqua deformitate, sed cum omni affabilitate ad nos veniatis.
 </p>
 <p>Vos iterum exorcizo, atque potenter contestor, ac valide impero per eum qui dixit, et factum est; et per omnia nomina eius El, Sadaij, Elohijm, Elohe, Zevaod, Elijm, Asser, Eheije, Jah, Tetagramaton, Sadaij, quod est Dominus Deus excelsus, omnipotens Deus Israel faciamus, et prosperemus super omnia opera manuum nostrarum, Dominus enim nunc est nobiscum, et in omni tempore, et in labijs mostris, et in corde nostro, et per eius sancta nomina, et per virtutem Dei complebimus opus nostrum. Venite ergo sine aliqua deformitate, vel monstruositate, ad nos, in pulchra et amabili forma, venite quia vos potenter exorcizamus per nomen Jah, et On, quod Adam audivit, et locutus est, et per nomen El, quod audivit, et locutus est, et per nomen El, quod Noe audivit, et salvus factus est cum tota familia sua aut diluvio; per nomen Jod, et in nomine Jod, quod Noe audivit, et cognovit omnipotentem Deum; et per nomen Agla, quod Jacob audivit, et vidit, scalam usque ad caelum pertingentem et ascendentes, et descendentes Angelos, unde
 
 
-<pb n="14r" xml:id="CS_fol_014r" facs="data/images/single/5170_0037_web.jpeg"/>
+<pb n="14r" xml:id="CS_fol_014r" facs="data/images/single/5170_0036_web.jpeg"/>
 locus ille dictus est Domus Dei, et porta caeli; et per nomen Eloijm, et in nomine Eloijm, quod Moijses nominavit, et audivit in monte Dei oreb, et meruit audire ipsum derubo ardente loquentem; et per nomen Ensoph, et in nomine Ensoph, quod Aaron audivit, et eloquens, et sapiens factus est, et per nomen Zevaod, quod Moyses nominavit, et omnia stagna, et flumina converssa sunt in sanguinem in tota terra Aegijpti, et computruerunt, et per nomen Iod, et in nomine Iod, quod Moyses nominavit, et percutiens in pulvere terrae; factae sunt einifices<!--?--> in homines, et boves, et jumenta Aegyptiorum, et per nomen Primaton, et in nomine Primaton, quod Moyses nominavit, et facta est grando valida in tota terra Aegypti destruens vineas, et arbores, et omnia ligna eorum, et per nomen Iaphar, et in nomine Iaphar, quod Moyses nominavit, et pestis gravis orta est in tota terra Aegypti, percutiens asinos, et boves, et oves Aegyptiorum et mortua sunt; et per nomen Abbadon, quod Moyses nominavit, et tollem pulverem sparsit in caelum, et factae sunt plagae magnae in hominibus, in jumentis, ita ut morerentur in tota terra Aegypti; et per nomen Elijon, et in nomine Elijon, quod Moyses nominavit, et facta est grando talis, qualis non fuit ab initio mundi usque ad praesens tempus,
 
 
-<pb n="14v" xml:id="CS_fol_014v" facs="data/images/single/5170_0038_web.jpeg"/>
+<pb n="14v" xml:id="CS_fol_014v" facs="data/images/single/5170_0037_web.jpeg"/>
 quod homines et jumenta, et ea quae erant in agris Aegyptiorum occiderunt, et mortua fuerunt; et per nomen Adonaij, quod Moysen nominavit, et fuerunt locustae, et apparuerunt super terram Aegypti, et devoraverunt, quae residua fuerunt grandini; et per nomen Patheon, quod Moyses nominavit, et tenebrae factae sunt horribiles in tota terra Aegyptiorum, tribus diebus, et tribus noctibus, quod omnes quasi mortui sunt; et per nomen Issedo, et in nomine Issedo, quod Moyses nominavit, et media nocte, omnia primogenita Aegyptiorum periere, et mortua sunt; et per nomen Issemon, et in nomine Issemon, quod Moyses nominavit, et mare rubrum divissum est per medium; et per nomen Hesion, quod Moyses nominavit et omnis exercitus Pharaonis demerssus est in profundum; et per nomen Anabona, et in nomine Anabona, quod Moyses in monte Sinaij audivit, et meruit tabulas lapideas creatoris manuscriptas accipere; et per nomen Erigion, quod Jeosuas nominavit, et pugnavit contra Mohabitas, et destruxit eos, et habuit victoriam; et per nomen Hu, et in nomine Hu, quod David nominavit, et liberatus fuit de manu Goliae; et er nomen Iod, et in nomine Iod, quod Salomon nominavit, er meruit in somnis postulare, et impetrare ineffabilem, et inauditam sapientiam Dei; et in nomine Iejah, et per nomen Iejah, quod Salomon nominavit, et meruit potestatem super
 
 
-<pb n="15r" xml:id="CS_fol_015r" facs="data/images/single/5170_0039_web.jpeg"/>
+<pb n="15r" xml:id="CS_fol_015r" facs="data/images/single/5170_0038_web.jpeg"/>
 omnes Daemones, et super aereas potestates; Per haec igitur, et omnia alia nomina sancta Dei omnipotentis, sancti vivi et veri, potenter imperamus vobis, qui, culpa vestra, de caelo excelsso, et throno eiusdem ejecti fuistis, et per eum qui vos, usque ad infernalem locum projecit, viriliter praecipimus vobis, et per illum duem tremendum judicijs summi Dei, in quo ossa arida resurgent audientia verbum Dei, cum corporibus suis, et stabunt ante faciem omnipotentis; et per devorantem ignem novissimum, et per mare ignotum, quod est ante conspectum Dei, et per ineffabilem ipsius Creatoris virtutem et eius omnipotentiam, per splendorem et ignem egredientem a facie aius, et ante faciem eius existentem, per angelicas caelorum potestates, et virtutes, et per summam sapientiam Dei ipsius omnipotentis per sigillum Davidis, et per anulum, et sigilum Salomonis, quod et revelatum fuit ab Altissimo Creatore, per novem caelestes canderias eique ab Altissimo Domino revelatus, quas in his nostris Pentaculis, et inter secreta secretorum habemus, quas etiam in manu mea videre poteritis consecratas, et debitis caeremonijs exorcizatas.
 </p>
 <p>Per haec igitur et omnia secreta, quae inter summae sapientiae thesauros, Altissimus reseravit, conjuro, contestor, et exorcizo vos,
 
 
-<pb n="15v" xml:id="CS_fol_015v" facs="data/images/single/5170_0040_web.jpeg"/>
+<pb n="15v" xml:id="CS_fol_015v" facs="data/images/single/5170_0039_web.jpeg"/>
 ut sine aliqua mora veniatis, facturi coram nobis quaecumque vobis iusserimus.</p>
 <p>Iterum conjuro vos per sanctissimum nomen, quod timet omne saeculum, quod describitur his litteris: Iod, He, Uau, He, et per ultimum et tremendum diem judicij, et per sedem Baldachiae, et per hoc sanctum nomen Ieija, quod Moijses nominavit, et in cavernis Abijsi absorti sunt Dathan, et Abijron, alioquin virtute huius nomini Ieija maledicimus vos usque in profundum abijssi, in quo vos ponemus, et relegabimus, si nobis, et praedictis secretissimis secretorum rebelles fueritis. Amen, Amen, fiat, fiat.</p>
 <p>Hanc conjuriationem dicet Magister versus orientem, sed si, illa dicta, spiritus non comparverint, eandem repetere debet versus meridiem, versus occidentem, et septentrionem, quater, si vero hoc facto, non venerint, faciet in frontibus sociorum signum Iau, et dicet:</p>
 <p>Ecce iterum signum, et nomen summi triumphatoris Dei, per quod universum timet, et contremiscit, et per illa secretissima secretorum verba, et per virtutem eorum conjuro vos iterum contestor, et exorcizo, et potenter impero per potentissimum et corroboratissimum nomen Dei El forte et admirabile, per eum qui dixit, et factum est, et per nomen Iah, quod Moijses audivit, et locutus est cum Deo, et per nomen Agla, quod Joseph nominavit et liberatus est demanibus fratrum
 
 
-<pb n="16r" xml:id="CS_fol_016r" facs="data/images/single/5170_0041_web.jpeg"/>
+<pb n="16r" xml:id="CS_fol_016r" facs="data/images/single/5170_0040_web.jpeg"/>
 suorum, et per nomen Uau, quod Abraham audivit, et cognovit omnipotentem Deum et per nomen Tetagramaton, vel quatuor litterarum, quod Jossuas nominavit, et ad terram promissionis meruit introducere exercitum Israel; et per nomen Anabona, per quod Deus plasmavit hominem, et totum universum; et per nomen Arpheton, et in nomine Arpheton, per quod Angelo ad hoc determinati cum corporibus in specie vissibili, terribile judicium sonitu tubae mundum inclamabunt, et tunc peribit memoria impiorum; et per nomen Adonaij, et in nomine Adonaij, per quod Deus iudicaturus est omnem carnem, ad cuius vocem boni et mali, in ictu oculi resurgent, et stabunt cum Angelis in aere simul cum Domino judicaturi impios; et per nomen Oneiepheon, per quod Deus omnes vita functos, iterum ad vitam revocabit; et per nomen Eloijm, et in nomine Eloijm, in quo Deus turbabit maria, et pisces commovebuntur, et inter se bellabunt, et morietur una die tertia pars hominum, in circuitu maris, et fluminum; et per nomen Elija, et in nomine Elija, in quo Deus maria et flumina excitabit<!--?-->, et demeabit eorum profunda; et per nomen On, et in nomine On, in quo Deus restituet maria et flumina in pristinum; et per nomen Messiah, et in nomine Messiah,
 
 
-<pb n="16v" xml:id="CS_fol_016v" facs="data/images/single/5170_0042_web.jpeg"/>
+<pb n="16v" xml:id="CS_fol_016v" facs="data/images/single/5170_0041_web.jpeg"/>
 per quod Deus faciet omnes bestias terrae inter se bellare, ita ut una die omnes morientur; et per nomen Ariel, et in nomine Ariel, in quo Deus destruet turres, Domos, et omnia aedificia, una die ita ut non remaneat lapis supra lapidem; et per nomen Iaphat, in quo Deus faciet lapides ad invicem contra se bellare, et tunc gentes fugient ad mare, et dicent: aquae cooperite nos; et per nomen Aemanuel, in quo Deus faciet mirabilia in volatilibus caeli, ita ut omnia insaniant, et inter se simul bellentur; et per nomen Anael, et in nomine Anael, in quo Deus omnia humiliabit, et valles, et colles implebit, et erit superficies orbis terrae, undique aequalis; et per nomen Zedeezia, et in nomine Zedeezia, in quo Deus faciet solem, et Lunam obscurare, et omnes stellas etiam excuti de caelo; et per nomen Sephosiel, et in nomine Sephosiel, in quo Deus ad judicium veniet sicut Princeps, cum triumpho, ad civitatem convocatus, et zona aurea praecinctus, cui Angeli praeibunt, et in eius adventu omnia climata mundi turbabuntur, et ignis praeibit ante eum in circuitu eius, et per gijrum tempestas, et turbo, et per nomen Iau, in quo Deus fecit diluvium, et aquae praevaluerunt montibus, et operuerunt cacumina eorum per quindecim cubitos; et per nomen Rechia, in quo Deus, purgatis saeculis, effundet super universum, spiritum sanctum suum, et vos rebelles creaturas et indig-
 
 
-<pb n="17r" xml:id="CS_fol_017r" facs="data/images/single/5170_0043_web.jpeg"/>
+<pb n="17r" xml:id="CS_fol_017r" facs="data/images/single/5170_0042_web.jpeg"/>
 nas in profundo lacu, et miseria et futo faecis, sive profundi, catenis igneis demerget in sempiternum.</p>
 <p>Per haec igitur, et omnia nomina sanctissima Dei, quae non proferet homo, et vivet, et per quae turba daemonum contremiscit, vobis imperamus, et potenter exorcizamus, atque conjuramus per terribiles et absconditas semitas Dei, et per sanctissimam sedem Dei, in qua regnat, et imperat per saecula saeculorum. Amen.</p>
 <p>Quatenus in virtute, et per vim omnium supradictorum, quod non audeatis in aliquo loco permanere, sed festinanter coram nobis veniatis et sine dilatione, et contradictione aliqua, quaecumque vobis Jusserimus peragatis; alioquin si fueritis contumaces, auctoritate summi Dei, qua fungimur vos, quocumque gradu sitis dignitate vestra privamus, et in regnum ignis et suphuris praecipitamus aeternaliter extorquendos.</p>
 <p>Venite igitur a quacumque mundi parte, et videte signa, et nomina summi triumphatorism cui omnes obediunt craeaturae, aliter vos ligamus, et coram nobis, catenis igneis vinctos, contra vestram voluntatem conducemus; quoniam ea quae de nostro opere et scientia exeunt sunt igne ferventissima quae vos aeternaliter comburent, et sunt per quem universum contremiscit, terra concutitur lapides revolbuntur, obediunt omnes creaturae et torquentur spiritus rebelles summo Creatori.
 
-<pb n="17v" xml:id="CS_fol_017v" facs="data/images/single/5170_0044_web.jpeg"/>
+<pb n="17v" xml:id="CS_fol_017v" facs="data/images/single/5170_0043_web.jpeg"/>
 Tunc venient, et si catenis ferreis, aut igneis vincti fuerint, nisi tamen aliquo gravissimo negotio fuerint impediti, et tunc nuncios mittent, quibus mediantibus, certe poteris cognoscere, quid ipsi facturi sint. Si vero non comparverint per praedictas conjurationes, et usque adeo fuerint inobedientes; tunc exorcizator surgat, et hortetur socios ad fidem, neque ab opere desperare; feriat, et percutiat aerem gladio exorcizato, in quatuor mundi partibus, postea in medio circuli, genua flectat, et socij similiter in lateribus, et deinde voce submissa, dicant versus orientem.</p>
 <p>Adjuro vos, et depraecor spiritus et Angelos Dei, estote adjutorium meum, venite, et videte caelestia signa, et sitis testes eorum, Altissimo, inobedientiae eorum spirituum, qui vestri socij stiterunt.</p>
 <p>His dictis, surgat, et fortiori conjuratione, illos in hoc modo constringat.</p>
@@ -450,7 +451,7 @@ Tunc venient, et si catenis ferreis, aut igneis vincti fuerint, nisi tamen aliqu
 <head>Caput 7. Conjuratio fortissima.</head>
 <p>Ecce iterum vos, Dei nominibus et caracteribus insigniti, nomine et virtute Altissimi vos conjuramus, atque vobis imperamus, per potentissimum atque fortissimum nomen Dei, et quod est laudabile, admirabile, magnum, glorificatum, atque terribile, iterum inquam vos conjuramus, atque potenter praecipimus, ut nullam faciatis moram, sed statim
 
-<pb n="18r" xml:id="CS_fol_018r" facs="data/images/single/5170_0045_web.jpeg"/>
+<pb n="18r" xml:id="CS_fol_018r" facs="data/images/single/5170_0044_web.jpeg"/>
   </p>
 </div>
 
