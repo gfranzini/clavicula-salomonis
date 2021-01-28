@@ -5,7 +5,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title type="main">Clavicula Salomonis</title>
+<title type="main">University of Pennsylvania Ms. Codex 1673: Clavicula Salomonis Regis</title>
 <title type="sub">Transcription</title>
 <respStmt>
 <resp>Encoded by:</resp>
@@ -13,19 +13,171 @@
 </respStmt>
 </titleStmt>
 <publicationStmt>
-<publisher></publisher>
-<pubPlace></pubPlace>
-<date>XXXX</date> <!-- define -->
+<publisher>The University of Pennsylvania Libraries</publisher>
 <availability>
-<p>CC0</p> <!-- define -->
+<licence target="http://creativecommons.org/publicdomain/mark/1.0/">
+These images and the content of Rare Book &amp; Manuscript Library, Ms. Codex 1673: Clavicula Salomonis Regis are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/.
+</licence>
+<licence target="https://creativecommons.org/licenses/by/4.0/legalcode">
+Metadata is ©2017 University of Pennsylvania Books &amp; Manuscripts and licensed under a Creative Commons Attribution License version 4.0 (CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/legalcode). For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/4.0/.
+</licence>
+<licence target="https://creativecommons.org/publicdomain/zero/1.0/">
+The manuscript transcription is licensed under a Creative Commons Zero 1.0 Universal (CC0 1.0). For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/publicdomain/zero/1.0/.
+</licence>
 </availability>
 </publicationStmt>
+<notesStmt>
+<note>Ms. codex.</note>
+<note>Title from title page (f. ii recto).</note>
+</notesStmt>
 <sourceDesc>
 <msDesc>
-<!--<p>Images: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>-->
 <msIdentifier>
+<settlement>Philadelphia</settlement>
+<institution>University of Pennsylvania</institution>
+<repository>Rare Book &amp; Manuscript Library</repository>
+<idno type="call-number">Ms. Codex 1673</idno>
+<altIdentifier type="bibid">
+<idno>6294358</idno>
+</altIdentifier>
+<altIdentifier type="resource">
+<idno>http://hdl.library.upenn.edu/1017/d/medren/6294358</idno>
+</altIdentifier>
 </msIdentifier>
+<msContents>
+<summary>
+18th-century Latin copy of the Key of Solomon, a 16th-century magical handbook which includes instructions on subjects such as the conjuration of spirits (f. 11r), enchanting a piece of fruit with a love charm (f. 31v), extracting bat's blood (f. 104v), the preparation of ink, paper or parchment for magical practices (f. 105r), and the use of knives, swords, and wands (f. 96v). The text is divided into two books and contains a complete list of contents for each book (f. iii recto, 113r).
+</summary>
+<textLang mainLang="lat" otherLangs="heb">Latin, with transliterated Hebrew words</textLang>
+<msItem>
+<title>Clavicula Salomonis Regis</title>
+<author>Colorni, Abraham, approximately 1530-</author>
+<respStmt>
+<resp>former owner</resp>
+<persName>Rainsford, Charles, 1728-1809</persName>
+</respStmt>
+<respStmt>
+<resp>former owner</resp>
+<persName>Northumberland, Hugh Percy, Duke of, 1742-1817</persName>
+</respStmt>
+</msItem>
+<msItem n="iii recto">
+<locus>[iii recto]</locus>
+<title>Table of contents, f. iii recto</title>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc material="mixed">
+<support>
+<p>paper</p>
+</support>
+<extent>121 leaves : 223 x 164 mm. bound to 233 x 170 mm</extent>
+<foliation>
+Paper, 121; [iv], 1-5, 7-37, [ii], 38-81, [i], 82-114; contemporary foliation in ink, upper right recto. Catchwords lower right corners. Folio 6 has been torn out resulting in a loss of text.
+</foliation>
+</supportDesc>
+</objectDesc>
+<scriptDesc>
+<scriptNote>Written in a cursive script by at least two hands.</scriptNote>
+</scriptDesc>
+<decoDesc>
+<decoNote>
+Decorated title pages at the beginning of each book with yellow ink wash and an engraved frontispiece from an unidentified printed work pasted in (f. ii recto, 82r); 43 pen and ink pentacles with various magical symbols, words, and figures pasted onto red or yellow ink-washed pages; diagram of blades, lances, and wands to be used in ritual (f. 99r); partially ruled in red ink (f. 1r-28r).
+</decoNote>
+<decoNote n="ii recto">Decorated title page, f. ii recto</decoNote>
+<decoNote n="38r =39r">Illustration, Pentacle, f. 38r [=39r]</decoNote>
+<decoNote n="39r =40r">Illustration, Pentacle, f. 39r [=40r]</decoNote>
+<decoNote n="40r =41r">Illustration, Pentacle, f. 40r [=41r]</decoNote>
+<decoNote n="41r =42r">Illustration, Pentacle, f. 41r [=42r]</decoNote>
+<decoNote n="42r =43r">Illustration, Pentacle, f. 42r [=43r]</decoNote>
+<decoNote n="43r =44r">Illustration, Pentacle, f. 43r [=44r]</decoNote>
+<decoNote n="44r =45r">Illustration, Pentacle, f. 44r [=45r]</decoNote>
+<decoNote n="45r =46r">Illustration, Pentacle, f. 45r [=46r]</decoNote>
+<decoNote n="46r =47r">Illustration, Pentacle, f. 46r [=47r]</decoNote>
+<decoNote n="47r =48r">Illustration, Pentacle, f. 47r [=48r]</decoNote>
+<decoNote n="48r =49r">Illustration, Pentacle, f. 48r [=49r]</decoNote>
+<decoNote n="49r =50r">Illustration, Pentacle, f. 49r [=50r]</decoNote>
+<decoNote n="50r =51r">Illustration, Pentacle, f. 50r [=51r]</decoNote>
+<decoNote n="51r =52r">Illustration, Pentacle, f. 51r [=52r]</decoNote>
+<decoNote n="52r =53r">Illustration, Pentacle, f. 52r [=53r]</decoNote>
+<decoNote n="53r =54r">Illustration, Pentacle, f. 53r [=54r]</decoNote>
+<decoNote n="54r =55r">Illustration, Pentacle, f. 54r [=55r]</decoNote>
+<decoNote n="55r =56r">Illustration, Pentacle, f. 55r [=56r]</decoNote>
+<decoNote n="56r =57r">Illustration, Pentacle, f. 56r [=57r]</decoNote>
+<decoNote n="57r =58r">Illustration, Pentacle, f. 57r [=58r]</decoNote>
+<decoNote n="58r =59r">Illustration, Pentacle, f. 58r [=59r]</decoNote>
+<decoNote n="59r =60r">Illustration, Pentacle, f. 59r [=60r]</decoNote>
+<decoNote n="60r =61r">Illustration, Pentacle, f. 60r [=61r]</decoNote>
+<decoNote n="61r =62r">Illustration, Pentacle, f. 61r [=62r]</decoNote>
+<decoNote n="62r =63r">Illustration, Pentacle, f. 62r [=63r]</decoNote>
+<decoNote n="63r =64r">Illustration, Pentacle, f. 63r [=64r]</decoNote>
+<decoNote n="64r =65r">Illustration, Pentacle, f. 64r [=65r]</decoNote>
+<decoNote n="65r =66r">Illustration, Pentacle, f. 65r [=66r]</decoNote>
+<decoNote n="66r =67r">Illustration, Pentacle, f. 66r [=67r]</decoNote>
+<decoNote n="67r =68r">Illustration, Pentacle, f. 67r [=68r]</decoNote>
+<decoNote n="68r =69r">Illustration, Pentacle, f. 68r [=69r]</decoNote>
+<decoNote n="69r =70r">Illustration, Pentacle, f. 69r [=70r]</decoNote>
+<decoNote n="70r =71r">Illustration, Pentacle, f. 70r [=71r]</decoNote>
+<decoNote n="71r =72r">Illustration, Pentacle, f. 71r [=72r]</decoNote>
+<decoNote n="72r =73r">Illustration, Pentacle, f. 72r [=73r]</decoNote>
+<decoNote n="73r =74r">Illustration, Pentacle, f. 73r [=74r]</decoNote>
+<decoNote n="74r =75r">Illustration, Pentacle, f. 74r [=75r]</decoNote>
+<decoNote n="75r =76r">Illustration, Pentacle, f. 75r [=76r]</decoNote>
+<decoNote n="76r =77r">Illustration, Pentacle, f. 76r [=77r]</decoNote>
+<decoNote n="77r =78r">Illustration, Pentacle, f. 77r [=78r]</decoNote>
+<decoNote n="78r =79r">Illustration, Pentacle, f. 78r [=79r]</decoNote>
+<decoNote n="79r =80r">Illustration, Pentacle, f. 79r [=80r]</decoNote>
+<decoNote n="80r =81r">Illustration, Pentacle, f. 80r [=81r]</decoNote>
+<decoNote n="82r =84r">Decorated title page, f. 82r [=84r]</decoNote>
+<decoNote n="99r =101r">Diagram, f. 99r [=101r]</decoNote>
+</decoDesc>
+<bindingDesc>
+<binding>
+<p>
+Contemporary quarter leather with the remains of silk ties.
+</p>
+</binding>
+</bindingDesc>
+</physDesc>
+<history>
+<origin>
+<p>Written in the second half of the 18th century.</p>
+<origDate>between 1750 and 1799</origDate>
+</origin>
+<provenance>
+Formerly owned by Charles Rainsford (British army officer, fellow of the Royal Society, and alchemist); bequeathed by Rainsford to Hugh Percy, Second Duke of Northumberland.
+</provenance>
+<provenance>
+Owned by the 2nd through 12th Dukes of Northumberland, ms. 584, Alnwick Castle, Northumberland, 1809-2014 (bookplate, inside upper cover; stamps throughout).
+</provenance>
+<provenance>
+Sold at auction at Sotheby's (London), 15 July 2014, as part of Lot 411.
+</provenance>
+</history>
 </msDesc>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<textClass>
+<keywords n="subjects">
+<term>Magic--Early works to 1800</term>
+<term>Occultism--Early works to 1800</term>
+</keywords>
+<keywords n="form/genre">
+<term>Codices</term>
+<term>Diagrams</term>
+<term>Drawings</term>
+<term>Manuscripts, Latin--18th century</term>
+<term>Manuscripts, European</term>
+</keywords>
+</textClass>
+</profileDesc>
+</teiHeader>
+
+<!--MS Home: http://dla.library.upenn.edu/dla/medren/detail.html?id=MEDREN_9962943583503681</p>-->
+
+<!--Openn data: https://openn.library.upenn.edu/Data/0002/html/mscodex1673.html-->
 
 <!--<listPerson>
 <person>
@@ -33,9 +185,7 @@
 <note>See entry in <ref target="http://lila-erc.eu/data/id/lemma/20639">LiLa</ref>.</note>
 </person>
 </listPerson>-->
-</sourceDesc>
-</fileDesc>
-</teiHeader>
+
 
 <text xml:id="text">
 
@@ -54,7 +204,7 @@
 
 <div type="chapter" n="1">
 
-<pb n="1r" xml:id="CS_fol_001r" facs="data/images/single/clav_1r.png"/>
+<pb n="1r" xml:id="CS_fol_001r" facs="data/images/single/5170_0010_web.jpeg"/>
 <head>Caput 1. De amore divino huic scientiae praemittendo.</head>
 <p>Initium nostrae clavis inquit Salomon David Regis Israel, est Deum timere, et adorare, eumque contritione cordis summaque devotione honorare, ac in omnibus rebus faciendis invocare, sic que ipse te ducet per viam rectam. Cum autem scientiarum ac magicarum artium notitiam velis acquirere, ordinem dierum horarum, et Lunae in promptu habere necesse est, sine quorum observatione aliquid haud fieri potest, nec unquam poterit, ijs autem diligenter observatis, faciliter ad optatum finem poteris pervenire.</p>
 </div>
@@ -286,9 +436,23 @@ per quod Deus faciet omnes bestias terrae inter se bellare, ita ut una die omnes
 
 <pb n="17r" xml:id="CS_fol_017r" facs="data/images/single/clav_17r.png"/>
 nas in profundo lacu, et miseria et futo faecis, sive profundi, catenis igneis demerget in sempiternum.</p>
+<p>Per haec igitur, et omnia nomina sanctissima Dei, quae non proferet homo, et vivet, et per quae turba daemonum contremiscit, vobis imperamus, et potenter exorcizamus, atque conjuramus per terribiles et absconditas semitas Dei, et per sanctissimam sedem Dei, in qua regnat, et imperat per saecula saeculorum. Amen.</p>
+<p>Quatenus in virtute, et per vim omnium supradictorum, quod non audeatis in aliquo loco permanere, sed festinanter coram nobis veniatis et sine dilatione, et contradictione aliqua, quaecumque vobis Jusserimus peragatis; alioquin si fueritis contumaces, auctoritate summi Dei, qua fungimur vos, quocumque gradu sitis dignitate vestra privamus, et in regnum ignis et suphuris praecipitamus aeternaliter extorquendos.</p>
+<p>Venite igitur a quacumque mundi parte, et videte signa, et nomina summi triumphatorism cui omnes obediunt craeaturae, aliter vos ligamus, et coram nobis, catenis igneis vinctos, contra vestram voluntatem conducemus; quoniam ea quae de nostro opere et scientia exeunt sunt igne ferventissima quae vos aeternaliter comburent, et sunt per quem universum contremiscit, terra concutitur lapides revolbuntur, obediunt omnes creaturae et torquentur spiritus rebelles summo Creatori.
 
+<pb n="17v" xml:id="CS_fol_017v" facs="data/images/single/clav_17v.png"/>
+Tunc venient, et si catenis ferreis, aut igneis vincti fuerint, nisi tamen aliquo gravissimo negotio fuerint impediti, et tunc nuncios mittent, quibus mediantibus, certe poteris cognoscere, quid ipsi facturi sint. Si vero non comparverint per praedictas conjurationes, et usque adeo fuerint inobedientes; tunc exorcizator surgat, et hortetur socios ad fidem, neque ab opere desperare; feriat, et percutiat aerem gladio exorcizato, in quatuor mundi partibus, postea in medio circuli, genua flectat, et socij similiter in lateribus, et deinde voce submissa, dicant versus orientem.</p>
+<p>Adjuro vos, et depraecor spiritus et Angelos Dei, estote adjutorium meum, venite, et videte caelestia signa, et sitis testes eorum, Altissimo, inobedientiae eorum spirituum, qui vestri socij stiterunt.</p>
+<p>His dictis, surgat, et fortiori conjuratione, illos in hoc modo constringat.</p>
 </div>
 
+<div type="chapter" n="7">
+<head>Caput 7. Conjuratio fortissima.</head>
+<p>Ecce iterum vos, Dei nominibus et caracteribus insigniti, nomine et virtute Altissimi vos conjuramus, atque vobis imperamus, per potentissimum atque fortissimum nomen Dei, et quod est laudabile, admirabile, magnum, glorificatum, atque terribile, iterum inquam vos conjuramus, atque potenter praecipimus, ut nullam faciatis moram, sed statim
+
+<pb n="18r" xml:id="CS_fol_018r" facs="data/images/single/clav_18r.png"/>
+  </p>
+</div>
 
 
 
