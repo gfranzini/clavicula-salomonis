@@ -6,9 +6,8 @@
 <fileDesc>
 <titleStmt>
 <title type="main">University of Pennsylvania Ms. Codex 1673: Clavicula Salomonis Regis</title>
-<title type="sub">Transcription</title>
 <respStmt>
-<resp>Encoded by:</resp>
+<resp>Transcription and TEI encoding by:</resp>
 <name>Greta Franzini</name>
 </respStmt>
 </titleStmt>
@@ -53,11 +52,11 @@ The manuscript transcription is licensed under a Creative Commons Zero 1.0 Unive
 <title>Clavicula Salomonis Regis</title>
 <author>Colorni, Abraham, approximately 1530-</author>
 <respStmt>
-<resp>former owner</resp>
+<resp>Former owner</resp>
 <persName>Rainsford, Charles, 1728-1809</persName>
 </respStmt>
 <respStmt>
-<resp>former owner</resp>
+<resp>Former owner</resp>
 <persName>Northumberland, Hugh Percy, Duke of, 1742-1817</persName>
 </respStmt>
 </msItem>
@@ -204,7 +203,7 @@ Sold at auction at Sotheby's (London), 15 July 2014, as part of Lot 411.
 
 <div type="chapter" n="1">
 
-<pb n="1r" xml:id="CS_fol_001r" facs="data/images/single/5170_0010_web.jpeg"/>
+<pb n="1r" xml:id="CS_fol_001r" facs="data/images/single/5170_0010.tif"/>
 <head>Caput 1. De amore divino huic scientiae praemittendo.</head>
 <p>Initium nostrae clavis inquit Salomon David Regis Israel, est Deum timere, et adorare, eumque contritione cordis summaque devotione honorare, ac in omnibus rebus faciendis invocare, sic que ipse te ducet per viam rectam. Cum autem scientiarum ac magicarum artium notitiam velis acquirere, ordinem dierum horarum, et Lunae in promptu habere necesse est, sine quorum observatione aliquid haud fieri potest, nec unquam poterit, ijs autem diligenter observatis, faciliter ad optatum finem poteris pervenire.</p>
 </div>
