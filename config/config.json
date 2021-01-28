@@ -1,5 +1,5 @@
 {
-    "indexTitle": "Clavicula Salomonis [Ms. Codex 1673]",
+    "indexTitle": "Clavicula Salomonis [UPenn Ms. Codex 1673]",
     "webSite": "https://gfranzini.github.io/clavicula-salomonis/",
     "logoUrl": "data/images/single/sealSolomon.png",
 
@@ -16,13 +16,13 @@
     "visCollImageList": "",
     "visCollDataModel": "",
 
-    "defaultViewMode": "readingTxt",
+    "defaultViewMode": "imgTxt",
     "availableViewModes": [
         {
             "label": "READING_TEXT",
             "icon": "reading-txt",
             "viewMode": "readingTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "MULTIPLE_RECENSIONS",
@@ -34,7 +34,7 @@
             "label": "IMAGE_TEXT",
             "icon": "mode-imgTxt",
             "viewMode": "imgTxt",
-            "visible": false
+            "visible": true
         },
         {
             "label": "TEXT_TEXT",
@@ -62,7 +62,7 @@
         }
     ],
 
-    "defaultEdition": "diplomatic",
+    "defaultEdition": "interpretative",
     "showEditionLevelSelector": true,
     "availableEditionLevel": [
         {
