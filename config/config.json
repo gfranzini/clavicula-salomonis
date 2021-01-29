@@ -22,7 +22,7 @@
             "label": "READING_TEXT",
             "icon": "reading-txt",
             "viewMode": "readingTxt",
-            "visible": false
+            "visible": true
         },
         {
             "label": "MULTIPLE_RECENSIONS",
@@ -46,7 +46,7 @@
             "label": "COLLATION",
             "icon": "mode-collation",
             "viewMode": "collation",
-            "visible": true
+            "visible": false
         },
         {
             "label": "SOURCE_TEXT",
@@ -63,7 +63,7 @@
     ],
 
     "defaultEdition": "interpretative",
-    "showEditionLevelSelector": true,
+    "showEditionLevelSelector": false,
     "availableEditionLevel": [
         {
             "value": "critical",
@@ -87,14 +87,14 @@
 
     "showDocumentSelector": true,
     "enableNavBar": true,
-    "initNavBarOpened": false,
-    "thumbnailsButton": false,
+    "initNavBarOpened": true,
+    "thumbnailsButton": true,
     "viscollButton": true,
 
     "toolPinAppEntries": true,
-    "toolImageTextLinking": true,
+    "toolImageTextLinking": false,
 
-    "namedEntitiesSelector": true,
+    "namedEntitiesSelector": false,
     "namedEntitiesToHandle": [
         {
             "tagName": "persName",
