@@ -402,11 +402,10 @@ terram, quique eosdem caelos palmo metitus est, et pugillo terram concludit, qui
 
 <pb n="13r" xml:id="CS_fol_013r" facs="data/images/single/5170_0034_web.jpeg"/>
 Dei</p>
-</p>
 </div>
 
 <div type="chapter" n="6">
-<head>Caput 6. Conjuratio fortior.</head>
+  <head>Caput 6. Conjuratio fortior.</head>
 
 <p>Si tunc venerint, bene; sin autem venerint, detegat Magister sacra Pentacula, quae facienda sunt ad imperandum spiritus, quae pentacula collo colligata esse debent, tenendo illa cum manu sinistra, et cum dextera gladium sacrum, confortandoque socios, elevet vocem, et dicat:</p>
 <p>Haec sunt signa secretorum, et vexilla triumphatoris Dei, et arma omnipotentis, ad deterrendas aereas potestates, in horum virtute vobis irrevocabiliter impero, ac in virtute Dei contestor, ut huc veniatis coram nobis, de quacumque mundi parte sitis, et non tardetis ad obediendum nobis, qui vobis imperamus, in virtute magni Dei, venite ergo, et non tardetis ad obediendum nobis, qui vobis imperamus in virtute magni Dei, venite ergo, et non tardetis.</p>
@@ -461,6 +460,8 @@ Tunc venient, et si catenis ferreis, aut igneis vincti fuerint, nisi tamen aliqu
 <p>Adjuro vos, et depraecor spiritus et Angelos Dei, estote adjutorium meum, venite, et videte caelestia signa, et sitis testes eorum, Altissimo, inobedientiae eorum spirituum, qui vestri socij stiterunt.</p>
 <p>His dictis, surgat, et fortiori conjuratione, illos in hoc modo constringat.</p>
 </div>
+
+
 
 <div type="chapter" n="7">
 <head>Caput 7. Conjuratio fortissima.</head>
@@ -556,7 +557,7 @@ sandalum citrinum, sandalum Rubeum, et storacem ad suffumigium faciendum, et tal
 <p>Hoc etiam modo poteris conficere librum ex carta virgine, et in ipso scribere supra notatas conjurationes, et adstringere Daemones ad jurandum super ipsum, se comparituros, quocumque tempore simpliciter vocabuntur; quem librum postea cooperies, sacris sigillis, et laminibus argenteis, in quibus sculpta sint, et inscripta sacra Pentacula, quemque librum aperire poteris, due solis, et Jovis, et noctu, magis quam die apparebunt, et per noctem intelliges illam quae subsequitur, et antecedentes praedictis diebus, quoniam due erubescunt, quia sunt animalia taenebrarum, et lucem oderunt.</p>
 </div>
 
-
+<!--
 <div type="chapter" n="8">
 <head>Caput 8. De Canderijs aut Pentaculis faciendis.</head>
 <p>Quia vero de Pentaculis aut canderijs menssionem
@@ -572,7 +573,12 @@ fecimus, scias ab operatione, ussu, et cognitione Pentaculorum pendere omnem sci
 <pb n="24v" xml:id="CS_fol_024v" facs="data/images/single/5170_0057_web.jpeg"/>
 subtilimum</p>
 
+
+
 </div>
+-->
+
+
 </body>
 </text>
 </TEI>
